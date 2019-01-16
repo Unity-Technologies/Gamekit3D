@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 97933d85c6acddc4bb95f77ca8cc0280, type: 3}
+  m_Name: EnglishInformationPoints
+  m_EditorClassIdentifier: 
+  language: English
+  phrases:
+  - key: INFO1
+    value: Where am I? Can I even move my legs? I'll try W, A, S, and D. Maybe they'll
+      start to feel normal again.
+  - key: INFO2
+    value: Can I jump over this if I press SPACE?
+  - key: INFO3
+    value: This looks fun to smash stuff with! I'll try LEFT CLICK on my MOUSE and
+      see what happens...
+  - key: INFO4
+    value: 'Oooh what a weird stepping stone... I want to tread on it and see what
+      it does. '
+  - key: INFO4b
+    value: 'This must open somehow. I''ll explore and see what I can find. '
+  - key: INFO5
+    value: I wonder what those massive door crystals are for? I should look around
+      for some more switches.

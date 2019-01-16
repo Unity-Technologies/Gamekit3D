@@ -1,0 +1,149 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Water_Fog_03_Mat
+  m_Shader: {fileID: 4800000, guid: b8edc3f391fb844649a4f86f3ed33bff, type: 3}
+  m_ShaderKeywords: _ALPHABLEND_ON _DETAIL_MULX2 _NORMALMAP _SMOOTHNESS_TEXTURE_ALBEDO_CHANNEL_A
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BumpMap:
+        m_Texture: {fileID: 2800000, guid: 0a73a2411dbe9f44c957819993c77f04, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailAlbedoMap:
+        m_Texture: {fileID: 2800000, guid: df40f8395f54f044baa8b095ceb023ce, type: 3}
+        m_Scale: {x: 200, y: 200}
+        m_Offset: {x: 0, y: 0}
+    - _DetailMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailNormalMap:
+        m_Texture: {fileID: 2800000, guid: c95caba7b9a47a54697fc257685f0982, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmissionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 50, y: 50}
+        m_Offset: {x: 0, y: 0}
+    - _FlowMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _FoamTex:
+        m_Texture: {fileID: 2800000, guid: 7aff9b21926504e049688164eb17e1fd, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 50, y: 50}
+        m_Offset: {x: 0, y: 0}
+    - _MetallicGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Moss:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Moss_N:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Noise:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 0.25, y: 0.25}
+        m_Offset: {x: 0, y: 0}
+    - _OcclusionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ParallaxMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ReflectionTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Ripples:
+        m_Texture: {fileID: 2800000, guid: 0ace4403cc5f9464388568973d82f0d2, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SpecGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _Absorption: 0.5
+    - _Anisotropy: 0.5
+    - _Bias: 0
+    - _Blur: 0.25
+    - _BumpScale: 0.3
+    - _Cutoff: 0.5
+    - _Depth: 1
+    - _DepthBlur: 2
+    - _DetailNormalMapScale: 0.1
+    - _Distortion: 1
+    - _DstBlend: 10
+    - _EdgeBlend: 0.123
+    - _ExtraEmission: 0
+    - _FlowIntensity: 0.05
+    - _FlowSpeed: 0.05
+    - _FoamDepth: 0.9
+    - _FoamScale: -1
+    - _Focus: 78
+    - _FogCullDistance: 1000
+    - _FogDepth: 1.89
+    - _Gloss: 0.3675214
+    - _GlossMapScale: 0.708
+    - _Glossiness: 0.138
+    - _GlossyReflections: 1
+    - _InvertY: 0
+    - _Metallic: 0.165
+    - _Mode: 2
+    - _MossDistortion: 0.5
+    - _OcclusionStrength: 1
+    - _Parallax: 0.02
+    - _Power: 2
+    - _Scale: 1
+    - _ShoreFade: 0
+    - _ShowBuffers: 0
+    - _SmoothnessTextureChannel: 1
+    - _Specular: 0.3760684
+    - _SpecularHighlights: 1
+    - _Speed: 1.1
+    - _SrcBlend: 5
+    - _Turbulence: 0.111
+    - _UVSec: 0
+    - _Visibility: 0
+    - _WaterCullDistance: 500
+    - _WaveFrequency: 1
+    - _WaveHeight: 0.0002
+    - _WaveLength: 0
+    - _ZWrite: 0
+    m_Colors:
+    - _Color: {r: 0.3130562, g: 0.6320754, b: 0.5954506, a: 0.54509807}
+    - _ColorA: {r: 1, g: 1, b: 1, a: 1}
+    - _ColorB: {r: 1, g: 1, b: 1, a: 1}
+    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _FoamColor: {r: 0.9716981, g: 0.9716981, b: 0.9716981, a: 0}
+    - _FogColor: {r: 1, g: 1, b: 1, a: 1}
+    - _MieScatteringColor: {r: 1, g: 1, b: 1, a: 1}
+    - _MossColor: {r: 1, g: 1, b: 1, a: 1}
+    - _MossShadowParams: {r: 1, g: 1, b: 1, a: 1}
+    - _ShoreColor: {r: 1, g: 1, b: 1, a: 1}
+    - _SpecColor: {r: 0.021387678, g: 0.022058845, b: 0.00989404, a: 1}
+    - _SubsurfaceColor: {r: 1, g: 1, b: 1, a: 1}
