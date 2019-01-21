@@ -83,7 +83,7 @@ Shader "Custom/Firefly" {
 			o.Albedo = wings.rgb;
 			o.Specular = _WingSpecular;
 			o.Smoothness = _WingGloss;
-			o.Alpha = lerp(0, wings.a, IN.color);
+			o.Alpha = lerp(0, wings.a, (float)IN.color);
 		}
 		ENDCG
 

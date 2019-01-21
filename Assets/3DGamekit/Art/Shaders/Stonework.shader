@@ -103,7 +103,7 @@
             fixed4 colMain = tex2D(_MainTex, IN.uv_MainTex);
 
             //Occlusion
-            half occ =  lerp(1, tex2D(_OcclusionMap, IN.uv_MainTex), _OcclusionStrength);
+            half occ =  lerp(1.f, tex2D(_OcclusionMap, IN.uv_MainTex).x, (float)_OcclusionStrength);
             fixed4 col = lerp(colMain, colY * occ, mask) ;
 
             //Metallic/Smoothness

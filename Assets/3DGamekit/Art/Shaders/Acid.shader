@@ -112,7 +112,7 @@
 			//fixed4 fogc = tex2D(_Ramp, float2(fog, 0));
 			fixed4 fogc = lerp(_Color2, _Color1, fog * FogEdge);
 			c += fogc;
-			fixed4 emission = lerp(0, _Color2, pow(blend, 2));
+			fixed4 emission = lerp(0, (float)_Color2, pow(blend, 2));
 			fixed roughness = lerp(1, 0, blend);
 
 			o.Albedo = c.rgb;

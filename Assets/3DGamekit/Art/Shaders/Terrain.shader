@@ -204,7 +204,7 @@ Shader "Custom/Terrain" {
             half3 upNormal = WorldToTangentNormalVector(IN, float3(0,1,0));
             AlbedoFinal = lerp(AlbedoFinal*_WaterColor, AlbedoFinal, smoothstep(IN.color.a+_WaterEdge, IN.color.a+1,  blend));
             NormalFinal = lerp(upNormal, NormalFinal, smoothstep(IN.color.a+_WaterEdge, IN.color.a, blend));
-            RoughnessFinal = lerp( tex2D(_WaterRoughness, UVY * 0.3).a * 0.95, RoughnessFinal, smoothstep(IN.color.a+_WaterEdge, IN.color.a, blend));
+            RoughnessFinal = lerp( tex2D(_WaterRoughness, UVY * 0.3).a * 0.95, (float)RoughnessFinal, smoothstep(IN.color.a+_WaterEdge, IN.color.a, blend));
             
 
             // set surface ouput properties
