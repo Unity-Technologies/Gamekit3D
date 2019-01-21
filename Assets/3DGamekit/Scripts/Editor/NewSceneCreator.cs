@@ -57,7 +57,7 @@ namespace Gamekit3D
         
             CreateScene ();
 
-            GetWindow<ProBuilder.EditorCore.pb_Editor>();
+            //GetWindow<ProBuilder.EditorCore.pb_Editor>();
         }
 
         protected void CreateScene ()
