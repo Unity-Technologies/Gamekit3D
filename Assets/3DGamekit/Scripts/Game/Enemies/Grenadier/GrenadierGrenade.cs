@@ -20,8 +20,6 @@ namespace Gamekit3D
         public float explosionRadius;
         public float explosionTimer;
         public ParticleSystem explosionVFX;
-        [Tooltip("Will the explosion VFX play where the grenade explode or on the closest ground")]
-        public bool vfxOnGround = false;
 
         public RandomAudioPlayer explosionPlayer;
         public RandomAudioPlayer bouncePlayer;
@@ -31,14 +29,11 @@ namespace Gamekit3D
         protected RangeWeapon m_Shooter;
         protected Rigidbody m_RigidBody;
         protected ParticleSystem m_VFXInstance;
-        int m_EnvironmentLayer = -1;
-        
+
         protected static Collider[] m_ExplosionHitCache = new Collider[32];
 
         private void Awake()
         {
-            m_EnvironmentLayer = 1 << LayerMask.NameToLayer("Environment");
-            
             m_RigidBody = GetComponent<Rigidbody>();
             m_RigidBody.detectCollisions = false;
 
@@ -48,7 +43,6 @@ namespace Gamekit3D
 
         private void OnEnable()
         {
-            m_RigidBody.collisionDetectionMode = CollisionDetectionMode.Discrete;
             m_RigidBody.isKinematic = true;
             m_SinceFired = 0.0f;
         }
@@ -115,20 +109,7 @@ namespace Gamekit3D
 
             pool.Free(this);
 
-            Vector3 playPosition = transform.position;
-            Vector3 playNormal = Vector3.up;
-            if (vfxOnGround)
-            {
-                RaycastHit hit;
-                if (Physics.Raycast(transform.position, Vector3.down, out hit, 100.0f, m_EnvironmentLayer))
-                {
-                    playPosition = hit.point + hit.normal * 0.1f;
-                    playNormal = hit.normal;
-                }
-            }
-
-            m_VFXInstance.gameObject.transform.position = playPosition;
-            m_VFXInstance.gameObject.transform.up = playNormal;
+            m_VFXInstance.gameObject.transform.position = transform.position;
             m_VFXInstance.time = 0.0f;
             m_VFXInstance.gameObject.SetActive(true);
             m_VFXInstance.Play(true);

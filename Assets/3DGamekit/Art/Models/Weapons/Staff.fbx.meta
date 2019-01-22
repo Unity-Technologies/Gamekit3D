@@ -1,7 +1,7 @@
 fileFormatVersion: 2
 guid: ffae9263bd1a66245bd2bad16f271364
 ModelImporter:
-  serializedVersion: 23
+  serializedVersion: 22
   fileIDToRecycleName:
     100000: //RootNode
     100002: Root
@@ -110,7 +110,6 @@ ModelImporter:
     globalScale: 1
     meshCompression: 0
     addColliders: 0
-    useSRGBMaterialColor: 1
     importVisibility: 0
     importBlendShapes: 1
     importCameras: 0
@@ -128,16 +127,11 @@ ModelImporter:
     secondaryUVHardAngle: 88
     secondaryUVPackMargin: 4
     useFileScale: 1
-    previousCalculatedGlobalScale: 0.01
-    hasPreviousCalculatedGlobalScale: 1
   tangentSpace:
     normalSmoothAngle: 180
     normalImportMode: 1
     tangentImportMode: 3
     normalCalculationMode: 1
-    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 1
-    blendShapeNormalImportMode: 1
-    normalSmoothingSource: 0
   importAnimation: 0
   copyAvatar: 0
   humanDescription:
@@ -151,7 +145,8 @@ ModelImporter:
     armStretch: 0.05
     legStretch: 0.05
     feetSpacing: 0
-    rootMotionBoneName: Staff_Joint1
+    rootMotionBoneName: Staff_RightHand_Attach
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
     hasTranslationDoF: 0
     hasExtraRoot: 1
     skeletonHasParents: 1

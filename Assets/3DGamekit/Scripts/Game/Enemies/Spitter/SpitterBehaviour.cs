@@ -1,11 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using Gamekit3D.Message;
-using UnityEditor;
 using UnityEngine;
-#if UNITY_EDITOR
-using MessageType = UnityEditor.MessageType;
-#endif
 
 namespace Gamekit3D
 {
@@ -201,31 +197,4 @@ namespace Gamekit3D
         }
 #endif
     }
-    
-    
-#if UNITY_EDITOR
-    [CustomEditor(typeof(SpitterBehaviour))]
-    public class SpitterBehaviourEditor : Editor
-    {
-        SpitterBehaviour m_Target;
-
-        void OnEnable()
-        {
-            m_Target = target as SpitterBehaviour;
-        }
-
-        public override void OnInspectorGUI()
-        {
-            if (m_Target.playerScanner.detectionRadius < m_Target.fleeingDistance)
-            {
-                EditorGUILayout.HelpBox("The scanner detection radius is smaller than the fleeing range.\n" +
-                    "The spitter will never shoot at the player as it will flee past the range at which it can see the player",
-                    MessageType.Warning, true);    
-            }
-            
-            base.OnInspectorGUI();
-        }
-    }
-
-#endif
 }

@@ -46,6 +46,7 @@ namespace Gamekit3D
 
             m_Rigidbody.isKinematic = true;
             m_Rigidbody.useGravity = false;
+            m_Rigidbody.collisionDetectionMode = CollisionDetectionMode.Continuous;
             m_Rigidbody.interpolation = RigidbodyInterpolation.Interpolate;
 
             m_FollowNavmeshAgent = true;

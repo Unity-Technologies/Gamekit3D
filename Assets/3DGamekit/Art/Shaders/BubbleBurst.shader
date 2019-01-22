@@ -29,6 +29,7 @@
                 float4 texcoord1 : TEXCOORD1;
                 float4 texcoord2 : TEXCOORD2;
                 float3 normal : NORMAL;
+				float4 tangent : TANGENT;
                 UNITY_VERTEX_INPUT_INSTANCE_ID
             };
 

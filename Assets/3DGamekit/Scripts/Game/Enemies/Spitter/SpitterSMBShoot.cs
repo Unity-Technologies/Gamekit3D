@@ -6,19 +6,12 @@ namespace Gamekit3D
 {
     public class SpitterSMBShoot : SceneLinkedSMB<SpitterBehaviour>
     {
-        static int s_IdleStateHash = Animator.StringToHash("Idle");
         protected Vector3 m_AttackPosition;
 
         public override void OnSLStateEnter(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
         {
-            if (m_MonoBehaviour.target == null)
-            {
-                //if we reached the shooting state without a target, mean the target move outside of our detection range
-                //so just go back to idle.
-                animator.Play(s_IdleStateHash);
+            if(m_MonoBehaviour.target == null)
                 return;
-            }
-
 
             m_MonoBehaviour.controller.SetFollowNavmeshAgent(false);
 

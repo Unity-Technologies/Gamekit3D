@@ -1,7 +1,6 @@
 using UnityEngine;
 using Gamekit3D.Message;
 using System.Collections;
-using UnityEngine.XR.WSA;
 
 namespace Gamekit3D
 {
@@ -600,7 +599,10 @@ namespace Gamekit3D
             {
                 Debug.LogError("There is no Checkpoint set, there should always be a checkpoint set. Did you add a checkpoint at the spawn?");
             }
-            
+
+            // Get Ellen's health back.
+            m_Damageable.ResetDamage();
+
             // Set the Respawn parameter of the animator.
             m_Animator.SetTrigger(m_HashRespawn);
             
@@ -610,16 +612,12 @@ namespace Gamekit3D
             // Wait for the screen to fade in.
             // Currently it is not important to yield here but should some changes occur that require waiting until a respawn has finished this will be required.
             yield return StartCoroutine(ScreenFader.FadeSceneIn());
-            
-            m_Damageable.ResetDamage();
         }
 
         // Called by a state machine behaviour on Ellen's animator controller.
         public void RespawnFinished()
         {
             m_Respawning = false;
-            
-            //we set the damageable invincible so we can't get hurt just after being respawned (feel like a double punitive)
             m_Damageable.isInvulnerable = false;
         }
 
