@@ -1,14 +1,3 @@
-%YAML 1.1
-%TAG !u! tag:unity3d.com,2011:
---- !u!159 &1
-EditorSettings:
-  m_ObjectHideFlags: 0
-  serializedVersion: 3
-  m_ExternalVersionControlSupport: Visible Meta Files
-  m_SerializationMode: 2
-  m_DefaultBehaviorMode: 0
-  m_SpritePackerMode: 0
-  m_SpritePackerPaddingPower: 1
-  m_ProjectGenerationIncludedExtensions: txt;xml;fnt;cd
-  m_ProjectGenerationRootNamespace: 
-  m_UserGeneratedProjectSuffix: 
+version https://git-lfs.github.com/spec/v1
+oid sha256:cb5b655d812032e3e51020ccc4d34e05973afa3a251dc5257d4b490070497e1d
+size 405
