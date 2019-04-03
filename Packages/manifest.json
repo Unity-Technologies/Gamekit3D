@@ -1,8 +1,8 @@
 {
   "dependencies": {
     "com.unity.cinemachine": "2.3.3",
-    "com.unity.package-manager-ui": "2.1.1",
-    "com.unity.postprocessing": "2.1.4",
+    "com.unity.package-manager-ui": "2.1.2",
+    "com.unity.postprocessing": "2.1.5",
     "com.unity.probuilder": "3.0.9",
     "com.unity.textmeshpro": "2.0.0",
     "com.unity.timeline": "1.0.0",
