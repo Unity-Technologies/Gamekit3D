@@ -1,31 +1,71 @@
 fileFormatVersion: 2
 guid: a4181c3067a7a5c448ec8fca35647597
-timeCreated: 1500978401
-licenseType: Pro
 ModelImporter:
-  serializedVersion: 22
-  fileIDToRecycleName:
-    100000: //RootNode
-    100002: RockLedge02_LOD00
-    100004: RockLedge02_LOD01
-    100006: RockLedge02_LOD02
-    400000: //RootNode
-    400002: RockLedge02_LOD00
-    400004: RockLedge02_LOD01
-    400006: RockLedge02_LOD02
-    2100000: RockLedge02_Mat
-    2300000: RockLedge02_LOD00
-    2300002: RockLedge02_LOD01
-    2300004: RockLedge02_LOD02
-    2300006: //RootNode
-    3300000: RockLedge02_LOD00
-    3300002: RockLedge02_LOD01
-    3300004: RockLedge02_LOD02
-    3300006: //RootNode
-    4300000: RockLedge02_LOD00
-    4300002: RockLedge02_LOD01
-    4300004: RockLedge02_LOD02
-    20500000: //RootNode
+  serializedVersion: 25
+  internalIDToNameTable:
+  - first:
+      1: 100000
+    second: //RootNode
+  - first:
+      1: 100002
+    second: RockLedge02_LOD00
+  - first:
+      1: 100004
+    second: RockLedge02_LOD01
+  - first:
+      1: 100006
+    second: RockLedge02_LOD02
+  - first:
+      4: 400000
+    second: //RootNode
+  - first:
+      4: 400002
+    second: RockLedge02_LOD00
+  - first:
+      4: 400004
+    second: RockLedge02_LOD01
+  - first:
+      4: 400006
+    second: RockLedge02_LOD02
+  - first:
+      21: 2100000
+    second: RockLedge02_Mat
+  - first:
+      23: 2300000
+    second: RockLedge02_LOD00
+  - first:
+      23: 2300002
+    second: RockLedge02_LOD01
+  - first:
+      23: 2300004
+    second: RockLedge02_LOD02
+  - first:
+      23: 2300006
+    second: //RootNode
+  - first:
+      33: 3300000
+    second: RockLedge02_LOD00
+  - first:
+      33: 3300002
+    second: RockLedge02_LOD01
+  - first:
+      33: 3300004
+    second: RockLedge02_LOD02
+  - first:
+      33: 3300006
+    second: //RootNode
+  - first:
+      43: 4300000
+    second: RockLedge02_LOD00
+  - first:
+      43: 4300002
+    second: RockLedge02_LOD01
+  - first:
+      43: 4300004
+    second: RockLedge02_LOD02
+  - first:
+      205: 20500000
+    second: //RootNode
   externalObjects:
   - first:
       type: UnityEngine:Material
@@ -50,6 +90,7 @@ ModelImporter:
     animationRetargetingWarnings: 
     animationDoRetargetingWarnings: 0
     importAnimatedCustomProperties: 0
+    importConstraints: 0
     animationCompression: 1
     animationRotationError: 0.5
     animationPositionError: 0.5
@@ -67,16 +108,22 @@ ModelImporter:
     globalScale: 1
     meshCompression: 0
     addColliders: 0
+    useSRGBMaterialColor: 1
     importVisibility: 0
     importBlendShapes: 1
     importCameras: 0
     importLights: 0
     swapUVChannels: 0
-    generateSecondaryUV: 0
+    generateSecondaryUV: 1
     useFileUnits: 1
-    optimizeMeshForGPU: 1
     keepQuads: 0
     weldVertices: 1
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 0
     secondaryUVAngleDistortion: 8
     secondaryUVAreaDistortion: 15.000001
     secondaryUVHardAngle: 88
@@ -87,10 +134,14 @@ ModelImporter:
     normalImportMode: 0
     tangentImportMode: 3
     normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 1
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
   importAnimation: 0
   copyAvatar: 0
   humanDescription:
-    serializedVersion: 2
+    serializedVersion: 3
     human: []
     skeleton: []
     armTwist: 0.5
@@ -100,8 +151,8 @@ ModelImporter:
     armStretch: 0.05
     legStretch: 0.05
     feetSpacing: 0
+    globalScale: 1
     rootMotionBoneName: 
-    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
     hasTranslationDoF: 0
     hasExtraRoot: 1
     skeletonHasParents: 1
