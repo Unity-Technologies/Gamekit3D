@@ -203,7 +203,7 @@ Shader "Custom/WaterX" {
 
 			fixed3 scum = tex2D(_ScumTex, IN.worldPos.xz*_ScumScale);
 			fixed scumNoise = tex2D(_Noise, IN.worldPos.xz*_ScumNoiseScale).r;
-			fixed scumAmount = pow(IN.color.r, scumNoise*_ScumFalloff);
+			fixed scumAmount = 1.0f - pow(IN.color.r, scumNoise*_ScumFalloff);
 			
 			float4 bgUV = IN.grabPos;
 
