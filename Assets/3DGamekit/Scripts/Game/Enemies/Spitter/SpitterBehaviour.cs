@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using Gamekit3D.Message;
 using UnityEditor;
 using UnityEngine;
+using UnityEngine.AI;
 #if UNITY_EDITOR
 using MessageType = UnityEditor.MessageType;
 #endif
@@ -173,10 +174,10 @@ namespace Gamekit3D
                     controller.SetFollowNavmeshAgent(true);
                 }
 
-                controller.SetTarget(fleePoint);
+                m_Fleeing = controller.SetTarget(fleePoint);
 
-                m_Fleeing = true;
-                controller.animator.SetBool(hashFleeing, m_Fleeing);
+                if(m_Fleeing)
+                    controller.animator.SetBool(hashFleeing, m_Fleeing);
             }
 
             if (m_Fleeing && fromTarget.sqrMagnitude > fleeingDistance * fleeingDistance * 4)

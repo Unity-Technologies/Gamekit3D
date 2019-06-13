@@ -156,9 +156,9 @@ namespace Gamekit3D
             transform.rotation = targetRotation;
         }
 
-        public void SetTarget(Vector3 position)
+        public bool SetTarget(Vector3 position)
         {
-            m_NavMeshAgent.destination = position;
+            return m_NavMeshAgent.SetDestination(position);
         }
     }
 }
