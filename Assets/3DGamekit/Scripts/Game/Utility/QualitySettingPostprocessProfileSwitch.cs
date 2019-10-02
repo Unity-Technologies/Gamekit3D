@@ -53,7 +53,8 @@ namespace Gamekit3D
 
         private void OnDisable()
         {
-            m_Volume.sharedProfile = m_OriginalProfile;
+            if(m_Volume != null)
+                m_Volume.sharedProfile = m_OriginalProfile;
         }
 
         void DoSwitch()

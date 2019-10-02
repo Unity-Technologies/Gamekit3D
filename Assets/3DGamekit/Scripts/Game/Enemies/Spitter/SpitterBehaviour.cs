@@ -1,10 +1,10 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using Gamekit3D.Message;
-using UnityEditor;
 using UnityEngine;
 using UnityEngine.AI;
 #if UNITY_EDITOR
+using UnityEditor;
 using MessageType = UnityEditor.MessageType;
 #endif
 
