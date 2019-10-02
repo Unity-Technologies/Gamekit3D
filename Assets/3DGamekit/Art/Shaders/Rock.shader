@@ -107,7 +107,7 @@ Shader "Custom/Rock" {
             fixed4 colMain = tex2D(_MainTex, IN.uv_MainTex);
 
             //Occlusion
-            half occ =  lerp(1, tex2D(_OcclusionMap, IN.uv_MainTex), _OcclusionStrength);
+            half occ =  lerp(1.f, tex2D(_OcclusionMap, IN.uv_MainTex).x, (float)_OcclusionStrength);
 
             //Metallic/Smoothness
             half4 metallicSmoothness = tex2D(_MetallicRough, IN.uv_MainTex);

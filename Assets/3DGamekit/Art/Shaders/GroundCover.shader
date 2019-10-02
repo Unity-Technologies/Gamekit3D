@@ -81,7 +81,7 @@ Shader "Custom/GroundCover" {
 			c.rgb *= lerp(_Color, float4(1,1,1,1), noiseTex);
 			o.Albedo = c.rgb;
 			o.Normal = UnpackScaleNormal(tex2D(_Normal, IN.uv_MainTex), _NormalScale);
-			o.Occlusion = lerp(1, tex2D (_Occlusion, IN.uv_MainTex), _OcclusionScale);
+			o.Occlusion = lerp(1.f, tex2D (_Occlusion, IN.uv_MainTex).x, (float)_OcclusionScale);
 			
 			fixed4 metallicSmooth = tex2D (_MetallicSmooth, IN.uv_MainTex);
 			o.Metallic = _Metallic * metallicSmooth.r;
