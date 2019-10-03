@@ -41,3 +41,7 @@ JetBrains
 /Assets/Plugins/Editor/JetBrains.meta
 /Assets/Plugins/Editor.meta
 /Assets/Plugins.meta
+
+# Switch releated
+/SwitchIL2CPPCache/
+/SwitchIL2CPPStats/
