@@ -92,5 +92,13 @@ namespace Gamekit3D
                 if (transitionWhen == TransitionWhen.ExternalCall)
                     TransitionInternal();
         }
+        
+        public void Update()
+        {
+            if (Input.GetKeyDown(KeyCode.Joystick1Button0))
+            {
+                Transition();
+            }
+        }
     }
 }
