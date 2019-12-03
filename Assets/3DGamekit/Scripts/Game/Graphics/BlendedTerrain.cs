@@ -34,8 +34,8 @@ namespace Gamekit3D
 
         private void BuildHeightMap()
         {
-            var height = td.heightmapHeight - 1;
-            var width = td.heightmapWidth - 1;
+            var height = td.heightmapResolution - 1;
+            var width = td.heightmapResolution - 1;
             heightMap = new Texture2D(width, height, TextureFormat.RFloat, true);
             normalMap = new Texture2D(width, height, TextureFormat.RGBA32, true);
             var heightPixels = new Color[height * width];

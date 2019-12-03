@@ -66,8 +66,8 @@ class ExportTerrain : EditorWindow
 	void Export()
 	{
 		string fileName = EditorUtility.SaveFilePanel("Export .obj file", "", "Terrain", "obj");
-		int w = terrain.heightmapWidth;
-		int h = terrain.heightmapHeight;
+		int w = terrain.heightmapResolution;
+		int h = terrain.heightmapResolution;
 		Vector3 meshScale = terrain.size;
 		int tRes = (int)Mathf.Pow(2, (int)saveResolution );
 		meshScale = new Vector3(meshScale.x / (w - 1) * tRes, meshScale.y, meshScale.z / (h - 1) * tRes);
