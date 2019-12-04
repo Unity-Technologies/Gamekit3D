@@ -2,6 +2,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEditor;
+using UnityEditor.Experimental;
 using UnityEditor.SceneManagement;
 using UnityEngine;
 using UnityEngine.SceneManagement;
@@ -65,9 +66,16 @@ namespace Gamekit3D
 
             if (result.Length > 0)
             {
+                string originalScenePath = AssetDatabase.GUIDToAssetPath(result[0]) + ".unity";
                 string newScenePath = "Assets/" + m_NewSceneName + ".unity";
-                AssetDatabase.CopyAsset(AssetDatabase.GUIDToAssetPath(result[0]), newScenePath);
-                AssetDatabase.Refresh();
+
+                if (!AssetDatabase.CopyAsset(originalScenePath, newScenePath))
+                {
+                    Debug.LogError("Couldn't copy the scene to the new location'");
+                    return;
+                }
+                AssetDatabase.Refresh(ImportAssetOptions.ForceSynchronousImport | ImportAssetOptions.ForceUpdate);
+                
                 Scene newScene = EditorSceneManager.OpenScene(newScenePath, OpenSceneMode.Single);
                 AddSceneToBuildSettings(newScene);
                 Close();
