@@ -1,1766 +1,5282 @@
 fileFormatVersion: 2
 guid: ef14cefc3b167e1498deb696c2feb28a
 ModelImporter:
-  serializedVersion: 22
-  fileIDToRecycleName:
-    100000: Body
-    100002: Body 1
-    100004: Body 2
-    100006: Body 3
-    100008: Body 4
-    100010: Body 5
-    100012: Body 6
-    100014: Chest
-    100016: Chest 1
-    100018: Chest 2
-    100020: Chest 3
-    100022: Chest 4
-    100024: Chest 5
-    100026: Chest 6
-    100028: Chomper
-    100030: Chomper1
-    100032: Chomper2
-    100034: Chomper3
-    100036: Chomper4
-    100038: Chomper5
-    100040: Chomper6
-    100042: Core
-    100044: Core 1
-    100046: Core 2
-    100048: Core 3
-    100050: Core 4
-    100052: Core 5
-    100054: Core 6
-    100056: Dropship
-    100058: //RootNode
-    100060: Dropship_Body
-    100062: Dropship_Body_MeshPart0
-    100064: Dropship_Body_MeshPart1
-    100066: Dropship_Door
-    100068: Dropship_WingLeft
-    100070: Dropship_WingRight
-    100072: Ellen
-    100074: Ellen_Body
-    100076: Ellen_Chest
-    100078: Ellen_Hair_FrontalBase
-    100080: Ellen_Hair_FrontalLeft
-    100082: Ellen_Hair_FrontalLeftEnd
-    100084: Ellen_Hair_SideDistal
-    100086: Ellen_Hair_SideEnd
-    100088: Ellen_Hair_SideIntermediate
-    100090: Ellen_Hair_SideProximal
-    100092: Ellen_HairFrontalRight
-    100094: Ellen_HairFrontalRightEnd
-    100096: Ellen_Head
-    100098: Ellen_HeadEnd
-    100100: Ellen_Hips
-    100102: Ellen_Jaw
-    100104: Ellen_JawEnd
-    100106: Ellen_Left_Arm
-    100108: Ellen_Left_Cheek
-    100110: Ellen_Left_Eye
-    100112: Ellen_Left_EyebrowDistal
-    100114: Ellen_Left_EyebrowIntermediate
-    100116: Ellen_Left_EyebrowProximal
-    100118: Ellen_Left_Foot
-    100120: Ellen_Left_Hand
-    100122: Ellen_Left_IndexDistal
-    100124: Ellen_Left_IndexEnd
-    100126: Ellen_Left_IndexIntermediate
-    100128: Ellen_Left_IndexProximal
-    100130: Ellen_Left_LowerEyelid
-    100132: Ellen_Left_LowerLeg
-    100134: Ellen_Left_LowerMouth
-    100136: Ellen_Left_MiddleDistal
-    100138: Ellen_Left_MiddleEnd
-    100140: Ellen_Left_MiddleIntermediate
-    100142: Ellen_Left_MiddleProximal
-    100144: Ellen_Left_Mouth
-    100146: Ellen_Left_Nostril
-    100148: Ellen_Left_PinkyDistal
-    100150: Ellen_Left_PinkyEnd
-    100152: Ellen_Left_PinkyIntermediate
-    100154: Ellen_Left_PinkyProximal
-    100156: Ellen_Left_RingDistal
-    100158: Ellen_Left_RingEnd
-    100160: Ellen_Left_RingIntermediate
-    100162: Ellen_Left_RingProximal
-    100164: Ellen_Left_Shoulder
-    100166: Ellen_Left_ThumbDistal
-    100168: Ellen_Left_ThumbEnd
-    100170: Ellen_Left_ThumbIntermediate
-    100172: Ellen_Left_ThumbProximal
-    100174: Ellen_Left_ToeEnd
-    100176: Ellen_Left_Toes
-    100178: Ellen_Left_UpperArm
-    100180: Ellen_Left_UpperEyelid
-    100182: Ellen_Left_UpperLeg
-    100184: Ellen_Left_UpperMouth
-    100186: Ellen_LowerMouth
-    100188: Ellen_Neck
-    100190: Ellen_Right_Arm
-    100192: Ellen_Right_Cheek
-    100194: Ellen_Right_Eye
-    100196: Ellen_Right_EyebrowDistal
-    100198: Ellen_Right_EyebrowIntermediate
-    100200: Ellen_Right_EyebrowProximal
-    100202: Ellen_Right_Foot
-    100204: Ellen_Right_Hand
-    100206: Ellen_Right_IndexDistal
-    100208: Ellen_Right_IndexEnd
-    100210: Ellen_Right_IndexIntermediate
-    100212: Ellen_Right_IndexProximal
-    100214: Ellen_Right_LowerEyelid
-    100216: Ellen_Right_LowerLeg
-    100218: Ellen_Right_LowerMouth
-    100220: Ellen_Right_MiddleDistal
-    100222: Ellen_Right_MiddleEnd
-    100224: Ellen_Right_MiddleIntermediate
-    100226: Ellen_Right_MiddleProximal
-    100228: Ellen_Right_Mouth
-    100230: Ellen_Right_Nostril
-    100232: Ellen_Right_PinkyDistal
-    100234: Ellen_Right_PinkyEnd
-    100236: Ellen_Right_PinkyIntermediate
-    100238: Ellen_Right_PinkyProximal
-    100240: Ellen_Right_RingDistal
-    100242: Ellen_Right_RingEnd
-    100244: Ellen_Right_RingIntermediate
-    100246: Ellen_Right_RingProximal
-    100248: Ellen_Right_Shoulder
-    100250: Ellen_Right_ThumbDistal
-    100252: Ellen_Right_ThumbEnd
-    100254: Ellen_Right_ThumbIntermediate
-    100256: Ellen_Right_ThumbProximal
-    100258: Ellen_Right_ToeEnd
-    100260: Ellen_Right_Toes
-    100262: Ellen_Right_UpperArm
-    100264: Ellen_Right_UpperEyelid
-    100266: Ellen_Right_UpperLeg
-    100268: Ellen_Right_UpperMouth
-    100270: Ellen_Root
-    100272: Ellen_Skeleton
-    100274: Ellen_Spine
-    100276: Ellen_TongueDistal
-    100278: Ellen_TongueEnd
-    100280: Ellen_TongueProximal
-    100282: Ellen_UpperChest
-    100284: Ellen_UpperMouth
-    100286: Hips
-    100288: Hips 1
-    100290: Hips 2
-    100292: Hips 3
-    100294: Hips 4
-    100296: Hips 5
-    100298: Hips 6
-    100300: Interior1
-    100302: Interior1 1
-    100304: Interior1 2
-    100306: Interior1 3
-    100308: Interior1 4
-    100310: Interior1 5
-    100312: Interior1 6
-    100314: Interior2
-    100316: Interior2 1
-    100318: Interior2 2
-    100320: Interior2 3
-    100322: Interior2 4
-    100324: Interior2 5
-    100326: Interior2 6
-    100328: Left_AnteriorHand
-    100330: Left_AnteriorHand 1
-    100332: Left_AnteriorHand 2
-    100334: Left_AnteriorHand 3
-    100336: Left_AnteriorHand 4
-    100338: Left_AnteriorHand 5
-    100340: Left_AnteriorHand 6
-    100342: Left_AnteriorIndex1
-    100344: Left_AnteriorIndex1 1
-    100346: Left_AnteriorIndex1 2
-    100348: Left_AnteriorIndex1 3
-    100350: Left_AnteriorIndex1 4
-    100352: Left_AnteriorIndex1 5
-    100354: Left_AnteriorIndex1 6
-    100356: Left_AnteriorIndexEnd
-    100358: Left_AnteriorIndexEnd 1
-    100360: Left_AnteriorIndexEnd 2
-    100362: Left_AnteriorIndexEnd 3
-    100364: Left_AnteriorIndexEnd 4
-    100366: Left_AnteriorIndexEnd 5
-    100368: Left_AnteriorIndexEnd 6
-    100370: Left_AnteriorLowerLeg
-    100372: Left_AnteriorLowerLeg 1
-    100374: Left_AnteriorLowerLeg 2
-    100376: Left_AnteriorLowerLeg 3
-    100378: Left_AnteriorLowerLeg 4
-    100380: Left_AnteriorLowerLeg 5
-    100382: Left_AnteriorLowerLeg 6
-    100384: Left_AnteriorMiddle2
-    100386: Left_AnteriorMiddle2 1
-    100388: Left_AnteriorMiddle2 2
-    100390: Left_AnteriorMiddle2 3
-    100392: Left_AnteriorMiddle2 4
-    100394: Left_AnteriorMiddle2 5
-    100396: Left_AnteriorMiddle2 6
-    100398: Left_AnteriorMiddleEnd
-    100400: Left_AnteriorMiddleEnd 1
-    100402: Left_AnteriorMiddleEnd 2
-    100404: Left_AnteriorMiddleEnd 3
-    100406: Left_AnteriorMiddleEnd 4
-    100408: Left_AnteriorMiddleEnd 5
-    100410: Left_AnteriorMiddleEnd 6
-    100412: Left_AnteriorPinky1
-    100414: Left_AnteriorPinky1 1
-    100416: Left_AnteriorPinky1 2
-    100418: Left_AnteriorPinky1 3
-    100420: Left_AnteriorPinky1 4
-    100422: Left_AnteriorPinky1 5
-    100424: Left_AnteriorPinky1 6
-    100426: Left_AnteriorPinkyEnd
-    100428: Left_AnteriorPinkyEnd 1
-    100430: Left_AnteriorPinkyEnd 2
-    100432: Left_AnteriorPinkyEnd 3
-    100434: Left_AnteriorPinkyEnd 4
-    100436: Left_AnteriorPinkyEnd 5
-    100438: Left_AnteriorPinkyEnd 6
-    100440: Left_AnteriorUpperLeg
-    100442: Left_AnteriorUpperLeg 1
-    100444: Left_AnteriorUpperLeg 2
-    100446: Left_AnteriorUpperLeg 3
-    100448: Left_AnteriorUpperLeg 4
-    100450: Left_AnteriorUpperLeg 5
-    100452: Left_AnteriorUpperLeg 6
-    100454: Left_Eye
-    100456: Left_Eye 1
-    100458: Left_Eye 2
-    100460: Left_Eye 3
-    100462: Left_Eye 4
-    100464: Left_Eye 5
-    100466: Left_Eye 6
-    100468: Left_FrontFeather1
-    100470: Left_FrontFeather1 1
-    100472: Left_FrontFeather1 2
-    100474: Left_FrontFeather1 3
-    100476: Left_FrontFeather1 4
-    100478: Left_FrontFeather1 5
-    100480: Left_FrontFeather1 6
-    100482: Left_FrontFeather2
-    100484: Left_FrontFeather2 1
-    100486: Left_FrontFeather2 2
-    100488: Left_FrontFeather2 3
-    100490: Left_FrontFeather2 4
-    100492: Left_FrontFeather2 5
-    100494: Left_FrontFeather2 6
-    100496: Left_FrontFeather3
-    100498: Left_FrontFeather3 1
-    100500: Left_FrontFeather3 2
-    100502: Left_FrontFeather3 3
-    100504: Left_FrontFeather3 4
-    100506: Left_FrontFeather3 5
-    100508: Left_FrontFeather3 6
-    100510: Left_FrontFeatherEnd
-    100512: Left_FrontFeatherEnd 1
-    100514: Left_FrontFeatherEnd 2
-    100516: Left_FrontFeatherEnd 3
-    100518: Left_FrontFeatherEnd 4
-    100520: Left_FrontFeatherEnd 5
-    100522: Left_FrontFeatherEnd 6
-    100524: Left_MiddleFeather1
-    100526: Left_MiddleFeather1 1
-    100528: Left_MiddleFeather1 2
-    100530: Left_MiddleFeather1 3
-    100532: Left_MiddleFeather1 4
-    100534: Left_MiddleFeather1 5
-    100536: Left_MiddleFeather1 6
-    100538: Left_MiddleFeather2
-    100540: Left_MiddleFeather2 1
-    100542: Left_MiddleFeather2 2
-    100544: Left_MiddleFeather2 3
-    100546: Left_MiddleFeather2 4
-    100548: Left_MiddleFeather2 5
-    100550: Left_MiddleFeather2 6
-    100552: Left_MiddleFeather3
-    100554: Left_MiddleFeather3 1
-    100556: Left_MiddleFeather3 2
-    100558: Left_MiddleFeather3 3
-    100560: Left_MiddleFeather3 4
-    100562: Left_MiddleFeather3 5
-    100564: Left_MiddleFeather3 6
-    100566: Left_MiddleFeatherEnd
-    100568: Left_MiddleFeatherEnd 1
-    100570: Left_MiddleFeatherEnd 2
-    100572: Left_MiddleFeatherEnd 3
-    100574: Left_MiddleFeatherEnd 4
-    100576: Left_MiddleFeatherEnd 5
-    100578: Left_MiddleFeatherEnd 6
-    100580: Left_Mouth
-    100582: Left_Mouth 1
-    100584: Left_Mouth 2
-    100586: Left_Mouth 3
-    100588: Left_Mouth 4
-    100590: Left_Mouth 5
-    100592: Left_Mouth 6
-    100594: Left_Nostril
-    100596: Left_Nostril 1
-    100598: Left_Nostril 2
-    100600: Left_Nostril 3
-    100602: Left_Nostril 4
-    100604: Left_Nostril 5
-    100606: Left_Nostril 6
-    100608: Left_NostrilEnd
-    100610: Left_NostrilEnd 1
-    100612: Left_NostrilEnd 2
-    100614: Left_NostrilEnd 3
-    100616: Left_NostrilEnd 4
-    100618: Left_NostrilEnd 5
-    100620: Left_NostrilEnd 6
-    100622: Left_PosteriorHand
-    100624: Left_PosteriorHand 1
-    100626: Left_PosteriorHand 2
-    100628: Left_PosteriorHand 3
-    100630: Left_PosteriorHand 4
-    100632: Left_PosteriorHand 5
-    100634: Left_PosteriorHand 6
-    100636: Left_PosteriorIndex
-    100638: Left_PosteriorIndex 1
-    100640: Left_PosteriorIndex 2
-    100642: Left_PosteriorIndex 3
-    100644: Left_PosteriorIndex 4
-    100646: Left_PosteriorIndex 5
-    100648: Left_PosteriorIndex 6
-    100650: Left_PosteriorIndexEnd
-    100652: Left_PosteriorIndexEnd 1
-    100654: Left_PosteriorIndexEnd 2
-    100656: Left_PosteriorIndexEnd 3
-    100658: Left_PosteriorIndexEnd 4
-    100660: Left_PosteriorIndexEnd 5
-    100662: Left_PosteriorIndexEnd 6
-    100664: Left_PosteriorLowerLeg
-    100666: Left_PosteriorLowerLeg 1
-    100668: Left_PosteriorLowerLeg 2
-    100670: Left_PosteriorLowerLeg 3
-    100672: Left_PosteriorLowerLeg 4
-    100674: Left_PosteriorLowerLeg 5
-    100676: Left_PosteriorLowerLeg 6
-    100678: Left_PosteriorMiddle
-    100680: Left_PosteriorMiddle 1
-    100682: Left_PosteriorMiddle 2
-    100684: Left_PosteriorMiddle 3
-    100686: Left_PosteriorMiddle 4
-    100688: Left_PosteriorMiddle 5
-    100690: Left_PosteriorMiddle 6
-    100692: Left_PosteriorMiddleEnd
-    100694: Left_PosteriorMiddleEnd 1
-    100696: Left_PosteriorMiddleEnd 2
-    100698: Left_PosteriorMiddleEnd 3
-    100700: Left_PosteriorMiddleEnd 4
-    100702: Left_PosteriorMiddleEnd 5
-    100704: Left_PosteriorMiddleEnd 6
-    100706: Left_PosteriorPinky
-    100708: Left_PosteriorPinky 1
-    100710: Left_PosteriorPinky 2
-    100712: Left_PosteriorPinky 3
-    100714: Left_PosteriorPinky 4
-    100716: Left_PosteriorPinky 5
-    100718: Left_PosteriorPinky 6
-    100720: Left_PosteriorPinkyEnd
-    100722: Left_PosteriorPinkyEnd 1
-    100724: Left_PosteriorPinkyEnd 2
-    100726: Left_PosteriorPinkyEnd 3
-    100728: Left_PosteriorPinkyEnd 4
-    100730: Left_PosteriorPinkyEnd 5
-    100732: Left_PosteriorPinkyEnd 6
-    100734: Left_PosteriorUpperLeg
-    100736: Left_PosteriorUpperLeg 1
-    100738: Left_PosteriorUpperLeg 2
-    100740: Left_PosteriorUpperLeg 3
-    100742: Left_PosteriorUpperLeg 4
-    100744: Left_PosteriorUpperLeg 5
-    100746: Left_PosteriorUpperLeg 6
-    100748: Left_RearFeather1
-    100750: Left_RearFeather1 1
-    100752: Left_RearFeather1 2
-    100754: Left_RearFeather1 3
-    100756: Left_RearFeather1 4
-    100758: Left_RearFeather1 5
-    100760: Left_RearFeather1 6
-    100762: Left_RearFeather2
-    100764: Left_RearFeather2 1
-    100766: Left_RearFeather2 2
-    100768: Left_RearFeather2 3
-    100770: Left_RearFeather2 4
-    100772: Left_RearFeather2 5
-    100774: Left_RearFeather2 6
-    100776: Left_RearFeather3
-    100778: Left_RearFeather3 1
-    100780: Left_RearFeather3 2
-    100782: Left_RearFeather3 3
-    100784: Left_RearFeather3 4
-    100786: Left_RearFeather3 5
-    100788: Left_RearFeather3 6
-    100790: Left_RearFeatherEnd
-    100792: Left_RearFeatherEnd 1
-    100794: Left_RearFeatherEnd 2
-    100796: Left_RearFeatherEnd 3
-    100798: Left_RearFeatherEnd 4
-    100800: Left_RearFeatherEnd 5
-    100802: Left_RearFeatherEnd 6
-    100804: Left_UpperMouth1
-    100806: Left_UpperMouth1 1
-    100808: Left_UpperMouth1 2
-    100810: Left_UpperMouth1 3
-    100812: Left_UpperMouth1 4
-    100814: Left_UpperMouth1 5
-    100816: Left_UpperMouth1 6
-    100818: Left_UpperMouth2
-    100820: Left_UpperMouth2 1
-    100822: Left_UpperMouth2 2
-    100824: Left_UpperMouth2 3
-    100826: Left_UpperMouth2 4
-    100828: Left_UpperMouth2 5
-    100830: Left_UpperMouth2 6
-    100832: LeftLowerMouth1
-    100834: LeftLowerMouth1 1
-    100836: LeftLowerMouth1 2
-    100838: LeftLowerMouth1 3
-    100840: LeftLowerMouth1 4
-    100842: LeftLowerMouth1 5
-    100844: LeftLowerMouth1 6
-    100846: LeftLowerMouth2
-    100848: LeftLowerMouth2 1
-    100850: LeftLowerMouth2 2
-    100852: LeftLowerMouth2 3
-    100854: LeftLowerMouth2 4
-    100856: LeftLowerMouth2 5
-    100858: LeftLowerMouth2 6
-    100860: LowerMouth
-    100862: LowerMouth 1
-    100864: LowerMouth 2
-    100866: LowerMouth 3
-    100868: LowerMouth 4
-    100870: LowerMouth 5
-    100872: LowerMouth 6
-    100874: LowerMouthEnd
-    100876: LowerMouthEnd 1
-    100878: LowerMouthEnd 2
-    100880: LowerMouthEnd 3
-    100882: LowerMouthEnd 4
-    100884: LowerMouthEnd 5
-    100886: LowerMouthEnd 6
-    100888: Right_AnteriorHand
-    100890: Right_AnteriorHand 1
-    100892: Right_AnteriorHand 2
-    100894: Right_AnteriorHand 3
-    100896: Right_AnteriorHand 4
-    100898: Right_AnteriorHand 5
-    100900: Right_AnteriorHand 6
-    100902: Right_AnteriorIndex1
-    100904: Right_AnteriorIndex1 1
-    100906: Right_AnteriorIndex1 2
-    100908: Right_AnteriorIndex1 3
-    100910: Right_AnteriorIndex1 4
-    100912: Right_AnteriorIndex1 5
-    100914: Right_AnteriorIndex1 6
-    100916: Right_AnteriorIndexEnd
-    100918: Right_AnteriorIndexEnd 1
-    100920: Right_AnteriorIndexEnd 2
-    100922: Right_AnteriorIndexEnd 3
-    100924: Right_AnteriorIndexEnd 4
-    100926: Right_AnteriorIndexEnd 5
-    100928: Right_AnteriorIndexEnd 6
-    100930: Right_AnteriorLowerLeg
-    100932: Right_AnteriorLowerLeg 1
-    100934: Right_AnteriorLowerLeg 2
-    100936: Right_AnteriorLowerLeg 3
-    100938: Right_AnteriorLowerLeg 4
-    100940: Right_AnteriorLowerLeg 5
-    100942: Right_AnteriorLowerLeg 6
-    100944: Right_AnteriorMiddle1
-    100946: Right_AnteriorMiddle1 1
-    100948: Right_AnteriorMiddle1 2
-    100950: Right_AnteriorMiddle1 3
-    100952: Right_AnteriorMiddle1 4
-    100954: Right_AnteriorMiddle1 5
-    100956: Right_AnteriorMiddle1 6
-    100958: Right_AnteriorMiddleEnd
-    100960: Right_AnteriorMiddleEnd 1
-    100962: Right_AnteriorMiddleEnd 2
-    100964: Right_AnteriorMiddleEnd 3
-    100966: Right_AnteriorMiddleEnd 4
-    100968: Right_AnteriorMiddleEnd 5
-    100970: Right_AnteriorMiddleEnd 6
-    100972: Right_AnteriorPinky1
-    100974: Right_AnteriorPinky1 1
-    100976: Right_AnteriorPinky1 2
-    100978: Right_AnteriorPinky1 3
-    100980: Right_AnteriorPinky1 4
-    100982: Right_AnteriorPinky1 5
-    100984: Right_AnteriorPinky1 6
-    100986: Right_AnteriorPinkyEnd
-    100988: Right_AnteriorPinkyEnd 1
-    100990: Right_AnteriorPinkyEnd 2
-    100992: Right_AnteriorPinkyEnd 3
-    100994: Right_AnteriorPinkyEnd 4
-    100996: Right_AnteriorPinkyEnd 5
-    100998: Right_AnteriorPinkyEnd 6
-    101000: Right_AnteriorUpperLeg
-    101002: Right_AnteriorUpperLeg 1
-    101004: Right_AnteriorUpperLeg 2
-    101006: Right_AnteriorUpperLeg 3
-    101008: Right_AnteriorUpperLeg 4
-    101010: Right_AnteriorUpperLeg 5
-    101012: Right_AnteriorUpperLeg 6
-    101014: Right_Eye
-    101016: Right_Eye 1
-    101018: Right_Eye 2
-    101020: Right_Eye 3
-    101022: Right_Eye 4
-    101024: Right_Eye 5
-    101026: Right_Eye 6
-    101028: Right_FrontFeather1
-    101030: Right_FrontFeather1 1
-    101032: Right_FrontFeather1 2
-    101034: Right_FrontFeather1 3
-    101036: Right_FrontFeather1 4
-    101038: Right_FrontFeather1 5
-    101040: Right_FrontFeather1 6
-    101042: Right_FrontFeather2
-    101044: Right_FrontFeather2 1
-    101046: Right_FrontFeather2 2
-    101048: Right_FrontFeather2 3
-    101050: Right_FrontFeather2 4
-    101052: Right_FrontFeather2 5
-    101054: Right_FrontFeather2 6
-    101056: Right_FrontFeather3
-    101058: Right_FrontFeather3 1
-    101060: Right_FrontFeather3 2
-    101062: Right_FrontFeather3 3
-    101064: Right_FrontFeather3 4
-    101066: Right_FrontFeather3 5
-    101068: Right_FrontFeather3 6
-    101070: Right_FrontFeatherEnd
-    101072: Right_FrontFeatherEnd 1
-    101074: Right_FrontFeatherEnd 2
-    101076: Right_FrontFeatherEnd 3
-    101078: Right_FrontFeatherEnd 4
-    101080: Right_FrontFeatherEnd 5
-    101082: Right_FrontFeatherEnd 6
-    101084: Right_MiddleFeather1
-    101086: Right_MiddleFeather1 1
-    101088: Right_MiddleFeather1 2
-    101090: Right_MiddleFeather1 3
-    101092: Right_MiddleFeather1 4
-    101094: Right_MiddleFeather1 5
-    101096: Right_MiddleFeather1 6
-    101098: Right_MiddleFeather2
-    101100: Right_MiddleFeather2 1
-    101102: Right_MiddleFeather2 2
-    101104: Right_MiddleFeather2 3
-    101106: Right_MiddleFeather2 4
-    101108: Right_MiddleFeather2 5
-    101110: Right_MiddleFeather2 6
-    101112: Right_MiddleFeather3
-    101114: Right_MiddleFeather3 1
-    101116: Right_MiddleFeather3 2
-    101118: Right_MiddleFeather3 3
-    101120: Right_MiddleFeather3 4
-    101122: Right_MiddleFeather3 5
-    101124: Right_MiddleFeather3 6
-    101126: Right_MiddleFeatherEnd
-    101128: Right_MiddleFeatherEnd 1
-    101130: Right_MiddleFeatherEnd 2
-    101132: Right_MiddleFeatherEnd 3
-    101134: Right_MiddleFeatherEnd 4
-    101136: Right_MiddleFeatherEnd 5
-    101138: Right_MiddleFeatherEnd 6
-    101140: Right_Mouth
-    101142: Right_Mouth 1
-    101144: Right_Mouth 2
-    101146: Right_Mouth 3
-    101148: Right_Mouth 4
-    101150: Right_Mouth 5
-    101152: Right_Mouth 6
-    101154: Right_Nostril
-    101156: Right_Nostril 1
-    101158: Right_Nostril 2
-    101160: Right_Nostril 3
-    101162: Right_Nostril 4
-    101164: Right_Nostril 5
-    101166: Right_Nostril 6
-    101168: Right_NostrilEnd
-    101170: Right_NostrilEnd 1
-    101172: Right_NostrilEnd 2
-    101174: Right_NostrilEnd 3
-    101176: Right_NostrilEnd 4
-    101178: Right_NostrilEnd 5
-    101180: Right_NostrilEnd 6
-    101182: Right_PosteriorHand
-    101184: Right_PosteriorHand 1
-    101186: Right_PosteriorHand 2
-    101188: Right_PosteriorHand 3
-    101190: Right_PosteriorHand 4
-    101192: Right_PosteriorHand 5
-    101194: Right_PosteriorHand 6
-    101196: Right_PosteriorIndex
-    101198: Right_PosteriorIndex 1
-    101200: Right_PosteriorIndex 2
-    101202: Right_PosteriorIndex 3
-    101204: Right_PosteriorIndex 4
-    101206: Right_PosteriorIndex 5
-    101208: Right_PosteriorIndex 6
-    101210: Right_PosteriorIndexEnd
-    101212: Right_PosteriorIndexEnd 1
-    101214: Right_PosteriorIndexEnd 2
-    101216: Right_PosteriorIndexEnd 3
-    101218: Right_PosteriorIndexEnd 4
-    101220: Right_PosteriorIndexEnd 5
-    101222: Right_PosteriorIndexEnd 6
-    101224: Right_PosteriorLowerLeg
-    101226: Right_PosteriorLowerLeg 1
-    101228: Right_PosteriorLowerLeg 2
-    101230: Right_PosteriorLowerLeg 3
-    101232: Right_PosteriorLowerLeg 4
-    101234: Right_PosteriorLowerLeg 5
-    101236: Right_PosteriorLowerLeg 6
-    101238: Right_PosteriorMiddle
-    101240: Right_PosteriorMiddle 1
-    101242: Right_PosteriorMiddle 2
-    101244: Right_PosteriorMiddle 3
-    101246: Right_PosteriorMiddle 4
-    101248: Right_PosteriorMiddle 5
-    101250: Right_PosteriorMiddle 6
-    101252: Right_PosteriorMiddleEnd
-    101254: Right_PosteriorMiddleEnd 1
-    101256: Right_PosteriorMiddleEnd 2
-    101258: Right_PosteriorMiddleEnd 3
-    101260: Right_PosteriorMiddleEnd 4
-    101262: Right_PosteriorMiddleEnd 5
-    101264: Right_PosteriorMiddleEnd 6
-    101266: Right_PosteriorPinky
-    101268: Right_PosteriorPinky 1
-    101270: Right_PosteriorPinky 2
-    101272: Right_PosteriorPinky 3
-    101274: Right_PosteriorPinky 4
-    101276: Right_PosteriorPinky 5
-    101278: Right_PosteriorPinky 6
-    101280: Right_PosteriorPinkyEnd
-    101282: Right_PosteriorPinkyEnd 1
-    101284: Right_PosteriorPinkyEnd 2
-    101286: Right_PosteriorPinkyEnd 3
-    101288: Right_PosteriorPinkyEnd 4
-    101290: Right_PosteriorPinkyEnd 5
-    101292: Right_PosteriorPinkyEnd 6
-    101294: Right_PosteriorUpperLeg
-    101296: Right_PosteriorUpperLeg 1
-    101298: Right_PosteriorUpperLeg 2
-    101300: Right_PosteriorUpperLeg 3
-    101302: Right_PosteriorUpperLeg 4
-    101304: Right_PosteriorUpperLeg 5
-    101306: Right_PosteriorUpperLeg 6
-    101308: Right_RearFeather1
-    101310: Right_RearFeather1 1
-    101312: Right_RearFeather1 2
-    101314: Right_RearFeather1 3
-    101316: Right_RearFeather1 4
-    101318: Right_RearFeather1 5
-    101320: Right_RearFeather1 6
-    101322: Right_RearFeather2
-    101324: Right_RearFeather2 1
-    101326: Right_RearFeather2 2
-    101328: Right_RearFeather2 3
-    101330: Right_RearFeather2 4
-    101332: Right_RearFeather2 5
-    101334: Right_RearFeather2 6
-    101336: Right_RearFeather3
-    101338: Right_RearFeather3 1
-    101340: Right_RearFeather3 2
-    101342: Right_RearFeather3 3
-    101344: Right_RearFeather3 4
-    101346: Right_RearFeather3 5
-    101348: Right_RearFeather3 6
-    101350: Right_RearFeatherEnd
-    101352: Right_RearFeatherEnd 1
-    101354: Right_RearFeatherEnd 2
-    101356: Right_RearFeatherEnd 3
-    101358: Right_RearFeatherEnd 4
-    101360: Right_RearFeatherEnd 5
-    101362: Right_RearFeatherEnd 6
-    101364: Right_UpperMouth1
-    101366: Right_UpperMouth1 1
-    101368: Right_UpperMouth1 2
-    101370: Right_UpperMouth1 3
-    101372: Right_UpperMouth1 4
-    101374: Right_UpperMouth1 5
-    101376: Right_UpperMouth1 6
-    101378: Right_UpperMouth2
-    101380: Right_UpperMouth2 1
-    101382: Right_UpperMouth2 2
-    101384: Right_UpperMouth2 3
-    101386: Right_UpperMouth2 4
-    101388: Right_UpperMouth2 5
-    101390: Right_UpperMouth2 6
-    101392: RightLowerMouth1
-    101394: RightLowerMouth1 1
-    101396: RightLowerMouth1 2
-    101398: RightLowerMouth1 3
-    101400: RightLowerMouth1 4
-    101402: RightLowerMouth1 5
-    101404: RightLowerMouth1 6
-    101406: RightLowerMouth2
-    101408: RightLowerMouth2 1
-    101410: RightLowerMouth2 2
-    101412: RightLowerMouth2 3
-    101414: RightLowerMouth2 4
-    101416: RightLowerMouth2 5
-    101418: RightLowerMouth2 6
-    101420: Root
-    101422: Root 1
-    101424: Root 2
-    101426: Root 3
-    101428: Root 4
-    101430: Root 5
-    101432: Root 6
-    101434: Skeleton
-    101436: Skeleton 1
-    101438: Skeleton 2
-    101440: Skeleton 3
-    101442: Skeleton 4
-    101444: Skeleton 5
-    101446: Skeleton 6
-    101448: Staff_Body
-    101450: Staff_Joint1
-    101452: Staff_Joint2
-    101454: Staff_Joint3
-    101456: Staff_Joint4
-    101458: Staff_JointEnd
-    101460: Staff_Skeleton
-    101462: Stalk1
-    101464: Stalk1 1
-    101466: Stalk1 2
-    101468: Stalk1 3
-    101470: Stalk1 4
-    101472: Stalk1 5
-    101474: Stalk1 6
-    101476: Stalk2
-    101478: Stalk2 1
-    101480: Stalk2 2
-    101482: Stalk2 3
-    101484: Stalk2 4
-    101486: Stalk2 5
-    101488: Stalk2 6
-    101490: Stalk3
-    101492: Stalk3 1
-    101494: Stalk3 2
-    101496: Stalk3 3
-    101498: Stalk3 4
-    101500: Stalk3 5
-    101502: Stalk3 6
-    101504: Stalk4
-    101506: Stalk4 1
-    101508: Stalk4 2
-    101510: Stalk4 3
-    101512: Stalk4 4
-    101514: Stalk4 5
-    101516: Stalk4 6
-    101518: Tail1
-    101520: Tail1 1
-    101522: Tail1 2
-    101524: Tail1 3
-    101526: Tail1 4
-    101528: Tail1 5
-    101530: Tail1 6
-    101532: Tail3
-    101534: Tail3 1
-    101536: Tail3 2
-    101538: Tail3 3
-    101540: Tail3 4
-    101542: Tail3 5
-    101544: Tail3 6
-    101546: TailEnd
-    101548: TailEnd 1
-    101550: TailEnd 2
-    101552: TailEnd 3
-    101554: TailEnd 4
-    101556: TailEnd 5
-    101558: TailEnd 6
-    101560: TailI2
-    101562: TailI2 1
-    101564: TailI2 2
-    101566: TailI2 3
-    101568: TailI2 4
-    101570: TailI2 5
-    101572: TailI2 6
-    101574: Tongue1
-    101576: Tongue1 1
-    101578: Tongue1 2
-    101580: Tongue1 3
-    101582: Tongue1 4
-    101584: Tongue1 5
-    101586: Tongue1 6
-    101588: Tongue2
-    101590: Tongue2 1
-    101592: Tongue2 2
-    101594: Tongue2 3
-    101596: Tongue2 4
-    101598: Tongue2 5
-    101600: Tongue2 6
-    101602: Tongue3
-    101604: Tongue3 1
-    101606: Tongue3 2
-    101608: Tongue3 3
-    101610: Tongue3 4
-    101612: Tongue3 5
-    101614: Tongue3 6
-    101616: TongueEnd
-    101618: TongueEnd 1
-    101620: TongueEnd 2
-    101622: TongueEnd 3
-    101624: TongueEnd 4
-    101626: TongueEnd 5
-    101628: TongueEnd 6
-    101630: Upper_Mouth
-    101632: Upper_Mouth 1
-    101634: Upper_Mouth 2
-    101636: Upper_Mouth 3
-    101638: Upper_Mouth 4
-    101640: Upper_Mouth 5
-    101642: Upper_Mouth 6
-    101644: Upper_MouthEnd
-    101646: Upper_MouthEnd 1
-    101648: Upper_MouthEnd 2
-    101650: Upper_MouthEnd 3
-    101652: Upper_MouthEnd 4
-    101654: Upper_MouthEnd 5
-    101656: Upper_MouthEnd 6
-    101658: Dropship_LOD00 1
-    101660: Dropship_LOD00 1_MeshPart0
-    101662: Dropship_LOD00 1_MeshPart1
-    101664: Dropship_LOD00_MeshPart0
-    101666: Dropship_LOD00_MeshPart1
-    101668: Dropship_LOD00
-    101670: Dropship_LOD01
-    101672: Dropship_LOD02
-    101674: Dropship_LOD03
-    400000: Body
-    400002: Body 1
-    400004: Body 2
-    400006: Body 3
-    400008: Body 4
-    400010: Body 5
-    400012: Body 6
-    400014: Chest
-    400016: Chest 1
-    400018: Chest 2
-    400020: Chest 3
-    400022: Chest 4
-    400024: Chest 5
-    400026: Chest 6
-    400028: Chomper
-    400030: Chomper1
-    400032: Chomper2
-    400034: Chomper3
-    400036: Chomper4
-    400038: Chomper5
-    400040: Chomper6
-    400042: Core
-    400044: Core 1
-    400046: Core 2
-    400048: Core 3
-    400050: Core 4
-    400052: Core 5
-    400054: Core 6
-    400056: Dropship
-    400058: //RootNode
-    400060: Dropship_Body
-    400062: Dropship_Body_MeshPart0
-    400064: Dropship_Body_MeshPart1
-    400066: Dropship_Door
-    400068: Dropship_WingLeft
-    400070: Dropship_WingRight
-    400072: Ellen
-    400074: Ellen_Body
-    400076: Ellen_Chest
-    400078: Ellen_Hair_FrontalBase
-    400080: Ellen_Hair_FrontalLeft
-    400082: Ellen_Hair_FrontalLeftEnd
-    400084: Ellen_Hair_SideDistal
-    400086: Ellen_Hair_SideEnd
-    400088: Ellen_Hair_SideIntermediate
-    400090: Ellen_Hair_SideProximal
-    400092: Ellen_HairFrontalRight
-    400094: Ellen_HairFrontalRightEnd
-    400096: Ellen_Head
-    400098: Ellen_HeadEnd
-    400100: Ellen_Hips
-    400102: Ellen_Jaw
-    400104: Ellen_JawEnd
-    400106: Ellen_Left_Arm
-    400108: Ellen_Left_Cheek
-    400110: Ellen_Left_Eye
-    400112: Ellen_Left_EyebrowDistal
-    400114: Ellen_Left_EyebrowIntermediate
-    400116: Ellen_Left_EyebrowProximal
-    400118: Ellen_Left_Foot
-    400120: Ellen_Left_Hand
-    400122: Ellen_Left_IndexDistal
-    400124: Ellen_Left_IndexEnd
-    400126: Ellen_Left_IndexIntermediate
-    400128: Ellen_Left_IndexProximal
-    400130: Ellen_Left_LowerEyelid
-    400132: Ellen_Left_LowerLeg
-    400134: Ellen_Left_LowerMouth
-    400136: Ellen_Left_MiddleDistal
-    400138: Ellen_Left_MiddleEnd
-    400140: Ellen_Left_MiddleIntermediate
-    400142: Ellen_Left_MiddleProximal
-    400144: Ellen_Left_Mouth
-    400146: Ellen_Left_Nostril
-    400148: Ellen_Left_PinkyDistal
-    400150: Ellen_Left_PinkyEnd
-    400152: Ellen_Left_PinkyIntermediate
-    400154: Ellen_Left_PinkyProximal
-    400156: Ellen_Left_RingDistal
-    400158: Ellen_Left_RingEnd
-    400160: Ellen_Left_RingIntermediate
-    400162: Ellen_Left_RingProximal
-    400164: Ellen_Left_Shoulder
-    400166: Ellen_Left_ThumbDistal
-    400168: Ellen_Left_ThumbEnd
-    400170: Ellen_Left_ThumbIntermediate
-    400172: Ellen_Left_ThumbProximal
-    400174: Ellen_Left_ToeEnd
-    400176: Ellen_Left_Toes
-    400178: Ellen_Left_UpperArm
-    400180: Ellen_Left_UpperEyelid
-    400182: Ellen_Left_UpperLeg
-    400184: Ellen_Left_UpperMouth
-    400186: Ellen_LowerMouth
-    400188: Ellen_Neck
-    400190: Ellen_Right_Arm
-    400192: Ellen_Right_Cheek
-    400194: Ellen_Right_Eye
-    400196: Ellen_Right_EyebrowDistal
-    400198: Ellen_Right_EyebrowIntermediate
-    400200: Ellen_Right_EyebrowProximal
-    400202: Ellen_Right_Foot
-    400204: Ellen_Right_Hand
-    400206: Ellen_Right_IndexDistal
-    400208: Ellen_Right_IndexEnd
-    400210: Ellen_Right_IndexIntermediate
-    400212: Ellen_Right_IndexProximal
-    400214: Ellen_Right_LowerEyelid
-    400216: Ellen_Right_LowerLeg
-    400218: Ellen_Right_LowerMouth
-    400220: Ellen_Right_MiddleDistal
-    400222: Ellen_Right_MiddleEnd
-    400224: Ellen_Right_MiddleIntermediate
-    400226: Ellen_Right_MiddleProximal
-    400228: Ellen_Right_Mouth
-    400230: Ellen_Right_Nostril
-    400232: Ellen_Right_PinkyDistal
-    400234: Ellen_Right_PinkyEnd
-    400236: Ellen_Right_PinkyIntermediate
-    400238: Ellen_Right_PinkyProximal
-    400240: Ellen_Right_RingDistal
-    400242: Ellen_Right_RingEnd
-    400244: Ellen_Right_RingIntermediate
-    400246: Ellen_Right_RingProximal
-    400248: Ellen_Right_Shoulder
-    400250: Ellen_Right_ThumbDistal
-    400252: Ellen_Right_ThumbEnd
-    400254: Ellen_Right_ThumbIntermediate
-    400256: Ellen_Right_ThumbProximal
-    400258: Ellen_Right_ToeEnd
-    400260: Ellen_Right_Toes
-    400262: Ellen_Right_UpperArm
-    400264: Ellen_Right_UpperEyelid
-    400266: Ellen_Right_UpperLeg
-    400268: Ellen_Right_UpperMouth
-    400270: Ellen_Root
-    400272: Ellen_Skeleton
-    400274: Ellen_Spine
-    400276: Ellen_TongueDistal
-    400278: Ellen_TongueEnd
-    400280: Ellen_TongueProximal
-    400282: Ellen_UpperChest
-    400284: Ellen_UpperMouth
-    400286: Hips
-    400288: Hips 1
-    400290: Hips 2
-    400292: Hips 3
-    400294: Hips 4
-    400296: Hips 5
-    400298: Hips 6
-    400300: Interior1
-    400302: Interior1 1
-    400304: Interior1 2
-    400306: Interior1 3
-    400308: Interior1 4
-    400310: Interior1 5
-    400312: Interior1 6
-    400314: Interior2
-    400316: Interior2 1
-    400318: Interior2 2
-    400320: Interior2 3
-    400322: Interior2 4
-    400324: Interior2 5
-    400326: Interior2 6
-    400328: Left_AnteriorHand
-    400330: Left_AnteriorHand 1
-    400332: Left_AnteriorHand 2
-    400334: Left_AnteriorHand 3
-    400336: Left_AnteriorHand 4
-    400338: Left_AnteriorHand 5
-    400340: Left_AnteriorHand 6
-    400342: Left_AnteriorIndex1
-    400344: Left_AnteriorIndex1 1
-    400346: Left_AnteriorIndex1 2
-    400348: Left_AnteriorIndex1 3
-    400350: Left_AnteriorIndex1 4
-    400352: Left_AnteriorIndex1 5
-    400354: Left_AnteriorIndex1 6
-    400356: Left_AnteriorIndexEnd
-    400358: Left_AnteriorIndexEnd 1
-    400360: Left_AnteriorIndexEnd 2
-    400362: Left_AnteriorIndexEnd 3
-    400364: Left_AnteriorIndexEnd 4
-    400366: Left_AnteriorIndexEnd 5
-    400368: Left_AnteriorIndexEnd 6
-    400370: Left_AnteriorLowerLeg
-    400372: Left_AnteriorLowerLeg 1
-    400374: Left_AnteriorLowerLeg 2
-    400376: Left_AnteriorLowerLeg 3
-    400378: Left_AnteriorLowerLeg 4
-    400380: Left_AnteriorLowerLeg 5
-    400382: Left_AnteriorLowerLeg 6
-    400384: Left_AnteriorMiddle2
-    400386: Left_AnteriorMiddle2 1
-    400388: Left_AnteriorMiddle2 2
-    400390: Left_AnteriorMiddle2 3
-    400392: Left_AnteriorMiddle2 4
-    400394: Left_AnteriorMiddle2 5
-    400396: Left_AnteriorMiddle2 6
-    400398: Left_AnteriorMiddleEnd
-    400400: Left_AnteriorMiddleEnd 1
-    400402: Left_AnteriorMiddleEnd 2
-    400404: Left_AnteriorMiddleEnd 3
-    400406: Left_AnteriorMiddleEnd 4
-    400408: Left_AnteriorMiddleEnd 5
-    400410: Left_AnteriorMiddleEnd 6
-    400412: Left_AnteriorPinky1
-    400414: Left_AnteriorPinky1 1
-    400416: Left_AnteriorPinky1 2
-    400418: Left_AnteriorPinky1 3
-    400420: Left_AnteriorPinky1 4
-    400422: Left_AnteriorPinky1 5
-    400424: Left_AnteriorPinky1 6
-    400426: Left_AnteriorPinkyEnd
-    400428: Left_AnteriorPinkyEnd 1
-    400430: Left_AnteriorPinkyEnd 2
-    400432: Left_AnteriorPinkyEnd 3
-    400434: Left_AnteriorPinkyEnd 4
-    400436: Left_AnteriorPinkyEnd 5
-    400438: Left_AnteriorPinkyEnd 6
-    400440: Left_AnteriorUpperLeg
-    400442: Left_AnteriorUpperLeg 1
-    400444: Left_AnteriorUpperLeg 2
-    400446: Left_AnteriorUpperLeg 3
-    400448: Left_AnteriorUpperLeg 4
-    400450: Left_AnteriorUpperLeg 5
-    400452: Left_AnteriorUpperLeg 6
-    400454: Left_Eye
-    400456: Left_Eye 1
-    400458: Left_Eye 2
-    400460: Left_Eye 3
-    400462: Left_Eye 4
-    400464: Left_Eye 5
-    400466: Left_Eye 6
-    400468: Left_FrontFeather1
-    400470: Left_FrontFeather1 1
-    400472: Left_FrontFeather1 2
-    400474: Left_FrontFeather1 3
-    400476: Left_FrontFeather1 4
-    400478: Left_FrontFeather1 5
-    400480: Left_FrontFeather1 6
-    400482: Left_FrontFeather2
-    400484: Left_FrontFeather2 1
-    400486: Left_FrontFeather2 2
-    400488: Left_FrontFeather2 3
-    400490: Left_FrontFeather2 4
-    400492: Left_FrontFeather2 5
-    400494: Left_FrontFeather2 6
-    400496: Left_FrontFeather3
-    400498: Left_FrontFeather3 1
-    400500: Left_FrontFeather3 2
-    400502: Left_FrontFeather3 3
-    400504: Left_FrontFeather3 4
-    400506: Left_FrontFeather3 5
-    400508: Left_FrontFeather3 6
-    400510: Left_FrontFeatherEnd
-    400512: Left_FrontFeatherEnd 1
-    400514: Left_FrontFeatherEnd 2
-    400516: Left_FrontFeatherEnd 3
-    400518: Left_FrontFeatherEnd 4
-    400520: Left_FrontFeatherEnd 5
-    400522: Left_FrontFeatherEnd 6
-    400524: Left_MiddleFeather1
-    400526: Left_MiddleFeather1 1
-    400528: Left_MiddleFeather1 2
-    400530: Left_MiddleFeather1 3
-    400532: Left_MiddleFeather1 4
-    400534: Left_MiddleFeather1 5
-    400536: Left_MiddleFeather1 6
-    400538: Left_MiddleFeather2
-    400540: Left_MiddleFeather2 1
-    400542: Left_MiddleFeather2 2
-    400544: Left_MiddleFeather2 3
-    400546: Left_MiddleFeather2 4
-    400548: Left_MiddleFeather2 5
-    400550: Left_MiddleFeather2 6
-    400552: Left_MiddleFeather3
-    400554: Left_MiddleFeather3 1
-    400556: Left_MiddleFeather3 2
-    400558: Left_MiddleFeather3 3
-    400560: Left_MiddleFeather3 4
-    400562: Left_MiddleFeather3 5
-    400564: Left_MiddleFeather3 6
-    400566: Left_MiddleFeatherEnd
-    400568: Left_MiddleFeatherEnd 1
-    400570: Left_MiddleFeatherEnd 2
-    400572: Left_MiddleFeatherEnd 3
-    400574: Left_MiddleFeatherEnd 4
-    400576: Left_MiddleFeatherEnd 5
-    400578: Left_MiddleFeatherEnd 6
-    400580: Left_Mouth
-    400582: Left_Mouth 1
-    400584: Left_Mouth 2
-    400586: Left_Mouth 3
-    400588: Left_Mouth 4
-    400590: Left_Mouth 5
-    400592: Left_Mouth 6
-    400594: Left_Nostril
-    400596: Left_Nostril 1
-    400598: Left_Nostril 2
-    400600: Left_Nostril 3
-    400602: Left_Nostril 4
-    400604: Left_Nostril 5
-    400606: Left_Nostril 6
-    400608: Left_NostrilEnd
-    400610: Left_NostrilEnd 1
-    400612: Left_NostrilEnd 2
-    400614: Left_NostrilEnd 3
-    400616: Left_NostrilEnd 4
-    400618: Left_NostrilEnd 5
-    400620: Left_NostrilEnd 6
-    400622: Left_PosteriorHand
-    400624: Left_PosteriorHand 1
-    400626: Left_PosteriorHand 2
-    400628: Left_PosteriorHand 3
-    400630: Left_PosteriorHand 4
-    400632: Left_PosteriorHand 5
-    400634: Left_PosteriorHand 6
-    400636: Left_PosteriorIndex
-    400638: Left_PosteriorIndex 1
-    400640: Left_PosteriorIndex 2
-    400642: Left_PosteriorIndex 3
-    400644: Left_PosteriorIndex 4
-    400646: Left_PosteriorIndex 5
-    400648: Left_PosteriorIndex 6
-    400650: Left_PosteriorIndexEnd
-    400652: Left_PosteriorIndexEnd 1
-    400654: Left_PosteriorIndexEnd 2
-    400656: Left_PosteriorIndexEnd 3
-    400658: Left_PosteriorIndexEnd 4
-    400660: Left_PosteriorIndexEnd 5
-    400662: Left_PosteriorIndexEnd 6
-    400664: Left_PosteriorLowerLeg
-    400666: Left_PosteriorLowerLeg 1
-    400668: Left_PosteriorLowerLeg 2
-    400670: Left_PosteriorLowerLeg 3
-    400672: Left_PosteriorLowerLeg 4
-    400674: Left_PosteriorLowerLeg 5
-    400676: Left_PosteriorLowerLeg 6
-    400678: Left_PosteriorMiddle
-    400680: Left_PosteriorMiddle 1
-    400682: Left_PosteriorMiddle 2
-    400684: Left_PosteriorMiddle 3
-    400686: Left_PosteriorMiddle 4
-    400688: Left_PosteriorMiddle 5
-    400690: Left_PosteriorMiddle 6
-    400692: Left_PosteriorMiddleEnd
-    400694: Left_PosteriorMiddleEnd 1
-    400696: Left_PosteriorMiddleEnd 2
-    400698: Left_PosteriorMiddleEnd 3
-    400700: Left_PosteriorMiddleEnd 4
-    400702: Left_PosteriorMiddleEnd 5
-    400704: Left_PosteriorMiddleEnd 6
-    400706: Left_PosteriorPinky
-    400708: Left_PosteriorPinky 1
-    400710: Left_PosteriorPinky 2
-    400712: Left_PosteriorPinky 3
-    400714: Left_PosteriorPinky 4
-    400716: Left_PosteriorPinky 5
-    400718: Left_PosteriorPinky 6
-    400720: Left_PosteriorPinkyEnd
-    400722: Left_PosteriorPinkyEnd 1
-    400724: Left_PosteriorPinkyEnd 2
-    400726: Left_PosteriorPinkyEnd 3
-    400728: Left_PosteriorPinkyEnd 4
-    400730: Left_PosteriorPinkyEnd 5
-    400732: Left_PosteriorPinkyEnd 6
-    400734: Left_PosteriorUpperLeg
-    400736: Left_PosteriorUpperLeg 1
-    400738: Left_PosteriorUpperLeg 2
-    400740: Left_PosteriorUpperLeg 3
-    400742: Left_PosteriorUpperLeg 4
-    400744: Left_PosteriorUpperLeg 5
-    400746: Left_PosteriorUpperLeg 6
-    400748: Left_RearFeather1
-    400750: Left_RearFeather1 1
-    400752: Left_RearFeather1 2
-    400754: Left_RearFeather1 3
-    400756: Left_RearFeather1 4
-    400758: Left_RearFeather1 5
-    400760: Left_RearFeather1 6
-    400762: Left_RearFeather2
-    400764: Left_RearFeather2 1
-    400766: Left_RearFeather2 2
-    400768: Left_RearFeather2 3
-    400770: Left_RearFeather2 4
-    400772: Left_RearFeather2 5
-    400774: Left_RearFeather2 6
-    400776: Left_RearFeather3
-    400778: Left_RearFeather3 1
-    400780: Left_RearFeather3 2
-    400782: Left_RearFeather3 3
-    400784: Left_RearFeather3 4
-    400786: Left_RearFeather3 5
-    400788: Left_RearFeather3 6
-    400790: Left_RearFeatherEnd
-    400792: Left_RearFeatherEnd 1
-    400794: Left_RearFeatherEnd 2
-    400796: Left_RearFeatherEnd 3
-    400798: Left_RearFeatherEnd 4
-    400800: Left_RearFeatherEnd 5
-    400802: Left_RearFeatherEnd 6
-    400804: Left_UpperMouth1
-    400806: Left_UpperMouth1 1
-    400808: Left_UpperMouth1 2
-    400810: Left_UpperMouth1 3
-    400812: Left_UpperMouth1 4
-    400814: Left_UpperMouth1 5
-    400816: Left_UpperMouth1 6
-    400818: Left_UpperMouth2
-    400820: Left_UpperMouth2 1
-    400822: Left_UpperMouth2 2
-    400824: Left_UpperMouth2 3
-    400826: Left_UpperMouth2 4
-    400828: Left_UpperMouth2 5
-    400830: Left_UpperMouth2 6
-    400832: LeftLowerMouth1
-    400834: LeftLowerMouth1 1
-    400836: LeftLowerMouth1 2
-    400838: LeftLowerMouth1 3
-    400840: LeftLowerMouth1 4
-    400842: LeftLowerMouth1 5
-    400844: LeftLowerMouth1 6
-    400846: LeftLowerMouth2
-    400848: LeftLowerMouth2 1
-    400850: LeftLowerMouth2 2
-    400852: LeftLowerMouth2 3
-    400854: LeftLowerMouth2 4
-    400856: LeftLowerMouth2 5
-    400858: LeftLowerMouth2 6
-    400860: LowerMouth
-    400862: LowerMouth 1
-    400864: LowerMouth 2
-    400866: LowerMouth 3
-    400868: LowerMouth 4
-    400870: LowerMouth 5
-    400872: LowerMouth 6
-    400874: LowerMouthEnd
-    400876: LowerMouthEnd 1
-    400878: LowerMouthEnd 2
-    400880: LowerMouthEnd 3
-    400882: LowerMouthEnd 4
-    400884: LowerMouthEnd 5
-    400886: LowerMouthEnd 6
-    400888: Right_AnteriorHand
-    400890: Right_AnteriorHand 1
-    400892: Right_AnteriorHand 2
-    400894: Right_AnteriorHand 3
-    400896: Right_AnteriorHand 4
-    400898: Right_AnteriorHand 5
-    400900: Right_AnteriorHand 6
-    400902: Right_AnteriorIndex1
-    400904: Right_AnteriorIndex1 1
-    400906: Right_AnteriorIndex1 2
-    400908: Right_AnteriorIndex1 3
-    400910: Right_AnteriorIndex1 4
-    400912: Right_AnteriorIndex1 5
-    400914: Right_AnteriorIndex1 6
-    400916: Right_AnteriorIndexEnd
-    400918: Right_AnteriorIndexEnd 1
-    400920: Right_AnteriorIndexEnd 2
-    400922: Right_AnteriorIndexEnd 3
-    400924: Right_AnteriorIndexEnd 4
-    400926: Right_AnteriorIndexEnd 5
-    400928: Right_AnteriorIndexEnd 6
-    400930: Right_AnteriorLowerLeg
-    400932: Right_AnteriorLowerLeg 1
-    400934: Right_AnteriorLowerLeg 2
-    400936: Right_AnteriorLowerLeg 3
-    400938: Right_AnteriorLowerLeg 4
-    400940: Right_AnteriorLowerLeg 5
-    400942: Right_AnteriorLowerLeg 6
-    400944: Right_AnteriorMiddle1
-    400946: Right_AnteriorMiddle1 1
-    400948: Right_AnteriorMiddle1 2
-    400950: Right_AnteriorMiddle1 3
-    400952: Right_AnteriorMiddle1 4
-    400954: Right_AnteriorMiddle1 5
-    400956: Right_AnteriorMiddle1 6
-    400958: Right_AnteriorMiddleEnd
-    400960: Right_AnteriorMiddleEnd 1
-    400962: Right_AnteriorMiddleEnd 2
-    400964: Right_AnteriorMiddleEnd 3
-    400966: Right_AnteriorMiddleEnd 4
-    400968: Right_AnteriorMiddleEnd 5
-    400970: Right_AnteriorMiddleEnd 6
-    400972: Right_AnteriorPinky1
-    400974: Right_AnteriorPinky1 1
-    400976: Right_AnteriorPinky1 2
-    400978: Right_AnteriorPinky1 3
-    400980: Right_AnteriorPinky1 4
-    400982: Right_AnteriorPinky1 5
-    400984: Right_AnteriorPinky1 6
-    400986: Right_AnteriorPinkyEnd
-    400988: Right_AnteriorPinkyEnd 1
-    400990: Right_AnteriorPinkyEnd 2
-    400992: Right_AnteriorPinkyEnd 3
-    400994: Right_AnteriorPinkyEnd 4
-    400996: Right_AnteriorPinkyEnd 5
-    400998: Right_AnteriorPinkyEnd 6
-    401000: Right_AnteriorUpperLeg
-    401002: Right_AnteriorUpperLeg 1
-    401004: Right_AnteriorUpperLeg 2
-    401006: Right_AnteriorUpperLeg 3
-    401008: Right_AnteriorUpperLeg 4
-    401010: Right_AnteriorUpperLeg 5
-    401012: Right_AnteriorUpperLeg 6
-    401014: Right_Eye
-    401016: Right_Eye 1
-    401018: Right_Eye 2
-    401020: Right_Eye 3
-    401022: Right_Eye 4
-    401024: Right_Eye 5
-    401026: Right_Eye 6
-    401028: Right_FrontFeather1
-    401030: Right_FrontFeather1 1
-    401032: Right_FrontFeather1 2
-    401034: Right_FrontFeather1 3
-    401036: Right_FrontFeather1 4
-    401038: Right_FrontFeather1 5
-    401040: Right_FrontFeather1 6
-    401042: Right_FrontFeather2
-    401044: Right_FrontFeather2 1
-    401046: Right_FrontFeather2 2
-    401048: Right_FrontFeather2 3
-    401050: Right_FrontFeather2 4
-    401052: Right_FrontFeather2 5
-    401054: Right_FrontFeather2 6
-    401056: Right_FrontFeather3
-    401058: Right_FrontFeather3 1
-    401060: Right_FrontFeather3 2
-    401062: Right_FrontFeather3 3
-    401064: Right_FrontFeather3 4
-    401066: Right_FrontFeather3 5
-    401068: Right_FrontFeather3 6
-    401070: Right_FrontFeatherEnd
-    401072: Right_FrontFeatherEnd 1
-    401074: Right_FrontFeatherEnd 2
-    401076: Right_FrontFeatherEnd 3
-    401078: Right_FrontFeatherEnd 4
-    401080: Right_FrontFeatherEnd 5
-    401082: Right_FrontFeatherEnd 6
-    401084: Right_MiddleFeather1
-    401086: Right_MiddleFeather1 1
-    401088: Right_MiddleFeather1 2
-    401090: Right_MiddleFeather1 3
-    401092: Right_MiddleFeather1 4
-    401094: Right_MiddleFeather1 5
-    401096: Right_MiddleFeather1 6
-    401098: Right_MiddleFeather2
-    401100: Right_MiddleFeather2 1
-    401102: Right_MiddleFeather2 2
-    401104: Right_MiddleFeather2 3
-    401106: Right_MiddleFeather2 4
-    401108: Right_MiddleFeather2 5
-    401110: Right_MiddleFeather2 6
-    401112: Right_MiddleFeather3
-    401114: Right_MiddleFeather3 1
-    401116: Right_MiddleFeather3 2
-    401118: Right_MiddleFeather3 3
-    401120: Right_MiddleFeather3 4
-    401122: Right_MiddleFeather3 5
-    401124: Right_MiddleFeather3 6
-    401126: Right_MiddleFeatherEnd
-    401128: Right_MiddleFeatherEnd 1
-    401130: Right_MiddleFeatherEnd 2
-    401132: Right_MiddleFeatherEnd 3
-    401134: Right_MiddleFeatherEnd 4
-    401136: Right_MiddleFeatherEnd 5
-    401138: Right_MiddleFeatherEnd 6
-    401140: Right_Mouth
-    401142: Right_Mouth 1
-    401144: Right_Mouth 2
-    401146: Right_Mouth 3
-    401148: Right_Mouth 4
-    401150: Right_Mouth 5
-    401152: Right_Mouth 6
-    401154: Right_Nostril
-    401156: Right_Nostril 1
-    401158: Right_Nostril 2
-    401160: Right_Nostril 3
-    401162: Right_Nostril 4
-    401164: Right_Nostril 5
-    401166: Right_Nostril 6
-    401168: Right_NostrilEnd
-    401170: Right_NostrilEnd 1
-    401172: Right_NostrilEnd 2
-    401174: Right_NostrilEnd 3
-    401176: Right_NostrilEnd 4
-    401178: Right_NostrilEnd 5
-    401180: Right_NostrilEnd 6
-    401182: Right_PosteriorHand
-    401184: Right_PosteriorHand 1
-    401186: Right_PosteriorHand 2
-    401188: Right_PosteriorHand 3
-    401190: Right_PosteriorHand 4
-    401192: Right_PosteriorHand 5
-    401194: Right_PosteriorHand 6
-    401196: Right_PosteriorIndex
-    401198: Right_PosteriorIndex 1
-    401200: Right_PosteriorIndex 2
-    401202: Right_PosteriorIndex 3
-    401204: Right_PosteriorIndex 4
-    401206: Right_PosteriorIndex 5
-    401208: Right_PosteriorIndex 6
-    401210: Right_PosteriorIndexEnd
-    401212: Right_PosteriorIndexEnd 1
-    401214: Right_PosteriorIndexEnd 2
-    401216: Right_PosteriorIndexEnd 3
-    401218: Right_PosteriorIndexEnd 4
-    401220: Right_PosteriorIndexEnd 5
-    401222: Right_PosteriorIndexEnd 6
-    401224: Right_PosteriorLowerLeg
-    401226: Right_PosteriorLowerLeg 1
-    401228: Right_PosteriorLowerLeg 2
-    401230: Right_PosteriorLowerLeg 3
-    401232: Right_PosteriorLowerLeg 4
-    401234: Right_PosteriorLowerLeg 5
-    401236: Right_PosteriorLowerLeg 6
-    401238: Right_PosteriorMiddle
-    401240: Right_PosteriorMiddle 1
-    401242: Right_PosteriorMiddle 2
-    401244: Right_PosteriorMiddle 3
-    401246: Right_PosteriorMiddle 4
-    401248: Right_PosteriorMiddle 5
-    401250: Right_PosteriorMiddle 6
-    401252: Right_PosteriorMiddleEnd
-    401254: Right_PosteriorMiddleEnd 1
-    401256: Right_PosteriorMiddleEnd 2
-    401258: Right_PosteriorMiddleEnd 3
-    401260: Right_PosteriorMiddleEnd 4
-    401262: Right_PosteriorMiddleEnd 5
-    401264: Right_PosteriorMiddleEnd 6
-    401266: Right_PosteriorPinky
-    401268: Right_PosteriorPinky 1
-    401270: Right_PosteriorPinky 2
-    401272: Right_PosteriorPinky 3
-    401274: Right_PosteriorPinky 4
-    401276: Right_PosteriorPinky 5
-    401278: Right_PosteriorPinky 6
-    401280: Right_PosteriorPinkyEnd
-    401282: Right_PosteriorPinkyEnd 1
-    401284: Right_PosteriorPinkyEnd 2
-    401286: Right_PosteriorPinkyEnd 3
-    401288: Right_PosteriorPinkyEnd 4
-    401290: Right_PosteriorPinkyEnd 5
-    401292: Right_PosteriorPinkyEnd 6
-    401294: Right_PosteriorUpperLeg
-    401296: Right_PosteriorUpperLeg 1
-    401298: Right_PosteriorUpperLeg 2
-    401300: Right_PosteriorUpperLeg 3
-    401302: Right_PosteriorUpperLeg 4
-    401304: Right_PosteriorUpperLeg 5
-    401306: Right_PosteriorUpperLeg 6
-    401308: Right_RearFeather1
-    401310: Right_RearFeather1 1
-    401312: Right_RearFeather1 2
-    401314: Right_RearFeather1 3
-    401316: Right_RearFeather1 4
-    401318: Right_RearFeather1 5
-    401320: Right_RearFeather1 6
-    401322: Right_RearFeather2
-    401324: Right_RearFeather2 1
-    401326: Right_RearFeather2 2
-    401328: Right_RearFeather2 3
-    401330: Right_RearFeather2 4
-    401332: Right_RearFeather2 5
-    401334: Right_RearFeather2 6
-    401336: Right_RearFeather3
-    401338: Right_RearFeather3 1
-    401340: Right_RearFeather3 2
-    401342: Right_RearFeather3 3
-    401344: Right_RearFeather3 4
-    401346: Right_RearFeather3 5
-    401348: Right_RearFeather3 6
-    401350: Right_RearFeatherEnd
-    401352: Right_RearFeatherEnd 1
-    401354: Right_RearFeatherEnd 2
-    401356: Right_RearFeatherEnd 3
-    401358: Right_RearFeatherEnd 4
-    401360: Right_RearFeatherEnd 5
-    401362: Right_RearFeatherEnd 6
-    401364: Right_UpperMouth1
-    401366: Right_UpperMouth1 1
-    401368: Right_UpperMouth1 2
-    401370: Right_UpperMouth1 3
-    401372: Right_UpperMouth1 4
-    401374: Right_UpperMouth1 5
-    401376: Right_UpperMouth1 6
-    401378: Right_UpperMouth2
-    401380: Right_UpperMouth2 1
-    401382: Right_UpperMouth2 2
-    401384: Right_UpperMouth2 3
-    401386: Right_UpperMouth2 4
-    401388: Right_UpperMouth2 5
-    401390: Right_UpperMouth2 6
-    401392: RightLowerMouth1
-    401394: RightLowerMouth1 1
-    401396: RightLowerMouth1 2
-    401398: RightLowerMouth1 3
-    401400: RightLowerMouth1 4
-    401402: RightLowerMouth1 5
-    401404: RightLowerMouth1 6
-    401406: RightLowerMouth2
-    401408: RightLowerMouth2 1
-    401410: RightLowerMouth2 2
-    401412: RightLowerMouth2 3
-    401414: RightLowerMouth2 4
-    401416: RightLowerMouth2 5
-    401418: RightLowerMouth2 6
-    401420: Root
-    401422: Root 1
-    401424: Root 2
-    401426: Root 3
-    401428: Root 4
-    401430: Root 5
-    401432: Root 6
-    401434: Skeleton
-    401436: Skeleton 1
-    401438: Skeleton 2
-    401440: Skeleton 3
-    401442: Skeleton 4
-    401444: Skeleton 5
-    401446: Skeleton 6
-    401448: Staff_Body
-    401450: Staff_Joint1
-    401452: Staff_Joint2
-    401454: Staff_Joint3
-    401456: Staff_Joint4
-    401458: Staff_JointEnd
-    401460: Staff_Skeleton
-    401462: Stalk1
-    401464: Stalk1 1
-    401466: Stalk1 2
-    401468: Stalk1 3
-    401470: Stalk1 4
-    401472: Stalk1 5
-    401474: Stalk1 6
-    401476: Stalk2
-    401478: Stalk2 1
-    401480: Stalk2 2
-    401482: Stalk2 3
-    401484: Stalk2 4
-    401486: Stalk2 5
-    401488: Stalk2 6
-    401490: Stalk3
-    401492: Stalk3 1
-    401494: Stalk3 2
-    401496: Stalk3 3
-    401498: Stalk3 4
-    401500: Stalk3 5
-    401502: Stalk3 6
-    401504: Stalk4
-    401506: Stalk4 1
-    401508: Stalk4 2
-    401510: Stalk4 3
-    401512: Stalk4 4
-    401514: Stalk4 5
-    401516: Stalk4 6
-    401518: Tail1
-    401520: Tail1 1
-    401522: Tail1 2
-    401524: Tail1 3
-    401526: Tail1 4
-    401528: Tail1 5
-    401530: Tail1 6
-    401532: Tail3
-    401534: Tail3 1
-    401536: Tail3 2
-    401538: Tail3 3
-    401540: Tail3 4
-    401542: Tail3 5
-    401544: Tail3 6
-    401546: TailEnd
-    401548: TailEnd 1
-    401550: TailEnd 2
-    401552: TailEnd 3
-    401554: TailEnd 4
-    401556: TailEnd 5
-    401558: TailEnd 6
-    401560: TailI2
-    401562: TailI2 1
-    401564: TailI2 2
-    401566: TailI2 3
-    401568: TailI2 4
-    401570: TailI2 5
-    401572: TailI2 6
-    401574: Tongue1
-    401576: Tongue1 1
-    401578: Tongue1 2
-    401580: Tongue1 3
-    401582: Tongue1 4
-    401584: Tongue1 5
-    401586: Tongue1 6
-    401588: Tongue2
-    401590: Tongue2 1
-    401592: Tongue2 2
-    401594: Tongue2 3
-    401596: Tongue2 4
-    401598: Tongue2 5
-    401600: Tongue2 6
-    401602: Tongue3
-    401604: Tongue3 1
-    401606: Tongue3 2
-    401608: Tongue3 3
-    401610: Tongue3 4
-    401612: Tongue3 5
-    401614: Tongue3 6
-    401616: TongueEnd
-    401618: TongueEnd 1
-    401620: TongueEnd 2
-    401622: TongueEnd 3
-    401624: TongueEnd 4
-    401626: TongueEnd 5
-    401628: TongueEnd 6
-    401630: Upper_Mouth
-    401632: Upper_Mouth 1
-    401634: Upper_Mouth 2
-    401636: Upper_Mouth 3
-    401638: Upper_Mouth 4
-    401640: Upper_Mouth 5
-    401642: Upper_Mouth 6
-    401644: Upper_MouthEnd
-    401646: Upper_MouthEnd 1
-    401648: Upper_MouthEnd 2
-    401650: Upper_MouthEnd 3
-    401652: Upper_MouthEnd 4
-    401654: Upper_MouthEnd 5
-    401656: Upper_MouthEnd 6
-    401658: Dropship_LOD00 1
-    401660: Dropship_LOD00 1_MeshPart0
-    401662: Dropship_LOD00 1_MeshPart1
-    401664: Dropship_LOD00_MeshPart0
-    401666: Dropship_LOD00_MeshPart1
-    401668: Dropship_LOD00
-    401670: Dropship_LOD01
-    401672: Dropship_LOD02
-    401674: Dropship_LOD03
-    2100000: Staff_Mat
-    2100002: Ellen_Hair_Mat
-    2100004: Ellen_Body_Mat
-    2100006: Ellen_Head_Mat
-    2100008: Ellen_Eyes_Mat
-    2100010: Ellen_Tear_Mat
-    2100012: Default_Material
-    2100014: Chomper_Body_Mat
-    2100016: Chomper_Internals_Mat
-    2100018: Dropship_01_Mat
-    2100020: Dropship_03_Mat
-    2100022: Dropship_02_Mat
-    2100024: Dropship_05_Mat
-    2100026: Dropship_04_Mat
-    2300000: Body 1
-    2300002: Body 2
-    2300004: Body 3
-    2300006: Body 4
-    2300008: Body 5
-    2300010: Body 6
-    2300012: Dropship_Body_MeshPart0
-    2300014: Dropship_Body_MeshPart1
-    2300016: Dropship_Door
-    2300018: Dropship_WingLeft
-    2300020: Dropship_WingRight
-    2300022: Dropship_LOD00 1_MeshPart0
-    2300024: Dropship_LOD00 1_MeshPart1
-    2300026: Dropship_LOD00_MeshPart0
-    2300028: Dropship_LOD00_MeshPart1
-    2300030: Dropship_LOD01
-    2300032: Dropship_LOD02
-    2300034: Dropship_LOD03
-    2300036: Dropship_LOD00
-    3300000: Body 1
-    3300002: Body 2
-    3300004: Body 3
-    3300006: Body 4
-    3300008: Body 5
-    3300010: Body 6
-    3300012: Dropship_Body_MeshPart0
-    3300014: Dropship_Body_MeshPart1
-    3300016: Dropship_Door
-    3300018: Dropship_WingLeft
-    3300020: Dropship_WingRight
-    3300022: Dropship_LOD00 1_MeshPart0
-    3300024: Dropship_LOD00 1_MeshPart1
-    3300026: Dropship_LOD00_MeshPart0
-    3300028: Dropship_LOD00_MeshPart1
-    3300030: Dropship_LOD01
-    3300032: Dropship_LOD02
-    3300034: Dropship_LOD03
-    3300036: Dropship_LOD00
-    4300000: Staff_Body
-    4300002: Ellen_Body
-    4300004: Body
-    4300006: Body
-    4300008: Body
-    4300010: Body
-    4300012: Body
-    4300014: Body
-    4300016: Body
-    4300018: Dropship_Door
-    4300020: Dropship_Body_MeshPart0
-    4300022: Dropship_Body_MeshPart1
-    4300024: Dropship_WingLeft
-    4300026: Dropship_WingRight
-    4300028: Dropship_LOD00_MeshPart0
-    4300030: Dropship_LOD00_MeshPart1
-    4300032: Dropship_LOD01
-    4300034: Dropship_LOD02
-    4300036: Dropship_LOD03
-    4300038: Dropship_LOD00
-    7400000: Take 001
-    9500000: //RootNode
-    13700000: Body
-    13700002: Ellen_Body
-    13700004: Staff_Body
-    20500000: //RootNode
-    2186277476908879412: ImportLogs
-    2186277476908879414: ImportLogs
-    2186277476908879416: ImportLogs
-    2186277476908879418: ImportLogs
+  serializedVersion: 19300
+  internalIDToNameTable:
+  - first:
+      1: 100000
+    second: Body
+  - first:
+      1: 100002
+    second: Body 1
+  - first:
+      1: 100004
+    second: Body 2
+  - first:
+      1: 100006
+    second: Body 3
+  - first:
+      1: 100008
+    second: Body 4
+  - first:
+      1: 100010
+    second: Body 5
+  - first:
+      1: 100012
+    second: Body 6
+  - first:
+      1: 100014
+    second: Chest
+  - first:
+      1: 100016
+    second: Chest 1
+  - first:
+      1: 100018
+    second: Chest 2
+  - first:
+      1: 100020
+    second: Chest 3
+  - first:
+      1: 100022
+    second: Chest 4
+  - first:
+      1: 100024
+    second: Chest 5
+  - first:
+      1: 100026
+    second: Chest 6
+  - first:
+      1: 100028
+    second: Chomper
+  - first:
+      1: 100030
+    second: Chomper1
+  - first:
+      1: 100032
+    second: Chomper2
+  - first:
+      1: 100034
+    second: Chomper3
+  - first:
+      1: 100036
+    second: Chomper4
+  - first:
+      1: 100038
+    second: Chomper5
+  - first:
+      1: 100040
+    second: Chomper6
+  - first:
+      1: 100042
+    second: Core
+  - first:
+      1: 100044
+    second: Core 1
+  - first:
+      1: 100046
+    second: Core 2
+  - first:
+      1: 100048
+    second: Core 3
+  - first:
+      1: 100050
+    second: Core 4
+  - first:
+      1: 100052
+    second: Core 5
+  - first:
+      1: 100054
+    second: Core 6
+  - first:
+      1: 100056
+    second: Dropship
+  - first:
+      1: 100058
+    second: //RootNode
+  - first:
+      1: 100060
+    second: Dropship_Body
+  - first:
+      1: 100062
+    second: Dropship_Body_MeshPart0
+  - first:
+      1: 100064
+    second: Dropship_Body_MeshPart1
+  - first:
+      1: 100066
+    second: Dropship_Door
+  - first:
+      1: 100068
+    second: Dropship_WingLeft
+  - first:
+      1: 100070
+    second: Dropship_WingRight
+  - first:
+      1: 100072
+    second: Ellen
+  - first:
+      1: 100074
+    second: Ellen_Body
+  - first:
+      1: 100076
+    second: Ellen_Chest
+  - first:
+      1: 100078
+    second: Ellen_Hair_FrontalBase
+  - first:
+      1: 100080
+    second: Ellen_Hair_FrontalLeft
+  - first:
+      1: 100082
+    second: Ellen_Hair_FrontalLeftEnd
+  - first:
+      1: 100084
+    second: Ellen_Hair_SideDistal
+  - first:
+      1: 100086
+    second: Ellen_Hair_SideEnd
+  - first:
+      1: 100088
+    second: Ellen_Hair_SideIntermediate
+  - first:
+      1: 100090
+    second: Ellen_Hair_SideProximal
+  - first:
+      1: 100092
+    second: Ellen_HairFrontalRight
+  - first:
+      1: 100094
+    second: Ellen_HairFrontalRightEnd
+  - first:
+      1: 100096
+    second: Ellen_Head
+  - first:
+      1: 100098
+    second: Ellen_HeadEnd
+  - first:
+      1: 100100
+    second: Ellen_Hips
+  - first:
+      1: 100102
+    second: Ellen_Jaw
+  - first:
+      1: 100104
+    second: Ellen_JawEnd
+  - first:
+      1: 100106
+    second: Ellen_Left_Arm
+  - first:
+      1: 100108
+    second: Ellen_Left_Cheek
+  - first:
+      1: 100110
+    second: Ellen_Left_Eye
+  - first:
+      1: 100112
+    second: Ellen_Left_EyebrowDistal
+  - first:
+      1: 100114
+    second: Ellen_Left_EyebrowIntermediate
+  - first:
+      1: 100116
+    second: Ellen_Left_EyebrowProximal
+  - first:
+      1: 100118
+    second: Ellen_Left_Foot
+  - first:
+      1: 100120
+    second: Ellen_Left_Hand
+  - first:
+      1: 100122
+    second: Ellen_Left_IndexDistal
+  - first:
+      1: 100124
+    second: Ellen_Left_IndexEnd
+  - first:
+      1: 100126
+    second: Ellen_Left_IndexIntermediate
+  - first:
+      1: 100128
+    second: Ellen_Left_IndexProximal
+  - first:
+      1: 100130
+    second: Ellen_Left_LowerEyelid
+  - first:
+      1: 100132
+    second: Ellen_Left_LowerLeg
+  - first:
+      1: 100134
+    second: Ellen_Left_LowerMouth
+  - first:
+      1: 100136
+    second: Ellen_Left_MiddleDistal
+  - first:
+      1: 100138
+    second: Ellen_Left_MiddleEnd
+  - first:
+      1: 100140
+    second: Ellen_Left_MiddleIntermediate
+  - first:
+      1: 100142
+    second: Ellen_Left_MiddleProximal
+  - first:
+      1: 100144
+    second: Ellen_Left_Mouth
+  - first:
+      1: 100146
+    second: Ellen_Left_Nostril
+  - first:
+      1: 100148
+    second: Ellen_Left_PinkyDistal
+  - first:
+      1: 100150
+    second: Ellen_Left_PinkyEnd
+  - first:
+      1: 100152
+    second: Ellen_Left_PinkyIntermediate
+  - first:
+      1: 100154
+    second: Ellen_Left_PinkyProximal
+  - first:
+      1: 100156
+    second: Ellen_Left_RingDistal
+  - first:
+      1: 100158
+    second: Ellen_Left_RingEnd
+  - first:
+      1: 100160
+    second: Ellen_Left_RingIntermediate
+  - first:
+      1: 100162
+    second: Ellen_Left_RingProximal
+  - first:
+      1: 100164
+    second: Ellen_Left_Shoulder
+  - first:
+      1: 100166
+    second: Ellen_Left_ThumbDistal
+  - first:
+      1: 100168
+    second: Ellen_Left_ThumbEnd
+  - first:
+      1: 100170
+    second: Ellen_Left_ThumbIntermediate
+  - first:
+      1: 100172
+    second: Ellen_Left_ThumbProximal
+  - first:
+      1: 100174
+    second: Ellen_Left_ToeEnd
+  - first:
+      1: 100176
+    second: Ellen_Left_Toes
+  - first:
+      1: 100178
+    second: Ellen_Left_UpperArm
+  - first:
+      1: 100180
+    second: Ellen_Left_UpperEyelid
+  - first:
+      1: 100182
+    second: Ellen_Left_UpperLeg
+  - first:
+      1: 100184
+    second: Ellen_Left_UpperMouth
+  - first:
+      1: 100186
+    second: Ellen_LowerMouth
+  - first:
+      1: 100188
+    second: Ellen_Neck
+  - first:
+      1: 100190
+    second: Ellen_Right_Arm
+  - first:
+      1: 100192
+    second: Ellen_Right_Cheek
+  - first:
+      1: 100194
+    second: Ellen_Right_Eye
+  - first:
+      1: 100196
+    second: Ellen_Right_EyebrowDistal
+  - first:
+      1: 100198
+    second: Ellen_Right_EyebrowIntermediate
+  - first:
+      1: 100200
+    second: Ellen_Right_EyebrowProximal
+  - first:
+      1: 100202
+    second: Ellen_Right_Foot
+  - first:
+      1: 100204
+    second: Ellen_Right_Hand
+  - first:
+      1: 100206
+    second: Ellen_Right_IndexDistal
+  - first:
+      1: 100208
+    second: Ellen_Right_IndexEnd
+  - first:
+      1: 100210
+    second: Ellen_Right_IndexIntermediate
+  - first:
+      1: 100212
+    second: Ellen_Right_IndexProximal
+  - first:
+      1: 100214
+    second: Ellen_Right_LowerEyelid
+  - first:
+      1: 100216
+    second: Ellen_Right_LowerLeg
+  - first:
+      1: 100218
+    second: Ellen_Right_LowerMouth
+  - first:
+      1: 100220
+    second: Ellen_Right_MiddleDistal
+  - first:
+      1: 100222
+    second: Ellen_Right_MiddleEnd
+  - first:
+      1: 100224
+    second: Ellen_Right_MiddleIntermediate
+  - first:
+      1: 100226
+    second: Ellen_Right_MiddleProximal
+  - first:
+      1: 100228
+    second: Ellen_Right_Mouth
+  - first:
+      1: 100230
+    second: Ellen_Right_Nostril
+  - first:
+      1: 100232
+    second: Ellen_Right_PinkyDistal
+  - first:
+      1: 100234
+    second: Ellen_Right_PinkyEnd
+  - first:
+      1: 100236
+    second: Ellen_Right_PinkyIntermediate
+  - first:
+      1: 100238
+    second: Ellen_Right_PinkyProximal
+  - first:
+      1: 100240
+    second: Ellen_Right_RingDistal
+  - first:
+      1: 100242
+    second: Ellen_Right_RingEnd
+  - first:
+      1: 100244
+    second: Ellen_Right_RingIntermediate
+  - first:
+      1: 100246
+    second: Ellen_Right_RingProximal
+  - first:
+      1: 100248
+    second: Ellen_Right_Shoulder
+  - first:
+      1: 100250
+    second: Ellen_Right_ThumbDistal
+  - first:
+      1: 100252
+    second: Ellen_Right_ThumbEnd
+  - first:
+      1: 100254
+    second: Ellen_Right_ThumbIntermediate
+  - first:
+      1: 100256
+    second: Ellen_Right_ThumbProximal
+  - first:
+      1: 100258
+    second: Ellen_Right_ToeEnd
+  - first:
+      1: 100260
+    second: Ellen_Right_Toes
+  - first:
+      1: 100262
+    second: Ellen_Right_UpperArm
+  - first:
+      1: 100264
+    second: Ellen_Right_UpperEyelid
+  - first:
+      1: 100266
+    second: Ellen_Right_UpperLeg
+  - first:
+      1: 100268
+    second: Ellen_Right_UpperMouth
+  - first:
+      1: 100270
+    second: Ellen_Root
+  - first:
+      1: 100272
+    second: Ellen_Skeleton
+  - first:
+      1: 100274
+    second: Ellen_Spine
+  - first:
+      1: 100276
+    second: Ellen_TongueDistal
+  - first:
+      1: 100278
+    second: Ellen_TongueEnd
+  - first:
+      1: 100280
+    second: Ellen_TongueProximal
+  - first:
+      1: 100282
+    second: Ellen_UpperChest
+  - first:
+      1: 100284
+    second: Ellen_UpperMouth
+  - first:
+      1: 100286
+    second: Hips
+  - first:
+      1: 100288
+    second: Hips 1
+  - first:
+      1: 100290
+    second: Hips 2
+  - first:
+      1: 100292
+    second: Hips 3
+  - first:
+      1: 100294
+    second: Hips 4
+  - first:
+      1: 100296
+    second: Hips 5
+  - first:
+      1: 100298
+    second: Hips 6
+  - first:
+      1: 100300
+    second: Interior1
+  - first:
+      1: 100302
+    second: Interior1 1
+  - first:
+      1: 100304
+    second: Interior1 2
+  - first:
+      1: 100306
+    second: Interior1 3
+  - first:
+      1: 100308
+    second: Interior1 4
+  - first:
+      1: 100310
+    second: Interior1 5
+  - first:
+      1: 100312
+    second: Interior1 6
+  - first:
+      1: 100314
+    second: Interior2
+  - first:
+      1: 100316
+    second: Interior2 1
+  - first:
+      1: 100318
+    second: Interior2 2
+  - first:
+      1: 100320
+    second: Interior2 3
+  - first:
+      1: 100322
+    second: Interior2 4
+  - first:
+      1: 100324
+    second: Interior2 5
+  - first:
+      1: 100326
+    second: Interior2 6
+  - first:
+      1: 100328
+    second: Left_AnteriorHand
+  - first:
+      1: 100330
+    second: Left_AnteriorHand 1
+  - first:
+      1: 100332
+    second: Left_AnteriorHand 2
+  - first:
+      1: 100334
+    second: Left_AnteriorHand 3
+  - first:
+      1: 100336
+    second: Left_AnteriorHand 4
+  - first:
+      1: 100338
+    second: Left_AnteriorHand 5
+  - first:
+      1: 100340
+    second: Left_AnteriorHand 6
+  - first:
+      1: 100342
+    second: Left_AnteriorIndex1
+  - first:
+      1: 100344
+    second: Left_AnteriorIndex1 1
+  - first:
+      1: 100346
+    second: Left_AnteriorIndex1 2
+  - first:
+      1: 100348
+    second: Left_AnteriorIndex1 3
+  - first:
+      1: 100350
+    second: Left_AnteriorIndex1 4
+  - first:
+      1: 100352
+    second: Left_AnteriorIndex1 5
+  - first:
+      1: 100354
+    second: Left_AnteriorIndex1 6
+  - first:
+      1: 100356
+    second: Left_AnteriorIndexEnd
+  - first:
+      1: 100358
+    second: Left_AnteriorIndexEnd 1
+  - first:
+      1: 100360
+    second: Left_AnteriorIndexEnd 2
+  - first:
+      1: 100362
+    second: Left_AnteriorIndexEnd 3
+  - first:
+      1: 100364
+    second: Left_AnteriorIndexEnd 4
+  - first:
+      1: 100366
+    second: Left_AnteriorIndexEnd 5
+  - first:
+      1: 100368
+    second: Left_AnteriorIndexEnd 6
+  - first:
+      1: 100370
+    second: Left_AnteriorLowerLeg
+  - first:
+      1: 100372
+    second: Left_AnteriorLowerLeg 1
+  - first:
+      1: 100374
+    second: Left_AnteriorLowerLeg 2
+  - first:
+      1: 100376
+    second: Left_AnteriorLowerLeg 3
+  - first:
+      1: 100378
+    second: Left_AnteriorLowerLeg 4
+  - first:
+      1: 100380
+    second: Left_AnteriorLowerLeg 5
+  - first:
+      1: 100382
+    second: Left_AnteriorLowerLeg 6
+  - first:
+      1: 100384
+    second: Left_AnteriorMiddle2
+  - first:
+      1: 100386
+    second: Left_AnteriorMiddle2 1
+  - first:
+      1: 100388
+    second: Left_AnteriorMiddle2 2
+  - first:
+      1: 100390
+    second: Left_AnteriorMiddle2 3
+  - first:
+      1: 100392
+    second: Left_AnteriorMiddle2 4
+  - first:
+      1: 100394
+    second: Left_AnteriorMiddle2 5
+  - first:
+      1: 100396
+    second: Left_AnteriorMiddle2 6
+  - first:
+      1: 100398
+    second: Left_AnteriorMiddleEnd
+  - first:
+      1: 100400
+    second: Left_AnteriorMiddleEnd 1
+  - first:
+      1: 100402
+    second: Left_AnteriorMiddleEnd 2
+  - first:
+      1: 100404
+    second: Left_AnteriorMiddleEnd 3
+  - first:
+      1: 100406
+    second: Left_AnteriorMiddleEnd 4
+  - first:
+      1: 100408
+    second: Left_AnteriorMiddleEnd 5
+  - first:
+      1: 100410
+    second: Left_AnteriorMiddleEnd 6
+  - first:
+      1: 100412
+    second: Left_AnteriorPinky1
+  - first:
+      1: 100414
+    second: Left_AnteriorPinky1 1
+  - first:
+      1: 100416
+    second: Left_AnteriorPinky1 2
+  - first:
+      1: 100418
+    second: Left_AnteriorPinky1 3
+  - first:
+      1: 100420
+    second: Left_AnteriorPinky1 4
+  - first:
+      1: 100422
+    second: Left_AnteriorPinky1 5
+  - first:
+      1: 100424
+    second: Left_AnteriorPinky1 6
+  - first:
+      1: 100426
+    second: Left_AnteriorPinkyEnd
+  - first:
+      1: 100428
+    second: Left_AnteriorPinkyEnd 1
+  - first:
+      1: 100430
+    second: Left_AnteriorPinkyEnd 2
+  - first:
+      1: 100432
+    second: Left_AnteriorPinkyEnd 3
+  - first:
+      1: 100434
+    second: Left_AnteriorPinkyEnd 4
+  - first:
+      1: 100436
+    second: Left_AnteriorPinkyEnd 5
+  - first:
+      1: 100438
+    second: Left_AnteriorPinkyEnd 6
+  - first:
+      1: 100440
+    second: Left_AnteriorUpperLeg
+  - first:
+      1: 100442
+    second: Left_AnteriorUpperLeg 1
+  - first:
+      1: 100444
+    second: Left_AnteriorUpperLeg 2
+  - first:
+      1: 100446
+    second: Left_AnteriorUpperLeg 3
+  - first:
+      1: 100448
+    second: Left_AnteriorUpperLeg 4
+  - first:
+      1: 100450
+    second: Left_AnteriorUpperLeg 5
+  - first:
+      1: 100452
+    second: Left_AnteriorUpperLeg 6
+  - first:
+      1: 100454
+    second: Left_Eye
+  - first:
+      1: 100456
+    second: Left_Eye 1
+  - first:
+      1: 100458
+    second: Left_Eye 2
+  - first:
+      1: 100460
+    second: Left_Eye 3
+  - first:
+      1: 100462
+    second: Left_Eye 4
+  - first:
+      1: 100464
+    second: Left_Eye 5
+  - first:
+      1: 100466
+    second: Left_Eye 6
+  - first:
+      1: 100468
+    second: Left_FrontFeather1
+  - first:
+      1: 100470
+    second: Left_FrontFeather1 1
+  - first:
+      1: 100472
+    second: Left_FrontFeather1 2
+  - first:
+      1: 100474
+    second: Left_FrontFeather1 3
+  - first:
+      1: 100476
+    second: Left_FrontFeather1 4
+  - first:
+      1: 100478
+    second: Left_FrontFeather1 5
+  - first:
+      1: 100480
+    second: Left_FrontFeather1 6
+  - first:
+      1: 100482
+    second: Left_FrontFeather2
+  - first:
+      1: 100484
+    second: Left_FrontFeather2 1
+  - first:
+      1: 100486
+    second: Left_FrontFeather2 2
+  - first:
+      1: 100488
+    second: Left_FrontFeather2 3
+  - first:
+      1: 100490
+    second: Left_FrontFeather2 4
+  - first:
+      1: 100492
+    second: Left_FrontFeather2 5
+  - first:
+      1: 100494
+    second: Left_FrontFeather2 6
+  - first:
+      1: 100496
+    second: Left_FrontFeather3
+  - first:
+      1: 100498
+    second: Left_FrontFeather3 1
+  - first:
+      1: 100500
+    second: Left_FrontFeather3 2
+  - first:
+      1: 100502
+    second: Left_FrontFeather3 3
+  - first:
+      1: 100504
+    second: Left_FrontFeather3 4
+  - first:
+      1: 100506
+    second: Left_FrontFeather3 5
+  - first:
+      1: 100508
+    second: Left_FrontFeather3 6
+  - first:
+      1: 100510
+    second: Left_FrontFeatherEnd
+  - first:
+      1: 100512
+    second: Left_FrontFeatherEnd 1
+  - first:
+      1: 100514
+    second: Left_FrontFeatherEnd 2
+  - first:
+      1: 100516
+    second: Left_FrontFeatherEnd 3
+  - first:
+      1: 100518
+    second: Left_FrontFeatherEnd 4
+  - first:
+      1: 100520
+    second: Left_FrontFeatherEnd 5
+  - first:
+      1: 100522
+    second: Left_FrontFeatherEnd 6
+  - first:
+      1: 100524
+    second: Left_MiddleFeather1
+  - first:
+      1: 100526
+    second: Left_MiddleFeather1 1
+  - first:
+      1: 100528
+    second: Left_MiddleFeather1 2
+  - first:
+      1: 100530
+    second: Left_MiddleFeather1 3
+  - first:
+      1: 100532
+    second: Left_MiddleFeather1 4
+  - first:
+      1: 100534
+    second: Left_MiddleFeather1 5
+  - first:
+      1: 100536
+    second: Left_MiddleFeather1 6
+  - first:
+      1: 100538
+    second: Left_MiddleFeather2
+  - first:
+      1: 100540
+    second: Left_MiddleFeather2 1
+  - first:
+      1: 100542
+    second: Left_MiddleFeather2 2
+  - first:
+      1: 100544
+    second: Left_MiddleFeather2 3
+  - first:
+      1: 100546
+    second: Left_MiddleFeather2 4
+  - first:
+      1: 100548
+    second: Left_MiddleFeather2 5
+  - first:
+      1: 100550
+    second: Left_MiddleFeather2 6
+  - first:
+      1: 100552
+    second: Left_MiddleFeather3
+  - first:
+      1: 100554
+    second: Left_MiddleFeather3 1
+  - first:
+      1: 100556
+    second: Left_MiddleFeather3 2
+  - first:
+      1: 100558
+    second: Left_MiddleFeather3 3
+  - first:
+      1: 100560
+    second: Left_MiddleFeather3 4
+  - first:
+      1: 100562
+    second: Left_MiddleFeather3 5
+  - first:
+      1: 100564
+    second: Left_MiddleFeather3 6
+  - first:
+      1: 100566
+    second: Left_MiddleFeatherEnd
+  - first:
+      1: 100568
+    second: Left_MiddleFeatherEnd 1
+  - first:
+      1: 100570
+    second: Left_MiddleFeatherEnd 2
+  - first:
+      1: 100572
+    second: Left_MiddleFeatherEnd 3
+  - first:
+      1: 100574
+    second: Left_MiddleFeatherEnd 4
+  - first:
+      1: 100576
+    second: Left_MiddleFeatherEnd 5
+  - first:
+      1: 100578
+    second: Left_MiddleFeatherEnd 6
+  - first:
+      1: 100580
+    second: Left_Mouth
+  - first:
+      1: 100582
+    second: Left_Mouth 1
+  - first:
+      1: 100584
+    second: Left_Mouth 2
+  - first:
+      1: 100586
+    second: Left_Mouth 3
+  - first:
+      1: 100588
+    second: Left_Mouth 4
+  - first:
+      1: 100590
+    second: Left_Mouth 5
+  - first:
+      1: 100592
+    second: Left_Mouth 6
+  - first:
+      1: 100594
+    second: Left_Nostril
+  - first:
+      1: 100596
+    second: Left_Nostril 1
+  - first:
+      1: 100598
+    second: Left_Nostril 2
+  - first:
+      1: 100600
+    second: Left_Nostril 3
+  - first:
+      1: 100602
+    second: Left_Nostril 4
+  - first:
+      1: 100604
+    second: Left_Nostril 5
+  - first:
+      1: 100606
+    second: Left_Nostril 6
+  - first:
+      1: 100608
+    second: Left_NostrilEnd
+  - first:
+      1: 100610
+    second: Left_NostrilEnd 1
+  - first:
+      1: 100612
+    second: Left_NostrilEnd 2
+  - first:
+      1: 100614
+    second: Left_NostrilEnd 3
+  - first:
+      1: 100616
+    second: Left_NostrilEnd 4
+  - first:
+      1: 100618
+    second: Left_NostrilEnd 5
+  - first:
+      1: 100620
+    second: Left_NostrilEnd 6
+  - first:
+      1: 100622
+    second: Left_PosteriorHand
+  - first:
+      1: 100624
+    second: Left_PosteriorHand 1
+  - first:
+      1: 100626
+    second: Left_PosteriorHand 2
+  - first:
+      1: 100628
+    second: Left_PosteriorHand 3
+  - first:
+      1: 100630
+    second: Left_PosteriorHand 4
+  - first:
+      1: 100632
+    second: Left_PosteriorHand 5
+  - first:
+      1: 100634
+    second: Left_PosteriorHand 6
+  - first:
+      1: 100636
+    second: Left_PosteriorIndex
+  - first:
+      1: 100638
+    second: Left_PosteriorIndex 1
+  - first:
+      1: 100640
+    second: Left_PosteriorIndex 2
+  - first:
+      1: 100642
+    second: Left_PosteriorIndex 3
+  - first:
+      1: 100644
+    second: Left_PosteriorIndex 4
+  - first:
+      1: 100646
+    second: Left_PosteriorIndex 5
+  - first:
+      1: 100648
+    second: Left_PosteriorIndex 6
+  - first:
+      1: 100650
+    second: Left_PosteriorIndexEnd
+  - first:
+      1: 100652
+    second: Left_PosteriorIndexEnd 1
+  - first:
+      1: 100654
+    second: Left_PosteriorIndexEnd 2
+  - first:
+      1: 100656
+    second: Left_PosteriorIndexEnd 3
+  - first:
+      1: 100658
+    second: Left_PosteriorIndexEnd 4
+  - first:
+      1: 100660
+    second: Left_PosteriorIndexEnd 5
+  - first:
+      1: 100662
+    second: Left_PosteriorIndexEnd 6
+  - first:
+      1: 100664
+    second: Left_PosteriorLowerLeg
+  - first:
+      1: 100666
+    second: Left_PosteriorLowerLeg 1
+  - first:
+      1: 100668
+    second: Left_PosteriorLowerLeg 2
+  - first:
+      1: 100670
+    second: Left_PosteriorLowerLeg 3
+  - first:
+      1: 100672
+    second: Left_PosteriorLowerLeg 4
+  - first:
+      1: 100674
+    second: Left_PosteriorLowerLeg 5
+  - first:
+      1: 100676
+    second: Left_PosteriorLowerLeg 6
+  - first:
+      1: 100678
+    second: Left_PosteriorMiddle
+  - first:
+      1: 100680
+    second: Left_PosteriorMiddle 1
+  - first:
+      1: 100682
+    second: Left_PosteriorMiddle 2
+  - first:
+      1: 100684
+    second: Left_PosteriorMiddle 3
+  - first:
+      1: 100686
+    second: Left_PosteriorMiddle 4
+  - first:
+      1: 100688
+    second: Left_PosteriorMiddle 5
+  - first:
+      1: 100690
+    second: Left_PosteriorMiddle 6
+  - first:
+      1: 100692
+    second: Left_PosteriorMiddleEnd
+  - first:
+      1: 100694
+    second: Left_PosteriorMiddleEnd 1
+  - first:
+      1: 100696
+    second: Left_PosteriorMiddleEnd 2
+  - first:
+      1: 100698
+    second: Left_PosteriorMiddleEnd 3
+  - first:
+      1: 100700
+    second: Left_PosteriorMiddleEnd 4
+  - first:
+      1: 100702
+    second: Left_PosteriorMiddleEnd 5
+  - first:
+      1: 100704
+    second: Left_PosteriorMiddleEnd 6
+  - first:
+      1: 100706
+    second: Left_PosteriorPinky
+  - first:
+      1: 100708
+    second: Left_PosteriorPinky 1
+  - first:
+      1: 100710
+    second: Left_PosteriorPinky 2
+  - first:
+      1: 100712
+    second: Left_PosteriorPinky 3
+  - first:
+      1: 100714
+    second: Left_PosteriorPinky 4
+  - first:
+      1: 100716
+    second: Left_PosteriorPinky 5
+  - first:
+      1: 100718
+    second: Left_PosteriorPinky 6
+  - first:
+      1: 100720
+    second: Left_PosteriorPinkyEnd
+  - first:
+      1: 100722
+    second: Left_PosteriorPinkyEnd 1
+  - first:
+      1: 100724
+    second: Left_PosteriorPinkyEnd 2
+  - first:
+      1: 100726
+    second: Left_PosteriorPinkyEnd 3
+  - first:
+      1: 100728
+    second: Left_PosteriorPinkyEnd 4
+  - first:
+      1: 100730
+    second: Left_PosteriorPinkyEnd 5
+  - first:
+      1: 100732
+    second: Left_PosteriorPinkyEnd 6
+  - first:
+      1: 100734
+    second: Left_PosteriorUpperLeg
+  - first:
+      1: 100736
+    second: Left_PosteriorUpperLeg 1
+  - first:
+      1: 100738
+    second: Left_PosteriorUpperLeg 2
+  - first:
+      1: 100740
+    second: Left_PosteriorUpperLeg 3
+  - first:
+      1: 100742
+    second: Left_PosteriorUpperLeg 4
+  - first:
+      1: 100744
+    second: Left_PosteriorUpperLeg 5
+  - first:
+      1: 100746
+    second: Left_PosteriorUpperLeg 6
+  - first:
+      1: 100748
+    second: Left_RearFeather1
+  - first:
+      1: 100750
+    second: Left_RearFeather1 1
+  - first:
+      1: 100752
+    second: Left_RearFeather1 2
+  - first:
+      1: 100754
+    second: Left_RearFeather1 3
+  - first:
+      1: 100756
+    second: Left_RearFeather1 4
+  - first:
+      1: 100758
+    second: Left_RearFeather1 5
+  - first:
+      1: 100760
+    second: Left_RearFeather1 6
+  - first:
+      1: 100762
+    second: Left_RearFeather2
+  - first:
+      1: 100764
+    second: Left_RearFeather2 1
+  - first:
+      1: 100766
+    second: Left_RearFeather2 2
+  - first:
+      1: 100768
+    second: Left_RearFeather2 3
+  - first:
+      1: 100770
+    second: Left_RearFeather2 4
+  - first:
+      1: 100772
+    second: Left_RearFeather2 5
+  - first:
+      1: 100774
+    second: Left_RearFeather2 6
+  - first:
+      1: 100776
+    second: Left_RearFeather3
+  - first:
+      1: 100778
+    second: Left_RearFeather3 1
+  - first:
+      1: 100780
+    second: Left_RearFeather3 2
+  - first:
+      1: 100782
+    second: Left_RearFeather3 3
+  - first:
+      1: 100784
+    second: Left_RearFeather3 4
+  - first:
+      1: 100786
+    second: Left_RearFeather3 5
+  - first:
+      1: 100788
+    second: Left_RearFeather3 6
+  - first:
+      1: 100790
+    second: Left_RearFeatherEnd
+  - first:
+      1: 100792
+    second: Left_RearFeatherEnd 1
+  - first:
+      1: 100794
+    second: Left_RearFeatherEnd 2
+  - first:
+      1: 100796
+    second: Left_RearFeatherEnd 3
+  - first:
+      1: 100798
+    second: Left_RearFeatherEnd 4
+  - first:
+      1: 100800
+    second: Left_RearFeatherEnd 5
+  - first:
+      1: 100802
+    second: Left_RearFeatherEnd 6
+  - first:
+      1: 100804
+    second: Left_UpperMouth1
+  - first:
+      1: 100806
+    second: Left_UpperMouth1 1
+  - first:
+      1: 100808
+    second: Left_UpperMouth1 2
+  - first:
+      1: 100810
+    second: Left_UpperMouth1 3
+  - first:
+      1: 100812
+    second: Left_UpperMouth1 4
+  - first:
+      1: 100814
+    second: Left_UpperMouth1 5
+  - first:
+      1: 100816
+    second: Left_UpperMouth1 6
+  - first:
+      1: 100818
+    second: Left_UpperMouth2
+  - first:
+      1: 100820
+    second: Left_UpperMouth2 1
+  - first:
+      1: 100822
+    second: Left_UpperMouth2 2
+  - first:
+      1: 100824
+    second: Left_UpperMouth2 3
+  - first:
+      1: 100826
+    second: Left_UpperMouth2 4
+  - first:
+      1: 100828
+    second: Left_UpperMouth2 5
+  - first:
+      1: 100830
+    second: Left_UpperMouth2 6
+  - first:
+      1: 100832
+    second: LeftLowerMouth1
+  - first:
+      1: 100834
+    second: LeftLowerMouth1 1
+  - first:
+      1: 100836
+    second: LeftLowerMouth1 2
+  - first:
+      1: 100838
+    second: LeftLowerMouth1 3
+  - first:
+      1: 100840
+    second: LeftLowerMouth1 4
+  - first:
+      1: 100842
+    second: LeftLowerMouth1 5
+  - first:
+      1: 100844
+    second: LeftLowerMouth1 6
+  - first:
+      1: 100846
+    second: LeftLowerMouth2
+  - first:
+      1: 100848
+    second: LeftLowerMouth2 1
+  - first:
+      1: 100850
+    second: LeftLowerMouth2 2
+  - first:
+      1: 100852
+    second: LeftLowerMouth2 3
+  - first:
+      1: 100854
+    second: LeftLowerMouth2 4
+  - first:
+      1: 100856
+    second: LeftLowerMouth2 5
+  - first:
+      1: 100858
+    second: LeftLowerMouth2 6
+  - first:
+      1: 100860
+    second: LowerMouth
+  - first:
+      1: 100862
+    second: LowerMouth 1
+  - first:
+      1: 100864
+    second: LowerMouth 2
+  - first:
+      1: 100866
+    second: LowerMouth 3
+  - first:
+      1: 100868
+    second: LowerMouth 4
+  - first:
+      1: 100870
+    second: LowerMouth 5
+  - first:
+      1: 100872
+    second: LowerMouth 6
+  - first:
+      1: 100874
+    second: LowerMouthEnd
+  - first:
+      1: 100876
+    second: LowerMouthEnd 1
+  - first:
+      1: 100878
+    second: LowerMouthEnd 2
+  - first:
+      1: 100880
+    second: LowerMouthEnd 3
+  - first:
+      1: 100882
+    second: LowerMouthEnd 4
+  - first:
+      1: 100884
+    second: LowerMouthEnd 5
+  - first:
+      1: 100886
+    second: LowerMouthEnd 6
+  - first:
+      1: 100888
+    second: Right_AnteriorHand
+  - first:
+      1: 100890
+    second: Right_AnteriorHand 1
+  - first:
+      1: 100892
+    second: Right_AnteriorHand 2
+  - first:
+      1: 100894
+    second: Right_AnteriorHand 3
+  - first:
+      1: 100896
+    second: Right_AnteriorHand 4
+  - first:
+      1: 100898
+    second: Right_AnteriorHand 5
+  - first:
+      1: 100900
+    second: Right_AnteriorHand 6
+  - first:
+      1: 100902
+    second: Right_AnteriorIndex1
+  - first:
+      1: 100904
+    second: Right_AnteriorIndex1 1
+  - first:
+      1: 100906
+    second: Right_AnteriorIndex1 2
+  - first:
+      1: 100908
+    second: Right_AnteriorIndex1 3
+  - first:
+      1: 100910
+    second: Right_AnteriorIndex1 4
+  - first:
+      1: 100912
+    second: Right_AnteriorIndex1 5
+  - first:
+      1: 100914
+    second: Right_AnteriorIndex1 6
+  - first:
+      1: 100916
+    second: Right_AnteriorIndexEnd
+  - first:
+      1: 100918
+    second: Right_AnteriorIndexEnd 1
+  - first:
+      1: 100920
+    second: Right_AnteriorIndexEnd 2
+  - first:
+      1: 100922
+    second: Right_AnteriorIndexEnd 3
+  - first:
+      1: 100924
+    second: Right_AnteriorIndexEnd 4
+  - first:
+      1: 100926
+    second: Right_AnteriorIndexEnd 5
+  - first:
+      1: 100928
+    second: Right_AnteriorIndexEnd 6
+  - first:
+      1: 100930
+    second: Right_AnteriorLowerLeg
+  - first:
+      1: 100932
+    second: Right_AnteriorLowerLeg 1
+  - first:
+      1: 100934
+    second: Right_AnteriorLowerLeg 2
+  - first:
+      1: 100936
+    second: Right_AnteriorLowerLeg 3
+  - first:
+      1: 100938
+    second: Right_AnteriorLowerLeg 4
+  - first:
+      1: 100940
+    second: Right_AnteriorLowerLeg 5
+  - first:
+      1: 100942
+    second: Right_AnteriorLowerLeg 6
+  - first:
+      1: 100944
+    second: Right_AnteriorMiddle1
+  - first:
+      1: 100946
+    second: Right_AnteriorMiddle1 1
+  - first:
+      1: 100948
+    second: Right_AnteriorMiddle1 2
+  - first:
+      1: 100950
+    second: Right_AnteriorMiddle1 3
+  - first:
+      1: 100952
+    second: Right_AnteriorMiddle1 4
+  - first:
+      1: 100954
+    second: Right_AnteriorMiddle1 5
+  - first:
+      1: 100956
+    second: Right_AnteriorMiddle1 6
+  - first:
+      1: 100958
+    second: Right_AnteriorMiddleEnd
+  - first:
+      1: 100960
+    second: Right_AnteriorMiddleEnd 1
+  - first:
+      1: 100962
+    second: Right_AnteriorMiddleEnd 2
+  - first:
+      1: 100964
+    second: Right_AnteriorMiddleEnd 3
+  - first:
+      1: 100966
+    second: Right_AnteriorMiddleEnd 4
+  - first:
+      1: 100968
+    second: Right_AnteriorMiddleEnd 5
+  - first:
+      1: 100970
+    second: Right_AnteriorMiddleEnd 6
+  - first:
+      1: 100972
+    second: Right_AnteriorPinky1
+  - first:
+      1: 100974
+    second: Right_AnteriorPinky1 1
+  - first:
+      1: 100976
+    second: Right_AnteriorPinky1 2
+  - first:
+      1: 100978
+    second: Right_AnteriorPinky1 3
+  - first:
+      1: 100980
+    second: Right_AnteriorPinky1 4
+  - first:
+      1: 100982
+    second: Right_AnteriorPinky1 5
+  - first:
+      1: 100984
+    second: Right_AnteriorPinky1 6
+  - first:
+      1: 100986
+    second: Right_AnteriorPinkyEnd
+  - first:
+      1: 100988
+    second: Right_AnteriorPinkyEnd 1
+  - first:
+      1: 100990
+    second: Right_AnteriorPinkyEnd 2
+  - first:
+      1: 100992
+    second: Right_AnteriorPinkyEnd 3
+  - first:
+      1: 100994
+    second: Right_AnteriorPinkyEnd 4
+  - first:
+      1: 100996
+    second: Right_AnteriorPinkyEnd 5
+  - first:
+      1: 100998
+    second: Right_AnteriorPinkyEnd 6
+  - first:
+      1: 101000
+    second: Right_AnteriorUpperLeg
+  - first:
+      1: 101002
+    second: Right_AnteriorUpperLeg 1
+  - first:
+      1: 101004
+    second: Right_AnteriorUpperLeg 2
+  - first:
+      1: 101006
+    second: Right_AnteriorUpperLeg 3
+  - first:
+      1: 101008
+    second: Right_AnteriorUpperLeg 4
+  - first:
+      1: 101010
+    second: Right_AnteriorUpperLeg 5
+  - first:
+      1: 101012
+    second: Right_AnteriorUpperLeg 6
+  - first:
+      1: 101014
+    second: Right_Eye
+  - first:
+      1: 101016
+    second: Right_Eye 1
+  - first:
+      1: 101018
+    second: Right_Eye 2
+  - first:
+      1: 101020
+    second: Right_Eye 3
+  - first:
+      1: 101022
+    second: Right_Eye 4
+  - first:
+      1: 101024
+    second: Right_Eye 5
+  - first:
+      1: 101026
+    second: Right_Eye 6
+  - first:
+      1: 101028
+    second: Right_FrontFeather1
+  - first:
+      1: 101030
+    second: Right_FrontFeather1 1
+  - first:
+      1: 101032
+    second: Right_FrontFeather1 2
+  - first:
+      1: 101034
+    second: Right_FrontFeather1 3
+  - first:
+      1: 101036
+    second: Right_FrontFeather1 4
+  - first:
+      1: 101038
+    second: Right_FrontFeather1 5
+  - first:
+      1: 101040
+    second: Right_FrontFeather1 6
+  - first:
+      1: 101042
+    second: Right_FrontFeather2
+  - first:
+      1: 101044
+    second: Right_FrontFeather2 1
+  - first:
+      1: 101046
+    second: Right_FrontFeather2 2
+  - first:
+      1: 101048
+    second: Right_FrontFeather2 3
+  - first:
+      1: 101050
+    second: Right_FrontFeather2 4
+  - first:
+      1: 101052
+    second: Right_FrontFeather2 5
+  - first:
+      1: 101054
+    second: Right_FrontFeather2 6
+  - first:
+      1: 101056
+    second: Right_FrontFeather3
+  - first:
+      1: 101058
+    second: Right_FrontFeather3 1
+  - first:
+      1: 101060
+    second: Right_FrontFeather3 2
+  - first:
+      1: 101062
+    second: Right_FrontFeather3 3
+  - first:
+      1: 101064
+    second: Right_FrontFeather3 4
+  - first:
+      1: 101066
+    second: Right_FrontFeather3 5
+  - first:
+      1: 101068
+    second: Right_FrontFeather3 6
+  - first:
+      1: 101070
+    second: Right_FrontFeatherEnd
+  - first:
+      1: 101072
+    second: Right_FrontFeatherEnd 1
+  - first:
+      1: 101074
+    second: Right_FrontFeatherEnd 2
+  - first:
+      1: 101076
+    second: Right_FrontFeatherEnd 3
+  - first:
+      1: 101078
+    second: Right_FrontFeatherEnd 4
+  - first:
+      1: 101080
+    second: Right_FrontFeatherEnd 5
+  - first:
+      1: 101082
+    second: Right_FrontFeatherEnd 6
+  - first:
+      1: 101084
+    second: Right_MiddleFeather1
+  - first:
+      1: 101086
+    second: Right_MiddleFeather1 1
+  - first:
+      1: 101088
+    second: Right_MiddleFeather1 2
+  - first:
+      1: 101090
+    second: Right_MiddleFeather1 3
+  - first:
+      1: 101092
+    second: Right_MiddleFeather1 4
+  - first:
+      1: 101094
+    second: Right_MiddleFeather1 5
+  - first:
+      1: 101096
+    second: Right_MiddleFeather1 6
+  - first:
+      1: 101098
+    second: Right_MiddleFeather2
+  - first:
+      1: 101100
+    second: Right_MiddleFeather2 1
+  - first:
+      1: 101102
+    second: Right_MiddleFeather2 2
+  - first:
+      1: 101104
+    second: Right_MiddleFeather2 3
+  - first:
+      1: 101106
+    second: Right_MiddleFeather2 4
+  - first:
+      1: 101108
+    second: Right_MiddleFeather2 5
+  - first:
+      1: 101110
+    second: Right_MiddleFeather2 6
+  - first:
+      1: 101112
+    second: Right_MiddleFeather3
+  - first:
+      1: 101114
+    second: Right_MiddleFeather3 1
+  - first:
+      1: 101116
+    second: Right_MiddleFeather3 2
+  - first:
+      1: 101118
+    second: Right_MiddleFeather3 3
+  - first:
+      1: 101120
+    second: Right_MiddleFeather3 4
+  - first:
+      1: 101122
+    second: Right_MiddleFeather3 5
+  - first:
+      1: 101124
+    second: Right_MiddleFeather3 6
+  - first:
+      1: 101126
+    second: Right_MiddleFeatherEnd
+  - first:
+      1: 101128
+    second: Right_MiddleFeatherEnd 1
+  - first:
+      1: 101130
+    second: Right_MiddleFeatherEnd 2
+  - first:
+      1: 101132
+    second: Right_MiddleFeatherEnd 3
+  - first:
+      1: 101134
+    second: Right_MiddleFeatherEnd 4
+  - first:
+      1: 101136
+    second: Right_MiddleFeatherEnd 5
+  - first:
+      1: 101138
+    second: Right_MiddleFeatherEnd 6
+  - first:
+      1: 101140
+    second: Right_Mouth
+  - first:
+      1: 101142
+    second: Right_Mouth 1
+  - first:
+      1: 101144
+    second: Right_Mouth 2
+  - first:
+      1: 101146
+    second: Right_Mouth 3
+  - first:
+      1: 101148
+    second: Right_Mouth 4
+  - first:
+      1: 101150
+    second: Right_Mouth 5
+  - first:
+      1: 101152
+    second: Right_Mouth 6
+  - first:
+      1: 101154
+    second: Right_Nostril
+  - first:
+      1: 101156
+    second: Right_Nostril 1
+  - first:
+      1: 101158
+    second: Right_Nostril 2
+  - first:
+      1: 101160
+    second: Right_Nostril 3
+  - first:
+      1: 101162
+    second: Right_Nostril 4
+  - first:
+      1: 101164
+    second: Right_Nostril 5
+  - first:
+      1: 101166
+    second: Right_Nostril 6
+  - first:
+      1: 101168
+    second: Right_NostrilEnd
+  - first:
+      1: 101170
+    second: Right_NostrilEnd 1
+  - first:
+      1: 101172
+    second: Right_NostrilEnd 2
+  - first:
+      1: 101174
+    second: Right_NostrilEnd 3
+  - first:
+      1: 101176
+    second: Right_NostrilEnd 4
+  - first:
+      1: 101178
+    second: Right_NostrilEnd 5
+  - first:
+      1: 101180
+    second: Right_NostrilEnd 6
+  - first:
+      1: 101182
+    second: Right_PosteriorHand
+  - first:
+      1: 101184
+    second: Right_PosteriorHand 1
+  - first:
+      1: 101186
+    second: Right_PosteriorHand 2
+  - first:
+      1: 101188
+    second: Right_PosteriorHand 3
+  - first:
+      1: 101190
+    second: Right_PosteriorHand 4
+  - first:
+      1: 101192
+    second: Right_PosteriorHand 5
+  - first:
+      1: 101194
+    second: Right_PosteriorHand 6
+  - first:
+      1: 101196
+    second: Right_PosteriorIndex
+  - first:
+      1: 101198
+    second: Right_PosteriorIndex 1
+  - first:
+      1: 101200
+    second: Right_PosteriorIndex 2
+  - first:
+      1: 101202
+    second: Right_PosteriorIndex 3
+  - first:
+      1: 101204
+    second: Right_PosteriorIndex 4
+  - first:
+      1: 101206
+    second: Right_PosteriorIndex 5
+  - first:
+      1: 101208
+    second: Right_PosteriorIndex 6
+  - first:
+      1: 101210
+    second: Right_PosteriorIndexEnd
+  - first:
+      1: 101212
+    second: Right_PosteriorIndexEnd 1
+  - first:
+      1: 101214
+    second: Right_PosteriorIndexEnd 2
+  - first:
+      1: 101216
+    second: Right_PosteriorIndexEnd 3
+  - first:
+      1: 101218
+    second: Right_PosteriorIndexEnd 4
+  - first:
+      1: 101220
+    second: Right_PosteriorIndexEnd 5
+  - first:
+      1: 101222
+    second: Right_PosteriorIndexEnd 6
+  - first:
+      1: 101224
+    second: Right_PosteriorLowerLeg
+  - first:
+      1: 101226
+    second: Right_PosteriorLowerLeg 1
+  - first:
+      1: 101228
+    second: Right_PosteriorLowerLeg 2
+  - first:
+      1: 101230
+    second: Right_PosteriorLowerLeg 3
+  - first:
+      1: 101232
+    second: Right_PosteriorLowerLeg 4
+  - first:
+      1: 101234
+    second: Right_PosteriorLowerLeg 5
+  - first:
+      1: 101236
+    second: Right_PosteriorLowerLeg 6
+  - first:
+      1: 101238
+    second: Right_PosteriorMiddle
+  - first:
+      1: 101240
+    second: Right_PosteriorMiddle 1
+  - first:
+      1: 101242
+    second: Right_PosteriorMiddle 2
+  - first:
+      1: 101244
+    second: Right_PosteriorMiddle 3
+  - first:
+      1: 101246
+    second: Right_PosteriorMiddle 4
+  - first:
+      1: 101248
+    second: Right_PosteriorMiddle 5
+  - first:
+      1: 101250
+    second: Right_PosteriorMiddle 6
+  - first:
+      1: 101252
+    second: Right_PosteriorMiddleEnd
+  - first:
+      1: 101254
+    second: Right_PosteriorMiddleEnd 1
+  - first:
+      1: 101256
+    second: Right_PosteriorMiddleEnd 2
+  - first:
+      1: 101258
+    second: Right_PosteriorMiddleEnd 3
+  - first:
+      1: 101260
+    second: Right_PosteriorMiddleEnd 4
+  - first:
+      1: 101262
+    second: Right_PosteriorMiddleEnd 5
+  - first:
+      1: 101264
+    second: Right_PosteriorMiddleEnd 6
+  - first:
+      1: 101266
+    second: Right_PosteriorPinky
+  - first:
+      1: 101268
+    second: Right_PosteriorPinky 1
+  - first:
+      1: 101270
+    second: Right_PosteriorPinky 2
+  - first:
+      1: 101272
+    second: Right_PosteriorPinky 3
+  - first:
+      1: 101274
+    second: Right_PosteriorPinky 4
+  - first:
+      1: 101276
+    second: Right_PosteriorPinky 5
+  - first:
+      1: 101278
+    second: Right_PosteriorPinky 6
+  - first:
+      1: 101280
+    second: Right_PosteriorPinkyEnd
+  - first:
+      1: 101282
+    second: Right_PosteriorPinkyEnd 1
+  - first:
+      1: 101284
+    second: Right_PosteriorPinkyEnd 2
+  - first:
+      1: 101286
+    second: Right_PosteriorPinkyEnd 3
+  - first:
+      1: 101288
+    second: Right_PosteriorPinkyEnd 4
+  - first:
+      1: 101290
+    second: Right_PosteriorPinkyEnd 5
+  - first:
+      1: 101292
+    second: Right_PosteriorPinkyEnd 6
+  - first:
+      1: 101294
+    second: Right_PosteriorUpperLeg
+  - first:
+      1: 101296
+    second: Right_PosteriorUpperLeg 1
+  - first:
+      1: 101298
+    second: Right_PosteriorUpperLeg 2
+  - first:
+      1: 101300
+    second: Right_PosteriorUpperLeg 3
+  - first:
+      1: 101302
+    second: Right_PosteriorUpperLeg 4
+  - first:
+      1: 101304
+    second: Right_PosteriorUpperLeg 5
+  - first:
+      1: 101306
+    second: Right_PosteriorUpperLeg 6
+  - first:
+      1: 101308
+    second: Right_RearFeather1
+  - first:
+      1: 101310
+    second: Right_RearFeather1 1
+  - first:
+      1: 101312
+    second: Right_RearFeather1 2
+  - first:
+      1: 101314
+    second: Right_RearFeather1 3
+  - first:
+      1: 101316
+    second: Right_RearFeather1 4
+  - first:
+      1: 101318
+    second: Right_RearFeather1 5
+  - first:
+      1: 101320
+    second: Right_RearFeather1 6
+  - first:
+      1: 101322
+    second: Right_RearFeather2
+  - first:
+      1: 101324
+    second: Right_RearFeather2 1
+  - first:
+      1: 101326
+    second: Right_RearFeather2 2
+  - first:
+      1: 101328
+    second: Right_RearFeather2 3
+  - first:
+      1: 101330
+    second: Right_RearFeather2 4
+  - first:
+      1: 101332
+    second: Right_RearFeather2 5
+  - first:
+      1: 101334
+    second: Right_RearFeather2 6
+  - first:
+      1: 101336
+    second: Right_RearFeather3
+  - first:
+      1: 101338
+    second: Right_RearFeather3 1
+  - first:
+      1: 101340
+    second: Right_RearFeather3 2
+  - first:
+      1: 101342
+    second: Right_RearFeather3 3
+  - first:
+      1: 101344
+    second: Right_RearFeather3 4
+  - first:
+      1: 101346
+    second: Right_RearFeather3 5
+  - first:
+      1: 101348
+    second: Right_RearFeather3 6
+  - first:
+      1: 101350
+    second: Right_RearFeatherEnd
+  - first:
+      1: 101352
+    second: Right_RearFeatherEnd 1
+  - first:
+      1: 101354
+    second: Right_RearFeatherEnd 2
+  - first:
+      1: 101356
+    second: Right_RearFeatherEnd 3
+  - first:
+      1: 101358
+    second: Right_RearFeatherEnd 4
+  - first:
+      1: 101360
+    second: Right_RearFeatherEnd 5
+  - first:
+      1: 101362
+    second: Right_RearFeatherEnd 6
+  - first:
+      1: 101364
+    second: Right_UpperMouth1
+  - first:
+      1: 101366
+    second: Right_UpperMouth1 1
+  - first:
+      1: 101368
+    second: Right_UpperMouth1 2
+  - first:
+      1: 101370
+    second: Right_UpperMouth1 3
+  - first:
+      1: 101372
+    second: Right_UpperMouth1 4
+  - first:
+      1: 101374
+    second: Right_UpperMouth1 5
+  - first:
+      1: 101376
+    second: Right_UpperMouth1 6
+  - first:
+      1: 101378
+    second: Right_UpperMouth2
+  - first:
+      1: 101380
+    second: Right_UpperMouth2 1
+  - first:
+      1: 101382
+    second: Right_UpperMouth2 2
+  - first:
+      1: 101384
+    second: Right_UpperMouth2 3
+  - first:
+      1: 101386
+    second: Right_UpperMouth2 4
+  - first:
+      1: 101388
+    second: Right_UpperMouth2 5
+  - first:
+      1: 101390
+    second: Right_UpperMouth2 6
+  - first:
+      1: 101392
+    second: RightLowerMouth1
+  - first:
+      1: 101394
+    second: RightLowerMouth1 1
+  - first:
+      1: 101396
+    second: RightLowerMouth1 2
+  - first:
+      1: 101398
+    second: RightLowerMouth1 3
+  - first:
+      1: 101400
+    second: RightLowerMouth1 4
+  - first:
+      1: 101402
+    second: RightLowerMouth1 5
+  - first:
+      1: 101404
+    second: RightLowerMouth1 6
+  - first:
+      1: 101406
+    second: RightLowerMouth2
+  - first:
+      1: 101408
+    second: RightLowerMouth2 1
+  - first:
+      1: 101410
+    second: RightLowerMouth2 2
+  - first:
+      1: 101412
+    second: RightLowerMouth2 3
+  - first:
+      1: 101414
+    second: RightLowerMouth2 4
+  - first:
+      1: 101416
+    second: RightLowerMouth2 5
+  - first:
+      1: 101418
+    second: RightLowerMouth2 6
+  - first:
+      1: 101420
+    second: Root
+  - first:
+      1: 101422
+    second: Root 1
+  - first:
+      1: 101424
+    second: Root 2
+  - first:
+      1: 101426
+    second: Root 3
+  - first:
+      1: 101428
+    second: Root 4
+  - first:
+      1: 101430
+    second: Root 5
+  - first:
+      1: 101432
+    second: Root 6
+  - first:
+      1: 101434
+    second: Skeleton
+  - first:
+      1: 101436
+    second: Skeleton 1
+  - first:
+      1: 101438
+    second: Skeleton 2
+  - first:
+      1: 101440
+    second: Skeleton 3
+  - first:
+      1: 101442
+    second: Skeleton 4
+  - first:
+      1: 101444
+    second: Skeleton 5
+  - first:
+      1: 101446
+    second: Skeleton 6
+  - first:
+      1: 101448
+    second: Staff_Body
+  - first:
+      1: 101450
+    second: Staff_Joint1
+  - first:
+      1: 101452
+    second: Staff_Joint2
+  - first:
+      1: 101454
+    second: Staff_Joint3
+  - first:
+      1: 101456
+    second: Staff_Joint4
+  - first:
+      1: 101458
+    second: Staff_JointEnd
+  - first:
+      1: 101460
+    second: Staff_Skeleton
+  - first:
+      1: 101462
+    second: Stalk1
+  - first:
+      1: 101464
+    second: Stalk1 1
+  - first:
+      1: 101466
+    second: Stalk1 2
+  - first:
+      1: 101468
+    second: Stalk1 3
+  - first:
+      1: 101470
+    second: Stalk1 4
+  - first:
+      1: 101472
+    second: Stalk1 5
+  - first:
+      1: 101474
+    second: Stalk1 6
+  - first:
+      1: 101476
+    second: Stalk2
+  - first:
+      1: 101478
+    second: Stalk2 1
+  - first:
+      1: 101480
+    second: Stalk2 2
+  - first:
+      1: 101482
+    second: Stalk2 3
+  - first:
+      1: 101484
+    second: Stalk2 4
+  - first:
+      1: 101486
+    second: Stalk2 5
+  - first:
+      1: 101488
+    second: Stalk2 6
+  - first:
+      1: 101490
+    second: Stalk3
+  - first:
+      1: 101492
+    second: Stalk3 1
+  - first:
+      1: 101494
+    second: Stalk3 2
+  - first:
+      1: 101496
+    second: Stalk3 3
+  - first:
+      1: 101498
+    second: Stalk3 4
+  - first:
+      1: 101500
+    second: Stalk3 5
+  - first:
+      1: 101502
+    second: Stalk3 6
+  - first:
+      1: 101504
+    second: Stalk4
+  - first:
+      1: 101506
+    second: Stalk4 1
+  - first:
+      1: 101508
+    second: Stalk4 2
+  - first:
+      1: 101510
+    second: Stalk4 3
+  - first:
+      1: 101512
+    second: Stalk4 4
+  - first:
+      1: 101514
+    second: Stalk4 5
+  - first:
+      1: 101516
+    second: Stalk4 6
+  - first:
+      1: 101518
+    second: Tail1
+  - first:
+      1: 101520
+    second: Tail1 1
+  - first:
+      1: 101522
+    second: Tail1 2
+  - first:
+      1: 101524
+    second: Tail1 3
+  - first:
+      1: 101526
+    second: Tail1 4
+  - first:
+      1: 101528
+    second: Tail1 5
+  - first:
+      1: 101530
+    second: Tail1 6
+  - first:
+      1: 101532
+    second: Tail3
+  - first:
+      1: 101534
+    second: Tail3 1
+  - first:
+      1: 101536
+    second: Tail3 2
+  - first:
+      1: 101538
+    second: Tail3 3
+  - first:
+      1: 101540
+    second: Tail3 4
+  - first:
+      1: 101542
+    second: Tail3 5
+  - first:
+      1: 101544
+    second: Tail3 6
+  - first:
+      1: 101546
+    second: TailEnd
+  - first:
+      1: 101548
+    second: TailEnd 1
+  - first:
+      1: 101550
+    second: TailEnd 2
+  - first:
+      1: 101552
+    second: TailEnd 3
+  - first:
+      1: 101554
+    second: TailEnd 4
+  - first:
+      1: 101556
+    second: TailEnd 5
+  - first:
+      1: 101558
+    second: TailEnd 6
+  - first:
+      1: 101560
+    second: TailI2
+  - first:
+      1: 101562
+    second: TailI2 1
+  - first:
+      1: 101564
+    second: TailI2 2
+  - first:
+      1: 101566
+    second: TailI2 3
+  - first:
+      1: 101568
+    second: TailI2 4
+  - first:
+      1: 101570
+    second: TailI2 5
+  - first:
+      1: 101572
+    second: TailI2 6
+  - first:
+      1: 101574
+    second: Tongue1
+  - first:
+      1: 101576
+    second: Tongue1 1
+  - first:
+      1: 101578
+    second: Tongue1 2
+  - first:
+      1: 101580
+    second: Tongue1 3
+  - first:
+      1: 101582
+    second: Tongue1 4
+  - first:
+      1: 101584
+    second: Tongue1 5
+  - first:
+      1: 101586
+    second: Tongue1 6
+  - first:
+      1: 101588
+    second: Tongue2
+  - first:
+      1: 101590
+    second: Tongue2 1
+  - first:
+      1: 101592
+    second: Tongue2 2
+  - first:
+      1: 101594
+    second: Tongue2 3
+  - first:
+      1: 101596
+    second: Tongue2 4
+  - first:
+      1: 101598
+    second: Tongue2 5
+  - first:
+      1: 101600
+    second: Tongue2 6
+  - first:
+      1: 101602
+    second: Tongue3
+  - first:
+      1: 101604
+    second: Tongue3 1
+  - first:
+      1: 101606
+    second: Tongue3 2
+  - first:
+      1: 101608
+    second: Tongue3 3
+  - first:
+      1: 101610
+    second: Tongue3 4
+  - first:
+      1: 101612
+    second: Tongue3 5
+  - first:
+      1: 101614
+    second: Tongue3 6
+  - first:
+      1: 101616
+    second: TongueEnd
+  - first:
+      1: 101618
+    second: TongueEnd 1
+  - first:
+      1: 101620
+    second: TongueEnd 2
+  - first:
+      1: 101622
+    second: TongueEnd 3
+  - first:
+      1: 101624
+    second: TongueEnd 4
+  - first:
+      1: 101626
+    second: TongueEnd 5
+  - first:
+      1: 101628
+    second: TongueEnd 6
+  - first:
+      1: 101630
+    second: Upper_Mouth
+  - first:
+      1: 101632
+    second: Upper_Mouth 1
+  - first:
+      1: 101634
+    second: Upper_Mouth 2
+  - first:
+      1: 101636
+    second: Upper_Mouth 3
+  - first:
+      1: 101638
+    second: Upper_Mouth 4
+  - first:
+      1: 101640
+    second: Upper_Mouth 5
+  - first:
+      1: 101642
+    second: Upper_Mouth 6
+  - first:
+      1: 101644
+    second: Upper_MouthEnd
+  - first:
+      1: 101646
+    second: Upper_MouthEnd 1
+  - first:
+      1: 101648
+    second: Upper_MouthEnd 2
+  - first:
+      1: 101650
+    second: Upper_MouthEnd 3
+  - first:
+      1: 101652
+    second: Upper_MouthEnd 4
+  - first:
+      1: 101654
+    second: Upper_MouthEnd 5
+  - first:
+      1: 101656
+    second: Upper_MouthEnd 6
+  - first:
+      1: 101658
+    second: Dropship_LOD00 1
+  - first:
+      1: 101660
+    second: Dropship_LOD00 1_MeshPart0
+  - first:
+      1: 101662
+    second: Dropship_LOD00 1_MeshPart1
+  - first:
+      1: 101664
+    second: Dropship_LOD00_MeshPart0
+  - first:
+      1: 101666
+    second: Dropship_LOD00_MeshPart1
+  - first:
+      1: 101668
+    second: Dropship_LOD00
+  - first:
+      1: 101670
+    second: Dropship_LOD01
+  - first:
+      1: 101672
+    second: Dropship_LOD02
+  - first:
+      1: 101674
+    second: Dropship_LOD03
+  - first:
+      4: 400000
+    second: Body
+  - first:
+      4: 400002
+    second: Body 1
+  - first:
+      4: 400004
+    second: Body 2
+  - first:
+      4: 400006
+    second: Body 3
+  - first:
+      4: 400008
+    second: Body 4
+  - first:
+      4: 400010
+    second: Body 5
+  - first:
+      4: 400012
+    second: Body 6
+  - first:
+      4: 400014
+    second: Chest
+  - first:
+      4: 400016
+    second: Chest 1
+  - first:
+      4: 400018
+    second: Chest 2
+  - first:
+      4: 400020
+    second: Chest 3
+  - first:
+      4: 400022
+    second: Chest 4
+  - first:
+      4: 400024
+    second: Chest 5
+  - first:
+      4: 400026
+    second: Chest 6
+  - first:
+      4: 400028
+    second: Chomper
+  - first:
+      4: 400030
+    second: Chomper1
+  - first:
+      4: 400032
+    second: Chomper2
+  - first:
+      4: 400034
+    second: Chomper3
+  - first:
+      4: 400036
+    second: Chomper4
+  - first:
+      4: 400038
+    second: Chomper5
+  - first:
+      4: 400040
+    second: Chomper6
+  - first:
+      4: 400042
+    second: Core
+  - first:
+      4: 400044
+    second: Core 1
+  - first:
+      4: 400046
+    second: Core 2
+  - first:
+      4: 400048
+    second: Core 3
+  - first:
+      4: 400050
+    second: Core 4
+  - first:
+      4: 400052
+    second: Core 5
+  - first:
+      4: 400054
+    second: Core 6
+  - first:
+      4: 400056
+    second: Dropship
+  - first:
+      4: 400058
+    second: //RootNode
+  - first:
+      4: 400060
+    second: Dropship_Body
+  - first:
+      4: 400062
+    second: Dropship_Body_MeshPart0
+  - first:
+      4: 400064
+    second: Dropship_Body_MeshPart1
+  - first:
+      4: 400066
+    second: Dropship_Door
+  - first:
+      4: 400068
+    second: Dropship_WingLeft
+  - first:
+      4: 400070
+    second: Dropship_WingRight
+  - first:
+      4: 400072
+    second: Ellen
+  - first:
+      4: 400074
+    second: Ellen_Body
+  - first:
+      4: 400076
+    second: Ellen_Chest
+  - first:
+      4: 400078
+    second: Ellen_Hair_FrontalBase
+  - first:
+      4: 400080
+    second: Ellen_Hair_FrontalLeft
+  - first:
+      4: 400082
+    second: Ellen_Hair_FrontalLeftEnd
+  - first:
+      4: 400084
+    second: Ellen_Hair_SideDistal
+  - first:
+      4: 400086
+    second: Ellen_Hair_SideEnd
+  - first:
+      4: 400088
+    second: Ellen_Hair_SideIntermediate
+  - first:
+      4: 400090
+    second: Ellen_Hair_SideProximal
+  - first:
+      4: 400092
+    second: Ellen_HairFrontalRight
+  - first:
+      4: 400094
+    second: Ellen_HairFrontalRightEnd
+  - first:
+      4: 400096
+    second: Ellen_Head
+  - first:
+      4: 400098
+    second: Ellen_HeadEnd
+  - first:
+      4: 400100
+    second: Ellen_Hips
+  - first:
+      4: 400102
+    second: Ellen_Jaw
+  - first:
+      4: 400104
+    second: Ellen_JawEnd
+  - first:
+      4: 400106
+    second: Ellen_Left_Arm
+  - first:
+      4: 400108
+    second: Ellen_Left_Cheek
+  - first:
+      4: 400110
+    second: Ellen_Left_Eye
+  - first:
+      4: 400112
+    second: Ellen_Left_EyebrowDistal
+  - first:
+      4: 400114
+    second: Ellen_Left_EyebrowIntermediate
+  - first:
+      4: 400116
+    second: Ellen_Left_EyebrowProximal
+  - first:
+      4: 400118
+    second: Ellen_Left_Foot
+  - first:
+      4: 400120
+    second: Ellen_Left_Hand
+  - first:
+      4: 400122
+    second: Ellen_Left_IndexDistal
+  - first:
+      4: 400124
+    second: Ellen_Left_IndexEnd
+  - first:
+      4: 400126
+    second: Ellen_Left_IndexIntermediate
+  - first:
+      4: 400128
+    second: Ellen_Left_IndexProximal
+  - first:
+      4: 400130
+    second: Ellen_Left_LowerEyelid
+  - first:
+      4: 400132
+    second: Ellen_Left_LowerLeg
+  - first:
+      4: 400134
+    second: Ellen_Left_LowerMouth
+  - first:
+      4: 400136
+    second: Ellen_Left_MiddleDistal
+  - first:
+      4: 400138
+    second: Ellen_Left_MiddleEnd
+  - first:
+      4: 400140
+    second: Ellen_Left_MiddleIntermediate
+  - first:
+      4: 400142
+    second: Ellen_Left_MiddleProximal
+  - first:
+      4: 400144
+    second: Ellen_Left_Mouth
+  - first:
+      4: 400146
+    second: Ellen_Left_Nostril
+  - first:
+      4: 400148
+    second: Ellen_Left_PinkyDistal
+  - first:
+      4: 400150
+    second: Ellen_Left_PinkyEnd
+  - first:
+      4: 400152
+    second: Ellen_Left_PinkyIntermediate
+  - first:
+      4: 400154
+    second: Ellen_Left_PinkyProximal
+  - first:
+      4: 400156
+    second: Ellen_Left_RingDistal
+  - first:
+      4: 400158
+    second: Ellen_Left_RingEnd
+  - first:
+      4: 400160
+    second: Ellen_Left_RingIntermediate
+  - first:
+      4: 400162
+    second: Ellen_Left_RingProximal
+  - first:
+      4: 400164
+    second: Ellen_Left_Shoulder
+  - first:
+      4: 400166
+    second: Ellen_Left_ThumbDistal
+  - first:
+      4: 400168
+    second: Ellen_Left_ThumbEnd
+  - first:
+      4: 400170
+    second: Ellen_Left_ThumbIntermediate
+  - first:
+      4: 400172
+    second: Ellen_Left_ThumbProximal
+  - first:
+      4: 400174
+    second: Ellen_Left_ToeEnd
+  - first:
+      4: 400176
+    second: Ellen_Left_Toes
+  - first:
+      4: 400178
+    second: Ellen_Left_UpperArm
+  - first:
+      4: 400180
+    second: Ellen_Left_UpperEyelid
+  - first:
+      4: 400182
+    second: Ellen_Left_UpperLeg
+  - first:
+      4: 400184
+    second: Ellen_Left_UpperMouth
+  - first:
+      4: 400186
+    second: Ellen_LowerMouth
+  - first:
+      4: 400188
+    second: Ellen_Neck
+  - first:
+      4: 400190
+    second: Ellen_Right_Arm
+  - first:
+      4: 400192
+    second: Ellen_Right_Cheek
+  - first:
+      4: 400194
+    second: Ellen_Right_Eye
+  - first:
+      4: 400196
+    second: Ellen_Right_EyebrowDistal
+  - first:
+      4: 400198
+    second: Ellen_Right_EyebrowIntermediate
+  - first:
+      4: 400200
+    second: Ellen_Right_EyebrowProximal
+  - first:
+      4: 400202
+    second: Ellen_Right_Foot
+  - first:
+      4: 400204
+    second: Ellen_Right_Hand
+  - first:
+      4: 400206
+    second: Ellen_Right_IndexDistal
+  - first:
+      4: 400208
+    second: Ellen_Right_IndexEnd
+  - first:
+      4: 400210
+    second: Ellen_Right_IndexIntermediate
+  - first:
+      4: 400212
+    second: Ellen_Right_IndexProximal
+  - first:
+      4: 400214
+    second: Ellen_Right_LowerEyelid
+  - first:
+      4: 400216
+    second: Ellen_Right_LowerLeg
+  - first:
+      4: 400218
+    second: Ellen_Right_LowerMouth
+  - first:
+      4: 400220
+    second: Ellen_Right_MiddleDistal
+  - first:
+      4: 400222
+    second: Ellen_Right_MiddleEnd
+  - first:
+      4: 400224
+    second: Ellen_Right_MiddleIntermediate
+  - first:
+      4: 400226
+    second: Ellen_Right_MiddleProximal
+  - first:
+      4: 400228
+    second: Ellen_Right_Mouth
+  - first:
+      4: 400230
+    second: Ellen_Right_Nostril
+  - first:
+      4: 400232
+    second: Ellen_Right_PinkyDistal
+  - first:
+      4: 400234
+    second: Ellen_Right_PinkyEnd
+  - first:
+      4: 400236
+    second: Ellen_Right_PinkyIntermediate
+  - first:
+      4: 400238
+    second: Ellen_Right_PinkyProximal
+  - first:
+      4: 400240
+    second: Ellen_Right_RingDistal
+  - first:
+      4: 400242
+    second: Ellen_Right_RingEnd
+  - first:
+      4: 400244
+    second: Ellen_Right_RingIntermediate
+  - first:
+      4: 400246
+    second: Ellen_Right_RingProximal
+  - first:
+      4: 400248
+    second: Ellen_Right_Shoulder
+  - first:
+      4: 400250
+    second: Ellen_Right_ThumbDistal
+  - first:
+      4: 400252
+    second: Ellen_Right_ThumbEnd
+  - first:
+      4: 400254
+    second: Ellen_Right_ThumbIntermediate
+  - first:
+      4: 400256
+    second: Ellen_Right_ThumbProximal
+  - first:
+      4: 400258
+    second: Ellen_Right_ToeEnd
+  - first:
+      4: 400260
+    second: Ellen_Right_Toes
+  - first:
+      4: 400262
+    second: Ellen_Right_UpperArm
+  - first:
+      4: 400264
+    second: Ellen_Right_UpperEyelid
+  - first:
+      4: 400266
+    second: Ellen_Right_UpperLeg
+  - first:
+      4: 400268
+    second: Ellen_Right_UpperMouth
+  - first:
+      4: 400270
+    second: Ellen_Root
+  - first:
+      4: 400272
+    second: Ellen_Skeleton
+  - first:
+      4: 400274
+    second: Ellen_Spine
+  - first:
+      4: 400276
+    second: Ellen_TongueDistal
+  - first:
+      4: 400278
+    second: Ellen_TongueEnd
+  - first:
+      4: 400280
+    second: Ellen_TongueProximal
+  - first:
+      4: 400282
+    second: Ellen_UpperChest
+  - first:
+      4: 400284
+    second: Ellen_UpperMouth
+  - first:
+      4: 400286
+    second: Hips
+  - first:
+      4: 400288
+    second: Hips 1
+  - first:
+      4: 400290
+    second: Hips 2
+  - first:
+      4: 400292
+    second: Hips 3
+  - first:
+      4: 400294
+    second: Hips 4
+  - first:
+      4: 400296
+    second: Hips 5
+  - first:
+      4: 400298
+    second: Hips 6
+  - first:
+      4: 400300
+    second: Interior1
+  - first:
+      4: 400302
+    second: Interior1 1
+  - first:
+      4: 400304
+    second: Interior1 2
+  - first:
+      4: 400306
+    second: Interior1 3
+  - first:
+      4: 400308
+    second: Interior1 4
+  - first:
+      4: 400310
+    second: Interior1 5
+  - first:
+      4: 400312
+    second: Interior1 6
+  - first:
+      4: 400314
+    second: Interior2
+  - first:
+      4: 400316
+    second: Interior2 1
+  - first:
+      4: 400318
+    second: Interior2 2
+  - first:
+      4: 400320
+    second: Interior2 3
+  - first:
+      4: 400322
+    second: Interior2 4
+  - first:
+      4: 400324
+    second: Interior2 5
+  - first:
+      4: 400326
+    second: Interior2 6
+  - first:
+      4: 400328
+    second: Left_AnteriorHand
+  - first:
+      4: 400330
+    second: Left_AnteriorHand 1
+  - first:
+      4: 400332
+    second: Left_AnteriorHand 2
+  - first:
+      4: 400334
+    second: Left_AnteriorHand 3
+  - first:
+      4: 400336
+    second: Left_AnteriorHand 4
+  - first:
+      4: 400338
+    second: Left_AnteriorHand 5
+  - first:
+      4: 400340
+    second: Left_AnteriorHand 6
+  - first:
+      4: 400342
+    second: Left_AnteriorIndex1
+  - first:
+      4: 400344
+    second: Left_AnteriorIndex1 1
+  - first:
+      4: 400346
+    second: Left_AnteriorIndex1 2
+  - first:
+      4: 400348
+    second: Left_AnteriorIndex1 3
+  - first:
+      4: 400350
+    second: Left_AnteriorIndex1 4
+  - first:
+      4: 400352
+    second: Left_AnteriorIndex1 5
+  - first:
+      4: 400354
+    second: Left_AnteriorIndex1 6
+  - first:
+      4: 400356
+    second: Left_AnteriorIndexEnd
+  - first:
+      4: 400358
+    second: Left_AnteriorIndexEnd 1
+  - first:
+      4: 400360
+    second: Left_AnteriorIndexEnd 2
+  - first:
+      4: 400362
+    second: Left_AnteriorIndexEnd 3
+  - first:
+      4: 400364
+    second: Left_AnteriorIndexEnd 4
+  - first:
+      4: 400366
+    second: Left_AnteriorIndexEnd 5
+  - first:
+      4: 400368
+    second: Left_AnteriorIndexEnd 6
+  - first:
+      4: 400370
+    second: Left_AnteriorLowerLeg
+  - first:
+      4: 400372
+    second: Left_AnteriorLowerLeg 1
+  - first:
+      4: 400374
+    second: Left_AnteriorLowerLeg 2
+  - first:
+      4: 400376
+    second: Left_AnteriorLowerLeg 3
+  - first:
+      4: 400378
+    second: Left_AnteriorLowerLeg 4
+  - first:
+      4: 400380
+    second: Left_AnteriorLowerLeg 5
+  - first:
+      4: 400382
+    second: Left_AnteriorLowerLeg 6
+  - first:
+      4: 400384
+    second: Left_AnteriorMiddle2
+  - first:
+      4: 400386
+    second: Left_AnteriorMiddle2 1
+  - first:
+      4: 400388
+    second: Left_AnteriorMiddle2 2
+  - first:
+      4: 400390
+    second: Left_AnteriorMiddle2 3
+  - first:
+      4: 400392
+    second: Left_AnteriorMiddle2 4
+  - first:
+      4: 400394
+    second: Left_AnteriorMiddle2 5
+  - first:
+      4: 400396
+    second: Left_AnteriorMiddle2 6
+  - first:
+      4: 400398
+    second: Left_AnteriorMiddleEnd
+  - first:
+      4: 400400
+    second: Left_AnteriorMiddleEnd 1
+  - first:
+      4: 400402
+    second: Left_AnteriorMiddleEnd 2
+  - first:
+      4: 400404
+    second: Left_AnteriorMiddleEnd 3
+  - first:
+      4: 400406
+    second: Left_AnteriorMiddleEnd 4
+  - first:
+      4: 400408
+    second: Left_AnteriorMiddleEnd 5
+  - first:
+      4: 400410
+    second: Left_AnteriorMiddleEnd 6
+  - first:
+      4: 400412
+    second: Left_AnteriorPinky1
+  - first:
+      4: 400414
+    second: Left_AnteriorPinky1 1
+  - first:
+      4: 400416
+    second: Left_AnteriorPinky1 2
+  - first:
+      4: 400418
+    second: Left_AnteriorPinky1 3
+  - first:
+      4: 400420
+    second: Left_AnteriorPinky1 4
+  - first:
+      4: 400422
+    second: Left_AnteriorPinky1 5
+  - first:
+      4: 400424
+    second: Left_AnteriorPinky1 6
+  - first:
+      4: 400426
+    second: Left_AnteriorPinkyEnd
+  - first:
+      4: 400428
+    second: Left_AnteriorPinkyEnd 1
+  - first:
+      4: 400430
+    second: Left_AnteriorPinkyEnd 2
+  - first:
+      4: 400432
+    second: Left_AnteriorPinkyEnd 3
+  - first:
+      4: 400434
+    second: Left_AnteriorPinkyEnd 4
+  - first:
+      4: 400436
+    second: Left_AnteriorPinkyEnd 5
+  - first:
+      4: 400438
+    second: Left_AnteriorPinkyEnd 6
+  - first:
+      4: 400440
+    second: Left_AnteriorUpperLeg
+  - first:
+      4: 400442
+    second: Left_AnteriorUpperLeg 1
+  - first:
+      4: 400444
+    second: Left_AnteriorUpperLeg 2
+  - first:
+      4: 400446
+    second: Left_AnteriorUpperLeg 3
+  - first:
+      4: 400448
+    second: Left_AnteriorUpperLeg 4
+  - first:
+      4: 400450
+    second: Left_AnteriorUpperLeg 5
+  - first:
+      4: 400452
+    second: Left_AnteriorUpperLeg 6
+  - first:
+      4: 400454
+    second: Left_Eye
+  - first:
+      4: 400456
+    second: Left_Eye 1
+  - first:
+      4: 400458
+    second: Left_Eye 2
+  - first:
+      4: 400460
+    second: Left_Eye 3
+  - first:
+      4: 400462
+    second: Left_Eye 4
+  - first:
+      4: 400464
+    second: Left_Eye 5
+  - first:
+      4: 400466
+    second: Left_Eye 6
+  - first:
+      4: 400468
+    second: Left_FrontFeather1
+  - first:
+      4: 400470
+    second: Left_FrontFeather1 1
+  - first:
+      4: 400472
+    second: Left_FrontFeather1 2
+  - first:
+      4: 400474
+    second: Left_FrontFeather1 3
+  - first:
+      4: 400476
+    second: Left_FrontFeather1 4
+  - first:
+      4: 400478
+    second: Left_FrontFeather1 5
+  - first:
+      4: 400480
+    second: Left_FrontFeather1 6
+  - first:
+      4: 400482
+    second: Left_FrontFeather2
+  - first:
+      4: 400484
+    second: Left_FrontFeather2 1
+  - first:
+      4: 400486
+    second: Left_FrontFeather2 2
+  - first:
+      4: 400488
+    second: Left_FrontFeather2 3
+  - first:
+      4: 400490
+    second: Left_FrontFeather2 4
+  - first:
+      4: 400492
+    second: Left_FrontFeather2 5
+  - first:
+      4: 400494
+    second: Left_FrontFeather2 6
+  - first:
+      4: 400496
+    second: Left_FrontFeather3
+  - first:
+      4: 400498
+    second: Left_FrontFeather3 1
+  - first:
+      4: 400500
+    second: Left_FrontFeather3 2
+  - first:
+      4: 400502
+    second: Left_FrontFeather3 3
+  - first:
+      4: 400504
+    second: Left_FrontFeather3 4
+  - first:
+      4: 400506
+    second: Left_FrontFeather3 5
+  - first:
+      4: 400508
+    second: Left_FrontFeather3 6
+  - first:
+      4: 400510
+    second: Left_FrontFeatherEnd
+  - first:
+      4: 400512
+    second: Left_FrontFeatherEnd 1
+  - first:
+      4: 400514
+    second: Left_FrontFeatherEnd 2
+  - first:
+      4: 400516
+    second: Left_FrontFeatherEnd 3
+  - first:
+      4: 400518
+    second: Left_FrontFeatherEnd 4
+  - first:
+      4: 400520
+    second: Left_FrontFeatherEnd 5
+  - first:
+      4: 400522
+    second: Left_FrontFeatherEnd 6
+  - first:
+      4: 400524
+    second: Left_MiddleFeather1
+  - first:
+      4: 400526
+    second: Left_MiddleFeather1 1
+  - first:
+      4: 400528
+    second: Left_MiddleFeather1 2
+  - first:
+      4: 400530
+    second: Left_MiddleFeather1 3
+  - first:
+      4: 400532
+    second: Left_MiddleFeather1 4
+  - first:
+      4: 400534
+    second: Left_MiddleFeather1 5
+  - first:
+      4: 400536
+    second: Left_MiddleFeather1 6
+  - first:
+      4: 400538
+    second: Left_MiddleFeather2
+  - first:
+      4: 400540
+    second: Left_MiddleFeather2 1
+  - first:
+      4: 400542
+    second: Left_MiddleFeather2 2
+  - first:
+      4: 400544
+    second: Left_MiddleFeather2 3
+  - first:
+      4: 400546
+    second: Left_MiddleFeather2 4
+  - first:
+      4: 400548
+    second: Left_MiddleFeather2 5
+  - first:
+      4: 400550
+    second: Left_MiddleFeather2 6
+  - first:
+      4: 400552
+    second: Left_MiddleFeather3
+  - first:
+      4: 400554
+    second: Left_MiddleFeather3 1
+  - first:
+      4: 400556
+    second: Left_MiddleFeather3 2
+  - first:
+      4: 400558
+    second: Left_MiddleFeather3 3
+  - first:
+      4: 400560
+    second: Left_MiddleFeather3 4
+  - first:
+      4: 400562
+    second: Left_MiddleFeather3 5
+  - first:
+      4: 400564
+    second: Left_MiddleFeather3 6
+  - first:
+      4: 400566
+    second: Left_MiddleFeatherEnd
+  - first:
+      4: 400568
+    second: Left_MiddleFeatherEnd 1
+  - first:
+      4: 400570
+    second: Left_MiddleFeatherEnd 2
+  - first:
+      4: 400572
+    second: Left_MiddleFeatherEnd 3
+  - first:
+      4: 400574
+    second: Left_MiddleFeatherEnd 4
+  - first:
+      4: 400576
+    second: Left_MiddleFeatherEnd 5
+  - first:
+      4: 400578
+    second: Left_MiddleFeatherEnd 6
+  - first:
+      4: 400580
+    second: Left_Mouth
+  - first:
+      4: 400582
+    second: Left_Mouth 1
+  - first:
+      4: 400584
+    second: Left_Mouth 2
+  - first:
+      4: 400586
+    second: Left_Mouth 3
+  - first:
+      4: 400588
+    second: Left_Mouth 4
+  - first:
+      4: 400590
+    second: Left_Mouth 5
+  - first:
+      4: 400592
+    second: Left_Mouth 6
+  - first:
+      4: 400594
+    second: Left_Nostril
+  - first:
+      4: 400596
+    second: Left_Nostril 1
+  - first:
+      4: 400598
+    second: Left_Nostril 2
+  - first:
+      4: 400600
+    second: Left_Nostril 3
+  - first:
+      4: 400602
+    second: Left_Nostril 4
+  - first:
+      4: 400604
+    second: Left_Nostril 5
+  - first:
+      4: 400606
+    second: Left_Nostril 6
+  - first:
+      4: 400608
+    second: Left_NostrilEnd
+  - first:
+      4: 400610
+    second: Left_NostrilEnd 1
+  - first:
+      4: 400612
+    second: Left_NostrilEnd 2
+  - first:
+      4: 400614
+    second: Left_NostrilEnd 3
+  - first:
+      4: 400616
+    second: Left_NostrilEnd 4
+  - first:
+      4: 400618
+    second: Left_NostrilEnd 5
+  - first:
+      4: 400620
+    second: Left_NostrilEnd 6
+  - first:
+      4: 400622
+    second: Left_PosteriorHand
+  - first:
+      4: 400624
+    second: Left_PosteriorHand 1
+  - first:
+      4: 400626
+    second: Left_PosteriorHand 2
+  - first:
+      4: 400628
+    second: Left_PosteriorHand 3
+  - first:
+      4: 400630
+    second: Left_PosteriorHand 4
+  - first:
+      4: 400632
+    second: Left_PosteriorHand 5
+  - first:
+      4: 400634
+    second: Left_PosteriorHand 6
+  - first:
+      4: 400636
+    second: Left_PosteriorIndex
+  - first:
+      4: 400638
+    second: Left_PosteriorIndex 1
+  - first:
+      4: 400640
+    second: Left_PosteriorIndex 2
+  - first:
+      4: 400642
+    second: Left_PosteriorIndex 3
+  - first:
+      4: 400644
+    second: Left_PosteriorIndex 4
+  - first:
+      4: 400646
+    second: Left_PosteriorIndex 5
+  - first:
+      4: 400648
+    second: Left_PosteriorIndex 6
+  - first:
+      4: 400650
+    second: Left_PosteriorIndexEnd
+  - first:
+      4: 400652
+    second: Left_PosteriorIndexEnd 1
+  - first:
+      4: 400654
+    second: Left_PosteriorIndexEnd 2
+  - first:
+      4: 400656
+    second: Left_PosteriorIndexEnd 3
+  - first:
+      4: 400658
+    second: Left_PosteriorIndexEnd 4
+  - first:
+      4: 400660
+    second: Left_PosteriorIndexEnd 5
+  - first:
+      4: 400662
+    second: Left_PosteriorIndexEnd 6
+  - first:
+      4: 400664
+    second: Left_PosteriorLowerLeg
+  - first:
+      4: 400666
+    second: Left_PosteriorLowerLeg 1
+  - first:
+      4: 400668
+    second: Left_PosteriorLowerLeg 2
+  - first:
+      4: 400670
+    second: Left_PosteriorLowerLeg 3
+  - first:
+      4: 400672
+    second: Left_PosteriorLowerLeg 4
+  - first:
+      4: 400674
+    second: Left_PosteriorLowerLeg 5
+  - first:
+      4: 400676
+    second: Left_PosteriorLowerLeg 6
+  - first:
+      4: 400678
+    second: Left_PosteriorMiddle
+  - first:
+      4: 400680
+    second: Left_PosteriorMiddle 1
+  - first:
+      4: 400682
+    second: Left_PosteriorMiddle 2
+  - first:
+      4: 400684
+    second: Left_PosteriorMiddle 3
+  - first:
+      4: 400686
+    second: Left_PosteriorMiddle 4
+  - first:
+      4: 400688
+    second: Left_PosteriorMiddle 5
+  - first:
+      4: 400690
+    second: Left_PosteriorMiddle 6
+  - first:
+      4: 400692
+    second: Left_PosteriorMiddleEnd
+  - first:
+      4: 400694
+    second: Left_PosteriorMiddleEnd 1
+  - first:
+      4: 400696
+    second: Left_PosteriorMiddleEnd 2
+  - first:
+      4: 400698
+    second: Left_PosteriorMiddleEnd 3
+  - first:
+      4: 400700
+    second: Left_PosteriorMiddleEnd 4
+  - first:
+      4: 400702
+    second: Left_PosteriorMiddleEnd 5
+  - first:
+      4: 400704
+    second: Left_PosteriorMiddleEnd 6
+  - first:
+      4: 400706
+    second: Left_PosteriorPinky
+  - first:
+      4: 400708
+    second: Left_PosteriorPinky 1
+  - first:
+      4: 400710
+    second: Left_PosteriorPinky 2
+  - first:
+      4: 400712
+    second: Left_PosteriorPinky 3
+  - first:
+      4: 400714
+    second: Left_PosteriorPinky 4
+  - first:
+      4: 400716
+    second: Left_PosteriorPinky 5
+  - first:
+      4: 400718
+    second: Left_PosteriorPinky 6
+  - first:
+      4: 400720
+    second: Left_PosteriorPinkyEnd
+  - first:
+      4: 400722
+    second: Left_PosteriorPinkyEnd 1
+  - first:
+      4: 400724
+    second: Left_PosteriorPinkyEnd 2
+  - first:
+      4: 400726
+    second: Left_PosteriorPinkyEnd 3
+  - first:
+      4: 400728
+    second: Left_PosteriorPinkyEnd 4
+  - first:
+      4: 400730
+    second: Left_PosteriorPinkyEnd 5
+  - first:
+      4: 400732
+    second: Left_PosteriorPinkyEnd 6
+  - first:
+      4: 400734
+    second: Left_PosteriorUpperLeg
+  - first:
+      4: 400736
+    second: Left_PosteriorUpperLeg 1
+  - first:
+      4: 400738
+    second: Left_PosteriorUpperLeg 2
+  - first:
+      4: 400740
+    second: Left_PosteriorUpperLeg 3
+  - first:
+      4: 400742
+    second: Left_PosteriorUpperLeg 4
+  - first:
+      4: 400744
+    second: Left_PosteriorUpperLeg 5
+  - first:
+      4: 400746
+    second: Left_PosteriorUpperLeg 6
+  - first:
+      4: 400748
+    second: Left_RearFeather1
+  - first:
+      4: 400750
+    second: Left_RearFeather1 1
+  - first:
+      4: 400752
+    second: Left_RearFeather1 2
+  - first:
+      4: 400754
+    second: Left_RearFeather1 3
+  - first:
+      4: 400756
+    second: Left_RearFeather1 4
+  - first:
+      4: 400758
+    second: Left_RearFeather1 5
+  - first:
+      4: 400760
+    second: Left_RearFeather1 6
+  - first:
+      4: 400762
+    second: Left_RearFeather2
+  - first:
+      4: 400764
+    second: Left_RearFeather2 1
+  - first:
+      4: 400766
+    second: Left_RearFeather2 2
+  - first:
+      4: 400768
+    second: Left_RearFeather2 3
+  - first:
+      4: 400770
+    second: Left_RearFeather2 4
+  - first:
+      4: 400772
+    second: Left_RearFeather2 5
+  - first:
+      4: 400774
+    second: Left_RearFeather2 6
+  - first:
+      4: 400776
+    second: Left_RearFeather3
+  - first:
+      4: 400778
+    second: Left_RearFeather3 1
+  - first:
+      4: 400780
+    second: Left_RearFeather3 2
+  - first:
+      4: 400782
+    second: Left_RearFeather3 3
+  - first:
+      4: 400784
+    second: Left_RearFeather3 4
+  - first:
+      4: 400786
+    second: Left_RearFeather3 5
+  - first:
+      4: 400788
+    second: Left_RearFeather3 6
+  - first:
+      4: 400790
+    second: Left_RearFeatherEnd
+  - first:
+      4: 400792
+    second: Left_RearFeatherEnd 1
+  - first:
+      4: 400794
+    second: Left_RearFeatherEnd 2
+  - first:
+      4: 400796
+    second: Left_RearFeatherEnd 3
+  - first:
+      4: 400798
+    second: Left_RearFeatherEnd 4
+  - first:
+      4: 400800
+    second: Left_RearFeatherEnd 5
+  - first:
+      4: 400802
+    second: Left_RearFeatherEnd 6
+  - first:
+      4: 400804
+    second: Left_UpperMouth1
+  - first:
+      4: 400806
+    second: Left_UpperMouth1 1
+  - first:
+      4: 400808
+    second: Left_UpperMouth1 2
+  - first:
+      4: 400810
+    second: Left_UpperMouth1 3
+  - first:
+      4: 400812
+    second: Left_UpperMouth1 4
+  - first:
+      4: 400814
+    second: Left_UpperMouth1 5
+  - first:
+      4: 400816
+    second: Left_UpperMouth1 6
+  - first:
+      4: 400818
+    second: Left_UpperMouth2
+  - first:
+      4: 400820
+    second: Left_UpperMouth2 1
+  - first:
+      4: 400822
+    second: Left_UpperMouth2 2
+  - first:
+      4: 400824
+    second: Left_UpperMouth2 3
+  - first:
+      4: 400826
+    second: Left_UpperMouth2 4
+  - first:
+      4: 400828
+    second: Left_UpperMouth2 5
+  - first:
+      4: 400830
+    second: Left_UpperMouth2 6
+  - first:
+      4: 400832
+    second: LeftLowerMouth1
+  - first:
+      4: 400834
+    second: LeftLowerMouth1 1
+  - first:
+      4: 400836
+    second: LeftLowerMouth1 2
+  - first:
+      4: 400838
+    second: LeftLowerMouth1 3
+  - first:
+      4: 400840
+    second: LeftLowerMouth1 4
+  - first:
+      4: 400842
+    second: LeftLowerMouth1 5
+  - first:
+      4: 400844
+    second: LeftLowerMouth1 6
+  - first:
+      4: 400846
+    second: LeftLowerMouth2
+  - first:
+      4: 400848
+    second: LeftLowerMouth2 1
+  - first:
+      4: 400850
+    second: LeftLowerMouth2 2
+  - first:
+      4: 400852
+    second: LeftLowerMouth2 3
+  - first:
+      4: 400854
+    second: LeftLowerMouth2 4
+  - first:
+      4: 400856
+    second: LeftLowerMouth2 5
+  - first:
+      4: 400858
+    second: LeftLowerMouth2 6
+  - first:
+      4: 400860
+    second: LowerMouth
+  - first:
+      4: 400862
+    second: LowerMouth 1
+  - first:
+      4: 400864
+    second: LowerMouth 2
+  - first:
+      4: 400866
+    second: LowerMouth 3
+  - first:
+      4: 400868
+    second: LowerMouth 4
+  - first:
+      4: 400870
+    second: LowerMouth 5
+  - first:
+      4: 400872
+    second: LowerMouth 6
+  - first:
+      4: 400874
+    second: LowerMouthEnd
+  - first:
+      4: 400876
+    second: LowerMouthEnd 1
+  - first:
+      4: 400878
+    second: LowerMouthEnd 2
+  - first:
+      4: 400880
+    second: LowerMouthEnd 3
+  - first:
+      4: 400882
+    second: LowerMouthEnd 4
+  - first:
+      4: 400884
+    second: LowerMouthEnd 5
+  - first:
+      4: 400886
+    second: LowerMouthEnd 6
+  - first:
+      4: 400888
+    second: Right_AnteriorHand
+  - first:
+      4: 400890
+    second: Right_AnteriorHand 1
+  - first:
+      4: 400892
+    second: Right_AnteriorHand 2
+  - first:
+      4: 400894
+    second: Right_AnteriorHand 3
+  - first:
+      4: 400896
+    second: Right_AnteriorHand 4
+  - first:
+      4: 400898
+    second: Right_AnteriorHand 5
+  - first:
+      4: 400900
+    second: Right_AnteriorHand 6
+  - first:
+      4: 400902
+    second: Right_AnteriorIndex1
+  - first:
+      4: 400904
+    second: Right_AnteriorIndex1 1
+  - first:
+      4: 400906
+    second: Right_AnteriorIndex1 2
+  - first:
+      4: 400908
+    second: Right_AnteriorIndex1 3
+  - first:
+      4: 400910
+    second: Right_AnteriorIndex1 4
+  - first:
+      4: 400912
+    second: Right_AnteriorIndex1 5
+  - first:
+      4: 400914
+    second: Right_AnteriorIndex1 6
+  - first:
+      4: 400916
+    second: Right_AnteriorIndexEnd
+  - first:
+      4: 400918
+    second: Right_AnteriorIndexEnd 1
+  - first:
+      4: 400920
+    second: Right_AnteriorIndexEnd 2
+  - first:
+      4: 400922
+    second: Right_AnteriorIndexEnd 3
+  - first:
+      4: 400924
+    second: Right_AnteriorIndexEnd 4
+  - first:
+      4: 400926
+    second: Right_AnteriorIndexEnd 5
+  - first:
+      4: 400928
+    second: Right_AnteriorIndexEnd 6
+  - first:
+      4: 400930
+    second: Right_AnteriorLowerLeg
+  - first:
+      4: 400932
+    second: Right_AnteriorLowerLeg 1
+  - first:
+      4: 400934
+    second: Right_AnteriorLowerLeg 2
+  - first:
+      4: 400936
+    second: Right_AnteriorLowerLeg 3
+  - first:
+      4: 400938
+    second: Right_AnteriorLowerLeg 4
+  - first:
+      4: 400940
+    second: Right_AnteriorLowerLeg 5
+  - first:
+      4: 400942
+    second: Right_AnteriorLowerLeg 6
+  - first:
+      4: 400944
+    second: Right_AnteriorMiddle1
+  - first:
+      4: 400946
+    second: Right_AnteriorMiddle1 1
+  - first:
+      4: 400948
+    second: Right_AnteriorMiddle1 2
+  - first:
+      4: 400950
+    second: Right_AnteriorMiddle1 3
+  - first:
+      4: 400952
+    second: Right_AnteriorMiddle1 4
+  - first:
+      4: 400954
+    second: Right_AnteriorMiddle1 5
+  - first:
+      4: 400956
+    second: Right_AnteriorMiddle1 6
+  - first:
+      4: 400958
+    second: Right_AnteriorMiddleEnd
+  - first:
+      4: 400960
+    second: Right_AnteriorMiddleEnd 1
+  - first:
+      4: 400962
+    second: Right_AnteriorMiddleEnd 2
+  - first:
+      4: 400964
+    second: Right_AnteriorMiddleEnd 3
+  - first:
+      4: 400966
+    second: Right_AnteriorMiddleEnd 4
+  - first:
+      4: 400968
+    second: Right_AnteriorMiddleEnd 5
+  - first:
+      4: 400970
+    second: Right_AnteriorMiddleEnd 6
+  - first:
+      4: 400972
+    second: Right_AnteriorPinky1
+  - first:
+      4: 400974
+    second: Right_AnteriorPinky1 1
+  - first:
+      4: 400976
+    second: Right_AnteriorPinky1 2
+  - first:
+      4: 400978
+    second: Right_AnteriorPinky1 3
+  - first:
+      4: 400980
+    second: Right_AnteriorPinky1 4
+  - first:
+      4: 400982
+    second: Right_AnteriorPinky1 5
+  - first:
+      4: 400984
+    second: Right_AnteriorPinky1 6
+  - first:
+      4: 400986
+    second: Right_AnteriorPinkyEnd
+  - first:
+      4: 400988
+    second: Right_AnteriorPinkyEnd 1
+  - first:
+      4: 400990
+    second: Right_AnteriorPinkyEnd 2
+  - first:
+      4: 400992
+    second: Right_AnteriorPinkyEnd 3
+  - first:
+      4: 400994
+    second: Right_AnteriorPinkyEnd 4
+  - first:
+      4: 400996
+    second: Right_AnteriorPinkyEnd 5
+  - first:
+      4: 400998
+    second: Right_AnteriorPinkyEnd 6
+  - first:
+      4: 401000
+    second: Right_AnteriorUpperLeg
+  - first:
+      4: 401002
+    second: Right_AnteriorUpperLeg 1
+  - first:
+      4: 401004
+    second: Right_AnteriorUpperLeg 2
+  - first:
+      4: 401006
+    second: Right_AnteriorUpperLeg 3
+  - first:
+      4: 401008
+    second: Right_AnteriorUpperLeg 4
+  - first:
+      4: 401010
+    second: Right_AnteriorUpperLeg 5
+  - first:
+      4: 401012
+    second: Right_AnteriorUpperLeg 6
+  - first:
+      4: 401014
+    second: Right_Eye
+  - first:
+      4: 401016
+    second: Right_Eye 1
+  - first:
+      4: 401018
+    second: Right_Eye 2
+  - first:
+      4: 401020
+    second: Right_Eye 3
+  - first:
+      4: 401022
+    second: Right_Eye 4
+  - first:
+      4: 401024
+    second: Right_Eye 5
+  - first:
+      4: 401026
+    second: Right_Eye 6
+  - first:
+      4: 401028
+    second: Right_FrontFeather1
+  - first:
+      4: 401030
+    second: Right_FrontFeather1 1
+  - first:
+      4: 401032
+    second: Right_FrontFeather1 2
+  - first:
+      4: 401034
+    second: Right_FrontFeather1 3
+  - first:
+      4: 401036
+    second: Right_FrontFeather1 4
+  - first:
+      4: 401038
+    second: Right_FrontFeather1 5
+  - first:
+      4: 401040
+    second: Right_FrontFeather1 6
+  - first:
+      4: 401042
+    second: Right_FrontFeather2
+  - first:
+      4: 401044
+    second: Right_FrontFeather2 1
+  - first:
+      4: 401046
+    second: Right_FrontFeather2 2
+  - first:
+      4: 401048
+    second: Right_FrontFeather2 3
+  - first:
+      4: 401050
+    second: Right_FrontFeather2 4
+  - first:
+      4: 401052
+    second: Right_FrontFeather2 5
+  - first:
+      4: 401054
+    second: Right_FrontFeather2 6
+  - first:
+      4: 401056
+    second: Right_FrontFeather3
+  - first:
+      4: 401058
+    second: Right_FrontFeather3 1
+  - first:
+      4: 401060
+    second: Right_FrontFeather3 2
+  - first:
+      4: 401062
+    second: Right_FrontFeather3 3
+  - first:
+      4: 401064
+    second: Right_FrontFeather3 4
+  - first:
+      4: 401066
+    second: Right_FrontFeather3 5
+  - first:
+      4: 401068
+    second: Right_FrontFeather3 6
+  - first:
+      4: 401070
+    second: Right_FrontFeatherEnd
+  - first:
+      4: 401072
+    second: Right_FrontFeatherEnd 1
+  - first:
+      4: 401074
+    second: Right_FrontFeatherEnd 2
+  - first:
+      4: 401076
+    second: Right_FrontFeatherEnd 3
+  - first:
+      4: 401078
+    second: Right_FrontFeatherEnd 4
+  - first:
+      4: 401080
+    second: Right_FrontFeatherEnd 5
+  - first:
+      4: 401082
+    second: Right_FrontFeatherEnd 6
+  - first:
+      4: 401084
+    second: Right_MiddleFeather1
+  - first:
+      4: 401086
+    second: Right_MiddleFeather1 1
+  - first:
+      4: 401088
+    second: Right_MiddleFeather1 2
+  - first:
+      4: 401090
+    second: Right_MiddleFeather1 3
+  - first:
+      4: 401092
+    second: Right_MiddleFeather1 4
+  - first:
+      4: 401094
+    second: Right_MiddleFeather1 5
+  - first:
+      4: 401096
+    second: Right_MiddleFeather1 6
+  - first:
+      4: 401098
+    second: Right_MiddleFeather2
+  - first:
+      4: 401100
+    second: Right_MiddleFeather2 1
+  - first:
+      4: 401102
+    second: Right_MiddleFeather2 2
+  - first:
+      4: 401104
+    second: Right_MiddleFeather2 3
+  - first:
+      4: 401106
+    second: Right_MiddleFeather2 4
+  - first:
+      4: 401108
+    second: Right_MiddleFeather2 5
+  - first:
+      4: 401110
+    second: Right_MiddleFeather2 6
+  - first:
+      4: 401112
+    second: Right_MiddleFeather3
+  - first:
+      4: 401114
+    second: Right_MiddleFeather3 1
+  - first:
+      4: 401116
+    second: Right_MiddleFeather3 2
+  - first:
+      4: 401118
+    second: Right_MiddleFeather3 3
+  - first:
+      4: 401120
+    second: Right_MiddleFeather3 4
+  - first:
+      4: 401122
+    second: Right_MiddleFeather3 5
+  - first:
+      4: 401124
+    second: Right_MiddleFeather3 6
+  - first:
+      4: 401126
+    second: Right_MiddleFeatherEnd
+  - first:
+      4: 401128
+    second: Right_MiddleFeatherEnd 1
+  - first:
+      4: 401130
+    second: Right_MiddleFeatherEnd 2
+  - first:
+      4: 401132
+    second: Right_MiddleFeatherEnd 3
+  - first:
+      4: 401134
+    second: Right_MiddleFeatherEnd 4
+  - first:
+      4: 401136
+    second: Right_MiddleFeatherEnd 5
+  - first:
+      4: 401138
+    second: Right_MiddleFeatherEnd 6
+  - first:
+      4: 401140
+    second: Right_Mouth
+  - first:
+      4: 401142
+    second: Right_Mouth 1
+  - first:
+      4: 401144
+    second: Right_Mouth 2
+  - first:
+      4: 401146
+    second: Right_Mouth 3
+  - first:
+      4: 401148
+    second: Right_Mouth 4
+  - first:
+      4: 401150
+    second: Right_Mouth 5
+  - first:
+      4: 401152
+    second: Right_Mouth 6
+  - first:
+      4: 401154
+    second: Right_Nostril
+  - first:
+      4: 401156
+    second: Right_Nostril 1
+  - first:
+      4: 401158
+    second: Right_Nostril 2
+  - first:
+      4: 401160
+    second: Right_Nostril 3
+  - first:
+      4: 401162
+    second: Right_Nostril 4
+  - first:
+      4: 401164
+    second: Right_Nostril 5
+  - first:
+      4: 401166
+    second: Right_Nostril 6
+  - first:
+      4: 401168
+    second: Right_NostrilEnd
+  - first:
+      4: 401170
+    second: Right_NostrilEnd 1
+  - first:
+      4: 401172
+    second: Right_NostrilEnd 2
+  - first:
+      4: 401174
+    second: Right_NostrilEnd 3
+  - first:
+      4: 401176
+    second: Right_NostrilEnd 4
+  - first:
+      4: 401178
+    second: Right_NostrilEnd 5
+  - first:
+      4: 401180
+    second: Right_NostrilEnd 6
+  - first:
+      4: 401182
+    second: Right_PosteriorHand
+  - first:
+      4: 401184
+    second: Right_PosteriorHand 1
+  - first:
+      4: 401186
+    second: Right_PosteriorHand 2
+  - first:
+      4: 401188
+    second: Right_PosteriorHand 3
+  - first:
+      4: 401190
+    second: Right_PosteriorHand 4
+  - first:
+      4: 401192
+    second: Right_PosteriorHand 5
+  - first:
+      4: 401194
+    second: Right_PosteriorHand 6
+  - first:
+      4: 401196
+    second: Right_PosteriorIndex
+  - first:
+      4: 401198
+    second: Right_PosteriorIndex 1
+  - first:
+      4: 401200
+    second: Right_PosteriorIndex 2
+  - first:
+      4: 401202
+    second: Right_PosteriorIndex 3
+  - first:
+      4: 401204
+    second: Right_PosteriorIndex 4
+  - first:
+      4: 401206
+    second: Right_PosteriorIndex 5
+  - first:
+      4: 401208
+    second: Right_PosteriorIndex 6
+  - first:
+      4: 401210
+    second: Right_PosteriorIndexEnd
+  - first:
+      4: 401212
+    second: Right_PosteriorIndexEnd 1
+  - first:
+      4: 401214
+    second: Right_PosteriorIndexEnd 2
+  - first:
+      4: 401216
+    second: Right_PosteriorIndexEnd 3
+  - first:
+      4: 401218
+    second: Right_PosteriorIndexEnd 4
+  - first:
+      4: 401220
+    second: Right_PosteriorIndexEnd 5
+  - first:
+      4: 401222
+    second: Right_PosteriorIndexEnd 6
+  - first:
+      4: 401224
+    second: Right_PosteriorLowerLeg
+  - first:
+      4: 401226
+    second: Right_PosteriorLowerLeg 1
+  - first:
+      4: 401228
+    second: Right_PosteriorLowerLeg 2
+  - first:
+      4: 401230
+    second: Right_PosteriorLowerLeg 3
+  - first:
+      4: 401232
+    second: Right_PosteriorLowerLeg 4
+  - first:
+      4: 401234
+    second: Right_PosteriorLowerLeg 5
+  - first:
+      4: 401236
+    second: Right_PosteriorLowerLeg 6
+  - first:
+      4: 401238
+    second: Right_PosteriorMiddle
+  - first:
+      4: 401240
+    second: Right_PosteriorMiddle 1
+  - first:
+      4: 401242
+    second: Right_PosteriorMiddle 2
+  - first:
+      4: 401244
+    second: Right_PosteriorMiddle 3
+  - first:
+      4: 401246
+    second: Right_PosteriorMiddle 4
+  - first:
+      4: 401248
+    second: Right_PosteriorMiddle 5
+  - first:
+      4: 401250
+    second: Right_PosteriorMiddle 6
+  - first:
+      4: 401252
+    second: Right_PosteriorMiddleEnd
+  - first:
+      4: 401254
+    second: Right_PosteriorMiddleEnd 1
+  - first:
+      4: 401256
+    second: Right_PosteriorMiddleEnd 2
+  - first:
+      4: 401258
+    second: Right_PosteriorMiddleEnd 3
+  - first:
+      4: 401260
+    second: Right_PosteriorMiddleEnd 4
+  - first:
+      4: 401262
+    second: Right_PosteriorMiddleEnd 5
+  - first:
+      4: 401264
+    second: Right_PosteriorMiddleEnd 6
+  - first:
+      4: 401266
+    second: Right_PosteriorPinky
+  - first:
+      4: 401268
+    second: Right_PosteriorPinky 1
+  - first:
+      4: 401270
+    second: Right_PosteriorPinky 2
+  - first:
+      4: 401272
+    second: Right_PosteriorPinky 3
+  - first:
+      4: 401274
+    second: Right_PosteriorPinky 4
+  - first:
+      4: 401276
+    second: Right_PosteriorPinky 5
+  - first:
+      4: 401278
+    second: Right_PosteriorPinky 6
+  - first:
+      4: 401280
+    second: Right_PosteriorPinkyEnd
+  - first:
+      4: 401282
+    second: Right_PosteriorPinkyEnd 1
+  - first:
+      4: 401284
+    second: Right_PosteriorPinkyEnd 2
+  - first:
+      4: 401286
+    second: Right_PosteriorPinkyEnd 3
+  - first:
+      4: 401288
+    second: Right_PosteriorPinkyEnd 4
+  - first:
+      4: 401290
+    second: Right_PosteriorPinkyEnd 5
+  - first:
+      4: 401292
+    second: Right_PosteriorPinkyEnd 6
+  - first:
+      4: 401294
+    second: Right_PosteriorUpperLeg
+  - first:
+      4: 401296
+    second: Right_PosteriorUpperLeg 1
+  - first:
+      4: 401298
+    second: Right_PosteriorUpperLeg 2
+  - first:
+      4: 401300
+    second: Right_PosteriorUpperLeg 3
+  - first:
+      4: 401302
+    second: Right_PosteriorUpperLeg 4
+  - first:
+      4: 401304
+    second: Right_PosteriorUpperLeg 5
+  - first:
+      4: 401306
+    second: Right_PosteriorUpperLeg 6
+  - first:
+      4: 401308
+    second: Right_RearFeather1
+  - first:
+      4: 401310
+    second: Right_RearFeather1 1
+  - first:
+      4: 401312
+    second: Right_RearFeather1 2
+  - first:
+      4: 401314
+    second: Right_RearFeather1 3
+  - first:
+      4: 401316
+    second: Right_RearFeather1 4
+  - first:
+      4: 401318
+    second: Right_RearFeather1 5
+  - first:
+      4: 401320
+    second: Right_RearFeather1 6
+  - first:
+      4: 401322
+    second: Right_RearFeather2
+  - first:
+      4: 401324
+    second: Right_RearFeather2 1
+  - first:
+      4: 401326
+    second: Right_RearFeather2 2
+  - first:
+      4: 401328
+    second: Right_RearFeather2 3
+  - first:
+      4: 401330
+    second: Right_RearFeather2 4
+  - first:
+      4: 401332
+    second: Right_RearFeather2 5
+  - first:
+      4: 401334
+    second: Right_RearFeather2 6
+  - first:
+      4: 401336
+    second: Right_RearFeather3
+  - first:
+      4: 401338
+    second: Right_RearFeather3 1
+  - first:
+      4: 401340
+    second: Right_RearFeather3 2
+  - first:
+      4: 401342
+    second: Right_RearFeather3 3
+  - first:
+      4: 401344
+    second: Right_RearFeather3 4
+  - first:
+      4: 401346
+    second: Right_RearFeather3 5
+  - first:
+      4: 401348
+    second: Right_RearFeather3 6
+  - first:
+      4: 401350
+    second: Right_RearFeatherEnd
+  - first:
+      4: 401352
+    second: Right_RearFeatherEnd 1
+  - first:
+      4: 401354
+    second: Right_RearFeatherEnd 2
+  - first:
+      4: 401356
+    second: Right_RearFeatherEnd 3
+  - first:
+      4: 401358
+    second: Right_RearFeatherEnd 4
+  - first:
+      4: 401360
+    second: Right_RearFeatherEnd 5
+  - first:
+      4: 401362
+    second: Right_RearFeatherEnd 6
+  - first:
+      4: 401364
+    second: Right_UpperMouth1
+  - first:
+      4: 401366
+    second: Right_UpperMouth1 1
+  - first:
+      4: 401368
+    second: Right_UpperMouth1 2
+  - first:
+      4: 401370
+    second: Right_UpperMouth1 3
+  - first:
+      4: 401372
+    second: Right_UpperMouth1 4
+  - first:
+      4: 401374
+    second: Right_UpperMouth1 5
+  - first:
+      4: 401376
+    second: Right_UpperMouth1 6
+  - first:
+      4: 401378
+    second: Right_UpperMouth2
+  - first:
+      4: 401380
+    second: Right_UpperMouth2 1
+  - first:
+      4: 401382
+    second: Right_UpperMouth2 2
+  - first:
+      4: 401384
+    second: Right_UpperMouth2 3
+  - first:
+      4: 401386
+    second: Right_UpperMouth2 4
+  - first:
+      4: 401388
+    second: Right_UpperMouth2 5
+  - first:
+      4: 401390
+    second: Right_UpperMouth2 6
+  - first:
+      4: 401392
+    second: RightLowerMouth1
+  - first:
+      4: 401394
+    second: RightLowerMouth1 1
+  - first:
+      4: 401396
+    second: RightLowerMouth1 2
+  - first:
+      4: 401398
+    second: RightLowerMouth1 3
+  - first:
+      4: 401400
+    second: RightLowerMouth1 4
+  - first:
+      4: 401402
+    second: RightLowerMouth1 5
+  - first:
+      4: 401404
+    second: RightLowerMouth1 6
+  - first:
+      4: 401406
+    second: RightLowerMouth2
+  - first:
+      4: 401408
+    second: RightLowerMouth2 1
+  - first:
+      4: 401410
+    second: RightLowerMouth2 2
+  - first:
+      4: 401412
+    second: RightLowerMouth2 3
+  - first:
+      4: 401414
+    second: RightLowerMouth2 4
+  - first:
+      4: 401416
+    second: RightLowerMouth2 5
+  - first:
+      4: 401418
+    second: RightLowerMouth2 6
+  - first:
+      4: 401420
+    second: Root
+  - first:
+      4: 401422
+    second: Root 1
+  - first:
+      4: 401424
+    second: Root 2
+  - first:
+      4: 401426
+    second: Root 3
+  - first:
+      4: 401428
+    second: Root 4
+  - first:
+      4: 401430
+    second: Root 5
+  - first:
+      4: 401432
+    second: Root 6
+  - first:
+      4: 401434
+    second: Skeleton
+  - first:
+      4: 401436
+    second: Skeleton 1
+  - first:
+      4: 401438
+    second: Skeleton 2
+  - first:
+      4: 401440
+    second: Skeleton 3
+  - first:
+      4: 401442
+    second: Skeleton 4
+  - first:
+      4: 401444
+    second: Skeleton 5
+  - first:
+      4: 401446
+    second: Skeleton 6
+  - first:
+      4: 401448
+    second: Staff_Body
+  - first:
+      4: 401450
+    second: Staff_Joint1
+  - first:
+      4: 401452
+    second: Staff_Joint2
+  - first:
+      4: 401454
+    second: Staff_Joint3
+  - first:
+      4: 401456
+    second: Staff_Joint4
+  - first:
+      4: 401458
+    second: Staff_JointEnd
+  - first:
+      4: 401460
+    second: Staff_Skeleton
+  - first:
+      4: 401462
+    second: Stalk1
+  - first:
+      4: 401464
+    second: Stalk1 1
+  - first:
+      4: 401466
+    second: Stalk1 2
+  - first:
+      4: 401468
+    second: Stalk1 3
+  - first:
+      4: 401470
+    second: Stalk1 4
+  - first:
+      4: 401472
+    second: Stalk1 5
+  - first:
+      4: 401474
+    second: Stalk1 6
+  - first:
+      4: 401476
+    second: Stalk2
+  - first:
+      4: 401478
+    second: Stalk2 1
+  - first:
+      4: 401480
+    second: Stalk2 2
+  - first:
+      4: 401482
+    second: Stalk2 3
+  - first:
+      4: 401484
+    second: Stalk2 4
+  - first:
+      4: 401486
+    second: Stalk2 5
+  - first:
+      4: 401488
+    second: Stalk2 6
+  - first:
+      4: 401490
+    second: Stalk3
+  - first:
+      4: 401492
+    second: Stalk3 1
+  - first:
+      4: 401494
+    second: Stalk3 2
+  - first:
+      4: 401496
+    second: Stalk3 3
+  - first:
+      4: 401498
+    second: Stalk3 4
+  - first:
+      4: 401500
+    second: Stalk3 5
+  - first:
+      4: 401502
+    second: Stalk3 6
+  - first:
+      4: 401504
+    second: Stalk4
+  - first:
+      4: 401506
+    second: Stalk4 1
+  - first:
+      4: 401508
+    second: Stalk4 2
+  - first:
+      4: 401510
+    second: Stalk4 3
+  - first:
+      4: 401512
+    second: Stalk4 4
+  - first:
+      4: 401514
+    second: Stalk4 5
+  - first:
+      4: 401516
+    second: Stalk4 6
+  - first:
+      4: 401518
+    second: Tail1
+  - first:
+      4: 401520
+    second: Tail1 1
+  - first:
+      4: 401522
+    second: Tail1 2
+  - first:
+      4: 401524
+    second: Tail1 3
+  - first:
+      4: 401526
+    second: Tail1 4
+  - first:
+      4: 401528
+    second: Tail1 5
+  - first:
+      4: 401530
+    second: Tail1 6
+  - first:
+      4: 401532
+    second: Tail3
+  - first:
+      4: 401534
+    second: Tail3 1
+  - first:
+      4: 401536
+    second: Tail3 2
+  - first:
+      4: 401538
+    second: Tail3 3
+  - first:
+      4: 401540
+    second: Tail3 4
+  - first:
+      4: 401542
+    second: Tail3 5
+  - first:
+      4: 401544
+    second: Tail3 6
+  - first:
+      4: 401546
+    second: TailEnd
+  - first:
+      4: 401548
+    second: TailEnd 1
+  - first:
+      4: 401550
+    second: TailEnd 2
+  - first:
+      4: 401552
+    second: TailEnd 3
+  - first:
+      4: 401554
+    second: TailEnd 4
+  - first:
+      4: 401556
+    second: TailEnd 5
+  - first:
+      4: 401558
+    second: TailEnd 6
+  - first:
+      4: 401560
+    second: TailI2
+  - first:
+      4: 401562
+    second: TailI2 1
+  - first:
+      4: 401564
+    second: TailI2 2
+  - first:
+      4: 401566
+    second: TailI2 3
+  - first:
+      4: 401568
+    second: TailI2 4
+  - first:
+      4: 401570
+    second: TailI2 5
+  - first:
+      4: 401572
+    second: TailI2 6
+  - first:
+      4: 401574
+    second: Tongue1
+  - first:
+      4: 401576
+    second: Tongue1 1
+  - first:
+      4: 401578
+    second: Tongue1 2
+  - first:
+      4: 401580
+    second: Tongue1 3
+  - first:
+      4: 401582
+    second: Tongue1 4
+  - first:
+      4: 401584
+    second: Tongue1 5
+  - first:
+      4: 401586
+    second: Tongue1 6
+  - first:
+      4: 401588
+    second: Tongue2
+  - first:
+      4: 401590
+    second: Tongue2 1
+  - first:
+      4: 401592
+    second: Tongue2 2
+  - first:
+      4: 401594
+    second: Tongue2 3
+  - first:
+      4: 401596
+    second: Tongue2 4
+  - first:
+      4: 401598
+    second: Tongue2 5
+  - first:
+      4: 401600
+    second: Tongue2 6
+  - first:
+      4: 401602
+    second: Tongue3
+  - first:
+      4: 401604
+    second: Tongue3 1
+  - first:
+      4: 401606
+    second: Tongue3 2
+  - first:
+      4: 401608
+    second: Tongue3 3
+  - first:
+      4: 401610
+    second: Tongue3 4
+  - first:
+      4: 401612
+    second: Tongue3 5
+  - first:
+      4: 401614
+    second: Tongue3 6
+  - first:
+      4: 401616
+    second: TongueEnd
+  - first:
+      4: 401618
+    second: TongueEnd 1
+  - first:
+      4: 401620
+    second: TongueEnd 2
+  - first:
+      4: 401622
+    second: TongueEnd 3
+  - first:
+      4: 401624
+    second: TongueEnd 4
+  - first:
+      4: 401626
+    second: TongueEnd 5
+  - first:
+      4: 401628
+    second: TongueEnd 6
+  - first:
+      4: 401630
+    second: Upper_Mouth
+  - first:
+      4: 401632
+    second: Upper_Mouth 1
+  - first:
+      4: 401634
+    second: Upper_Mouth 2
+  - first:
+      4: 401636
+    second: Upper_Mouth 3
+  - first:
+      4: 401638
+    second: Upper_Mouth 4
+  - first:
+      4: 401640
+    second: Upper_Mouth 5
+  - first:
+      4: 401642
+    second: Upper_Mouth 6
+  - first:
+      4: 401644
+    second: Upper_MouthEnd
+  - first:
+      4: 401646
+    second: Upper_MouthEnd 1
+  - first:
+      4: 401648
+    second: Upper_MouthEnd 2
+  - first:
+      4: 401650
+    second: Upper_MouthEnd 3
+  - first:
+      4: 401652
+    second: Upper_MouthEnd 4
+  - first:
+      4: 401654
+    second: Upper_MouthEnd 5
+  - first:
+      4: 401656
+    second: Upper_MouthEnd 6
+  - first:
+      4: 401658
+    second: Dropship_LOD00 1
+  - first:
+      4: 401660
+    second: Dropship_LOD00 1_MeshPart0
+  - first:
+      4: 401662
+    second: Dropship_LOD00 1_MeshPart1
+  - first:
+      4: 401664
+    second: Dropship_LOD00_MeshPart0
+  - first:
+      4: 401666
+    second: Dropship_LOD00_MeshPart1
+  - first:
+      4: 401668
+    second: Dropship_LOD00
+  - first:
+      4: 401670
+    second: Dropship_LOD01
+  - first:
+      4: 401672
+    second: Dropship_LOD02
+  - first:
+      4: 401674
+    second: Dropship_LOD03
+  - first:
+      21: 2100000
+    second: Staff_Mat
+  - first:
+      21: 2100002
+    second: Ellen_Hair_Mat
+  - first:
+      21: 2100004
+    second: Ellen_Body_Mat
+  - first:
+      21: 2100006
+    second: Ellen_Head_Mat
+  - first:
+      21: 2100008
+    second: Ellen_Eyes_Mat
+  - first:
+      21: 2100010
+    second: Ellen_Tear_Mat
+  - first:
+      21: 2100012
+    second: Default_Material
+  - first:
+      21: 2100014
+    second: Chomper_Body_Mat
+  - first:
+      21: 2100016
+    second: Chomper_Internals_Mat
+  - first:
+      21: 2100018
+    second: Dropship_01_Mat
+  - first:
+      21: 2100020
+    second: Dropship_03_Mat
+  - first:
+      21: 2100022
+    second: Dropship_02_Mat
+  - first:
+      21: 2100024
+    second: Dropship_05_Mat
+  - first:
+      21: 2100026
+    second: Dropship_04_Mat
+  - first:
+      23: 2300000
+    second: Body 1
+  - first:
+      23: 2300002
+    second: Body 2
+  - first:
+      23: 2300004
+    second: Body 3
+  - first:
+      23: 2300006
+    second: Body 4
+  - first:
+      23: 2300008
+    second: Body 5
+  - first:
+      23: 2300010
+    second: Body 6
+  - first:
+      23: 2300012
+    second: Dropship_Body_MeshPart0
+  - first:
+      23: 2300014
+    second: Dropship_Body_MeshPart1
+  - first:
+      23: 2300016
+    second: Dropship_Door
+  - first:
+      23: 2300018
+    second: Dropship_WingLeft
+  - first:
+      23: 2300020
+    second: Dropship_WingRight
+  - first:
+      23: 2300022
+    second: Dropship_LOD00 1_MeshPart0
+  - first:
+      23: 2300024
+    second: Dropship_LOD00 1_MeshPart1
+  - first:
+      23: 2300026
+    second: Dropship_LOD00_MeshPart0
+  - first:
+      23: 2300028
+    second: Dropship_LOD00_MeshPart1
+  - first:
+      23: 2300030
+    second: Dropship_LOD01
+  - first:
+      23: 2300032
+    second: Dropship_LOD02
+  - first:
+      23: 2300034
+    second: Dropship_LOD03
+  - first:
+      23: 2300036
+    second: Dropship_LOD00
+  - first:
+      33: 3300000
+    second: Body 1
+  - first:
+      33: 3300002
+    second: Body 2
+  - first:
+      33: 3300004
+    second: Body 3
+  - first:
+      33: 3300006
+    second: Body 4
+  - first:
+      33: 3300008
+    second: Body 5
+  - first:
+      33: 3300010
+    second: Body 6
+  - first:
+      33: 3300012
+    second: Dropship_Body_MeshPart0
+  - first:
+      33: 3300014
+    second: Dropship_Body_MeshPart1
+  - first:
+      33: 3300016
+    second: Dropship_Door
+  - first:
+      33: 3300018
+    second: Dropship_WingLeft
+  - first:
+      33: 3300020
+    second: Dropship_WingRight
+  - first:
+      33: 3300022
+    second: Dropship_LOD00 1_MeshPart0
+  - first:
+      33: 3300024
+    second: Dropship_LOD00 1_MeshPart1
+  - first:
+      33: 3300026
+    second: Dropship_LOD00_MeshPart0
+  - first:
+      33: 3300028
+    second: Dropship_LOD00_MeshPart1
+  - first:
+      33: 3300030
+    second: Dropship_LOD01
+  - first:
+      33: 3300032
+    second: Dropship_LOD02
+  - first:
+      33: 3300034
+    second: Dropship_LOD03
+  - first:
+      33: 3300036
+    second: Dropship_LOD00
+  - first:
+      43: 4300000
+    second: Staff_Body
+  - first:
+      43: 4300002
+    second: Ellen_Body
+  - first:
+      43: 4300004
+    second: Body
+  - first:
+      43: 4300006
+    second: Body
+  - first:
+      43: 4300008
+    second: Body
+  - first:
+      43: 4300010
+    second: Body
+  - first:
+      43: 4300012
+    second: Body
+  - first:
+      43: 4300014
+    second: Body
+  - first:
+      43: 4300016
+    second: Body
+  - first:
+      43: 4300018
+    second: Dropship_Door
+  - first:
+      43: 4300020
+    second: Dropship_Body_MeshPart0
+  - first:
+      43: 4300022
+    second: Dropship_Body_MeshPart1
+  - first:
+      43: 4300024
+    second: Dropship_WingLeft
+  - first:
+      43: 4300026
+    second: Dropship_WingRight
+  - first:
+      43: 4300028
+    second: Dropship_LOD00_MeshPart0
+  - first:
+      43: 4300030
+    second: Dropship_LOD00_MeshPart1
+  - first:
+      43: 4300032
+    second: Dropship_LOD01
+  - first:
+      43: 4300034
+    second: Dropship_LOD02
+  - first:
+      43: 4300036
+    second: Dropship_LOD03
+  - first:
+      43: 4300038
+    second: Dropship_LOD00
+  - first:
+      74: 7400000
+    second: Take 001
+  - first:
+      95: 9500000
+    second: //RootNode
+  - first:
+      137: 13700000
+    second: Body
+  - first:
+      137: 13700002
+    second: Ellen_Body
+  - first:
+      137: 13700004
+    second: Staff_Body
+  - first:
+      205: 20500000
+    second: //RootNode
+  - first:
+      41386430: 2186277476908879412
+    second: ImportLogs
+  - first:
+      41386430: 2186277476908879414
+    second: ImportLogs
+  - first:
+      41386430: 2186277476908879416
+    second: ImportLogs
+  - first:
+      41386430: 2186277476908879418
+    second: ImportLogs
   externalObjects:
   - first:
       type: UnityEngine:Material
@@ -1788,7 +5304,7 @@ ModelImporter:
       name: Dropship_05_Mat
     second: {fileID: 2100000, guid: 1c4cffe9877845349940f71100042f8f, type: 2}
   materials:
-    importMaterials: 1
+    materialImportMode: 1
     materialName: 1
     materialSearch: 2
     materialLocation: 0
@@ -1814,7 +5330,7 @@ ModelImporter:
     extraExposedTransformPaths: []
     extraUserProperties: []
     clipAnimations: []
-    isReadable: 0
+    isReadable: 1
   meshes:
     lODScreenPercentages:
     - 0.25
@@ -1824,6 +5340,8 @@ ModelImporter:
     globalScale: 1
     meshCompression: 0
     addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
     importVisibility: 0
     importBlendShapes: 0
     importCameras: 0
@@ -1831,10 +5349,13 @@ ModelImporter:
     swapUVChannels: 0
     generateSecondaryUV: 0
     useFileUnits: 1
-    optimizeMeshForGPU: 1
     keepQuads: 0
     weldVertices: 1
     preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
     indexFormat: 0
     secondaryUVAngleDistortion: 8
     secondaryUVAreaDistortion: 15.000001
@@ -1846,10 +5367,13 @@ ModelImporter:
     normalImportMode: 0
     tangentImportMode: 3
     normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 1
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
   importAnimation: 0
-  copyAvatar: 0
   humanDescription:
-    serializedVersion: 2
+    serializedVersion: 3
     human: []
     skeleton: []
     armTwist: 0.5
@@ -1859,14 +5383,16 @@ ModelImporter:
     armStretch: 0.05
     legStretch: 0.05
     feetSpacing: 0
+    globalScale: 1
     rootMotionBoneName: 
-    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
     hasTranslationDoF: 0
     hasExtraRoot: 1
     skeletonHasParents: 1
   lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
   animationType: 0
   humanoidOversampling: 1
+  avatarSetup: 0
   additionalBone: 0
   userData: 
   assetBundleName: 
