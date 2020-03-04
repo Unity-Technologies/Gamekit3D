@@ -80,7 +80,7 @@ Shader "Custom/Rock" {
             float2 uvY = IN.worldPos.xz * _TopScale;
 
             fixed4 noisetex = tex2D(_Noise, uvY * _noiseScale);
-            half blend =  clamp(0 , 1, IN.worldNormal.y);
+            half blend =  clamp(IN.worldNormal.y, 0 , 1);
             blend = smoothstep(noisetex.r, 1, blend);
             half noiseBlend = smoothstep(0.1, 0.2, blend);
 
