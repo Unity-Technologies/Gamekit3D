@@ -162,3 +162,4 @@ Material:
     - _ShoreColor: {r: 1, g: 1, b: 1, a: 1}
     - _SpecColor: {r: 0.021387678, g: 0.022058845, b: 0.00989404, a: 1}
     - _SubsurfaceColor: {r: 1, g: 1, b: 1, a: 1}
+  m_BuildTextureStacks: []
