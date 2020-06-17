@@ -25,7 +25,8 @@ namespace Gamekit3D
         void OnGUI ()
         {
             m_NewSceneName = EditorGUILayout.TextField (m_NameContent, m_NewSceneName);
-        
+
+            GUI.enabled = !string.IsNullOrWhiteSpace(m_NewSceneName);
             if(GUILayout.Button ("Create"))
                 CheckAndCreateScene ();
         }
