@@ -1,48 +1,122 @@
 fileFormatVersion: 2
 guid: 6f2814539956e334a96f87723c6a5826
 ModelImporter:
-  serializedVersion: 22
-  fileIDToRecycleName:
-    100000: //RootNode
-    100002: Eeldog
-    100004: EeldogBody1
-    100006: EeldogBody2
-    100008: EeldogBody3
-    100010: EeldogBody4
-    100012: EeldogBody5
-    100014: EeldogBody6
-    100016: EeldogBody7
-    100018: EeldogBodyEND
-    100020: EeldogLowerMouth
-    100022: EeldogLowerMouthEND
-    100024: EeldogUpperMouth
-    100026: EeldogUpperMouthEND
-    100028: Root1
-    100030: Root
-    400000: //RootNode
-    400002: Eeldog
-    400004: EeldogBody1
-    400006: EeldogBody2
-    400008: EeldogBody3
-    400010: EeldogBody4
-    400012: EeldogBody5
-    400014: EeldogBody6
-    400016: EeldogBody7
-    400018: EeldogBodyEND
-    400020: EeldogLowerMouth
-    400022: EeldogLowerMouthEND
-    400024: EeldogUpperMouth
-    400026: EeldogUpperMouthEND
-    400028: Root1
-    400030: Root
-    2100000: Eeldog_mat
-    4300000: Eeldog
-    7400000: EeldogSwim
-    9500000: //RootNode
-    13700000: Eeldog
+  serializedVersion: 20101
+  internalIDToNameTable:
+  - first:
+      1: 100000
+    second: //RootNode
+  - first:
+      1: 100002
+    second: Eeldog
+  - first:
+      1: 100004
+    second: EeldogBody1
+  - first:
+      1: 100006
+    second: EeldogBody2
+  - first:
+      1: 100008
+    second: EeldogBody3
+  - first:
+      1: 100010
+    second: EeldogBody4
+  - first:
+      1: 100012
+    second: EeldogBody5
+  - first:
+      1: 100014
+    second: EeldogBody6
+  - first:
+      1: 100016
+    second: EeldogBody7
+  - first:
+      1: 100018
+    second: EeldogBodyEND
+  - first:
+      1: 100020
+    second: EeldogLowerMouth
+  - first:
+      1: 100022
+    second: EeldogLowerMouthEND
+  - first:
+      1: 100024
+    second: EeldogUpperMouth
+  - first:
+      1: 100026
+    second: EeldogUpperMouthEND
+  - first:
+      1: 100028
+    second: Root1
+  - first:
+      1: 100030
+    second: Root
+  - first:
+      4: 400000
+    second: //RootNode
+  - first:
+      4: 400002
+    second: Eeldog
+  - first:
+      4: 400004
+    second: EeldogBody1
+  - first:
+      4: 400006
+    second: EeldogBody2
+  - first:
+      4: 400008
+    second: EeldogBody3
+  - first:
+      4: 400010
+    second: EeldogBody4
+  - first:
+      4: 400012
+    second: EeldogBody5
+  - first:
+      4: 400014
+    second: EeldogBody6
+  - first:
+      4: 400016
+    second: EeldogBody7
+  - first:
+      4: 400018
+    second: EeldogBodyEND
+  - first:
+      4: 400020
+    second: EeldogLowerMouth
+  - first:
+      4: 400022
+    second: EeldogLowerMouthEND
+  - first:
+      4: 400024
+    second: EeldogUpperMouth
+  - first:
+      4: 400026
+    second: EeldogUpperMouthEND
+  - first:
+      4: 400028
+    second: Root1
+  - first:
+      4: 400030
+    second: Root
+  - first:
+      21: 2100000
+    second: Eeldog_mat
+  - first:
+      43: 4300000
+    second: Eeldog
+  - first:
+      74: 7400000
+    second: Eeldog_Swim
+  - first:
+      95: 9500000
+    second: //RootNode
+  - first:
+      137: 13700000
+    second: Eeldog
   externalObjects: {}
   materials:
-    importMaterials: 0
+    materialImportMode: 0
     materialName: 0
     materialSearch: 1
     materialLocation: 1
@@ -69,8 +143,9 @@ ModelImporter:
     extraUserProperties: []
     clipAnimations:
     - serializedVersion: 16
-      name: EeldogSwim
+      name: Eeldog_Swim
       takeName: Take 001
+      internalID: 0
       firstFrame: 1
       lastFrame: 90
       wrapMode: 0
@@ -102,21 +177,31 @@ ModelImporter:
     globalScale: 1
     meshCompression: 0
     addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
     importVisibility: 1
     importBlendShapes: 1
     importCameras: 1
     importLights: 1
+    fileIdsGeneration: 1
     swapUVChannels: 0
     generateSecondaryUV: 0
     useFileUnits: 1
-    optimizeMeshForGPU: 1
     keepQuads: 0
     weldVertices: 1
+    bakeAxisConversion: 0
     preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
     indexFormat: 0
     secondaryUVAngleDistortion: 8
     secondaryUVAreaDistortion: 15.000001
     secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 0
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
     secondaryUVPackMargin: 4
     useFileScale: 1
   tangentSpace:
@@ -124,10 +209,13 @@ ModelImporter:
     normalImportMode: 0
     tangentImportMode: 3
     normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 1
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
   importAnimation: 1
-  copyAvatar: 1
   humanDescription:
-    serializedVersion: 2
+    serializedVersion: 3
     human: []
     skeleton: []
     armTwist: 0.5
@@ -137,15 +225,17 @@ ModelImporter:
     armStretch: 0.05
     legStretch: 0.05
     feetSpacing: 0
+    globalScale: 1
     rootMotionBoneName: Root
-    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
     hasTranslationDoF: 0
     hasExtraRoot: 0
     skeletonHasParents: 1
   lastHumanDescriptionAvatarSource: {fileID: 9000000, guid: df752f2b2e46d294ab7cd0c236782365,
     type: 3}
+  autoGenerateAvatarMappingIfUnspecified: 1
   animationType: 2
   humanoidOversampling: 1
+  avatarSetup: 2
   additionalBone: 0
   userData: 
   assetBundleName: 
