@@ -103,7 +103,7 @@ Shader "Custom/EyeBallsHD" {
 			float2 maxUVOffset = uvDir * limit;
 
 			//choose the amount of steps we need based on angle to surface.
-			int maxSteps = lerp(40, 5, dot(viewDir, normal));
+			int maxSteps = lerp(40, 5, clamp(dot(viewDir, normal), 0, 1));
 			float rayStep = 1.0 / (float)maxSteps;
 
 			// dx and dy effectively calculate the UV size of a pixel in the texture.
