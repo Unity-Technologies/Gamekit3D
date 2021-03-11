@@ -16,6 +16,8 @@
             v2f vert (appdata_base v) {
                 v2f o;
                 o.pos = UnityObjectToClipPos(v.vertex);
+                //remove warning of unitialized output
+                o.depth = float2(0,0);
                 UNITY_TRANSFER_DEPTH(o.depth);
                 return o;
             }
