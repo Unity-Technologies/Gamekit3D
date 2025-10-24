@@ -68,7 +68,7 @@ namespace Gamekit3D
             m_IsFading = true;
             canvasGroup.blocksRaycasts = true;
             float fadeSpeed = Mathf.Abs(canvasGroup.alpha - finalAlpha) / fadeDuration;
-            while (!Mathf.Approximately(canvasGroup.alpha, finalAlpha))
+            while (Mathf.Abs(canvasGroup.alpha - finalAlpha) > 0.1f)
             {
                 canvasGroup.alpha = Mathf.MoveTowards(canvasGroup.alpha, finalAlpha,
                     fadeSpeed * Time.deltaTime);
