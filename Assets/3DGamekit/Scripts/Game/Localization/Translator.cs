@@ -13,7 +13,7 @@ namespace Gamekit3D
                 if (s_Instance != null)
                     return s_Instance;
 
-                s_Instance = FindObjectOfType<Translator>();
+                s_Instance = FindFirstObjectByType<Translator>();
 
                 if (s_Instance != null)
                     return s_Instance;

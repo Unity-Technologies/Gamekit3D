@@ -2,23 +2,34 @@
 %TAG !u! tag:unity3d.com,2011:
 --- !u!21 &2100000
 Material:
-  serializedVersion: 6
+  serializedVersion: 8
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_Name: Chomper_Internals_Mat
-  m_Shader: {fileID: 4800000, guid: df778dfc69de7fb48809501a413b8bbf, type: 3}
-  m_ShaderKeywords: _GRID_ON _METALLICGLOSSMAP _NORMALMAP _PARALLAXMAP _SPECGLOSSMAP
-    _USE_GRADIENT_ON
+  m_Shader: {fileID: -6465566751694194690, guid: 39d50da5a7375473bb9f68df6a683280,
+    type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords:
+  - _USE_GRADIENT
+  m_InvalidKeywords: []
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
   m_CustomRenderQueue: -1
   stringTagMap: {}
-  disabledShaderPasses: []
+  disabledShaderPasses:
+  - MOTIONVECTORS
+  m_LockedProperties: 
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
+    - _AO:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _BumpMap:
         m_Texture: {fileID: 2800000, guid: 937c2229d98699c4f9ac979b18b24a85, type: 3}
         m_Scale: {x: 1, y: 1}
@@ -111,6 +122,19 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - unity_Lightmaps:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_LightmapsInd:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_ShadowMasks:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
     m_Floats:
     - _Bias: 0
     - _BlurStrength: 1
@@ -118,12 +142,14 @@ Material:
     - _BumpScale: 1
     - _CurvatureInfluence: 0.5
     - _CurvatureScale: 0.02
-    - _Cutoff: 0.691
+    - _CutOff: 0
+    - _Cutoff: 0
     - _DetailNormalMapScale: 0
     - _DiffuseScatteringBias: 0
     - _DiffuseScatteringBias2: 0
     - _DiffuseScatteringContraction: 8
     - _DiffuseScatteringContraction2: 8
+    - _DisplaceAmount: 0.4
     - _DstBlend: 0
     - _EdgeLength: 5
     - _EdgeSize: 0.2
@@ -155,6 +181,8 @@ Material:
     - _ParallaxTiling: 1
     - _Phong: 1
     - _PuddleMaskTiling: 1
+    - _QueueControl: 0
+    - _QueueOffset: 0
     - _RimPower: 0.31
     - _RimPower2: 0.38
     - _SelfOcclusion: 0
@@ -168,6 +196,7 @@ Material:
     - _Specular: 0.046
     - _SpecularHighlights: 1
     - _SrcBlend: 1
+    - _USE_GRADIENT: 1
     - _UVSec: 0
     - _UVs: 0
     - _UseMicroBumps: 0
@@ -180,6 +209,7 @@ Material:
     - _DiffuseScatteringCol: {r: 0, g: 0, b: 0, a: 1}
     - _DiffuseScatteringCol2: {r: 0, g: 0, b: 0, a: 1}
     - _EdgeColor1: {r: 0, g: 1.2620687, b: 3.0000002, a: 1}
+    - _Emission: {r: 0, g: 0, b: 0, a: 0}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _EmissiveColor: {r: 0, g: 0, b: 0, a: 1}
     - _ParallaxToBaseRatio: {r: 1, g: 1, b: 0, a: 0}
@@ -194,3 +224,18 @@ Material:
     - _WaterAccumulationCracksPuddles2: {r: 0, g: 1, b: 0, a: 1}
     - _WaterColor: {r: 0, g: 0, b: 0, a: 0}
     - _WaterColor2: {r: 0, g: 0, b: 0, a: 0}
+  m_BuildTextureStacks: []
+  m_AllowLocking: 1
+--- !u!114 &6623130444503979691
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 10

@@ -1,37 +1,95 @@
 fileFormatVersion: 2
 guid: bd1e85e53d9adf9498e04a32822f2c7c
 ModelImporter:
-  serializedVersion: 23
-  fileIDToRecycleName:
-    100000: //RootNode
-    100002: DistantTerrain01
-    100004: DistantTerrain02
-    100006: DistantTerrain03
-    100008: DistantTerrain04
-    100010: DistantTerrain05
-    400000: //RootNode
-    400002: DistantTerrain01
-    400004: DistantTerrain02
-    400006: DistantTerrain03
-    400008: DistantTerrain04
-    400010: DistantTerrain05
-    2100000: DistantTerrain_mat
-    2300000: DistantTerrain01
-    2300002: DistantTerrain02
-    2300004: DistantTerrain03
-    2300006: DistantTerrain04
-    2300008: DistantTerrain05
-    3300000: DistantTerrain01
-    3300002: DistantTerrain02
-    3300004: DistantTerrain03
-    3300006: DistantTerrain04
-    3300008: DistantTerrain05
-    4300000: DistantTerrain01
-    4300002: DistantTerrain02
-    4300004: DistantTerrain03
-    4300006: DistantTerrain04
-    4300008: DistantTerrain05
-    9500000: //RootNode
+  serializedVersion: 22200
+  internalIDToNameTable:
+  - first:
+      1: 100000
+    second: //RootNode
+  - first:
+      1: 100002
+    second: DistantTerrain01
+  - first:
+      1: 100004
+    second: DistantTerrain02
+  - first:
+      1: 100006
+    second: DistantTerrain03
+  - first:
+      1: 100008
+    second: DistantTerrain04
+  - first:
+      1: 100010
+    second: DistantTerrain05
+  - first:
+      4: 400000
+    second: //RootNode
+  - first:
+      4: 400002
+    second: DistantTerrain01
+  - first:
+      4: 400004
+    second: DistantTerrain02
+  - first:
+      4: 400006
+    second: DistantTerrain03
+  - first:
+      4: 400008
+    second: DistantTerrain04
+  - first:
+      4: 400010
+    second: DistantTerrain05
+  - first:
+      21: 2100000
+    second: DistantTerrain_mat
+  - first:
+      23: 2300000
+    second: DistantTerrain01
+  - first:
+      23: 2300002
+    second: DistantTerrain02
+  - first:
+      23: 2300004
+    second: DistantTerrain03
+  - first:
+      23: 2300006
+    second: DistantTerrain04
+  - first:
+      23: 2300008
+    second: DistantTerrain05
+  - first:
+      33: 3300000
+    second: DistantTerrain01
+  - first:
+      33: 3300002
+    second: DistantTerrain02
+  - first:
+      33: 3300004
+    second: DistantTerrain03
+  - first:
+      33: 3300006
+    second: DistantTerrain04
+  - first:
+      33: 3300008
+    second: DistantTerrain05
+  - first:
+      43: 4300000
+    second: DistantTerrain01
+  - first:
+      43: 4300002
+    second: DistantTerrain02
+  - first:
+      43: 4300004
+    second: DistantTerrain03
+  - first:
+      43: 4300006
+    second: DistantTerrain04
+  - first:
+      43: 4300008
+    second: DistantTerrain05
+  - first:
+      95: 9500000
+    second: //RootNode
   externalObjects:
   - first:
       type: UnityEngine:Material
@@ -39,7 +97,7 @@ ModelImporter:
       name: DistantTerrain_mat
     second: {fileID: 2100000, guid: 517fdc3ad188e2947bce9eb161557065, type: 2}
   materials:
-    importMaterials: 1
+    materialImportMode: 1
     materialName: 1
     materialSearch: 2
     materialLocation: 1
@@ -48,9 +106,8 @@ ModelImporter:
     bakeSimulation: 0
     resampleCurves: 1
     optimizeGameObjects: 0
+    removeConstantScaleCurves: 0
     motionNodeName: 
-    rigImportErrors: 
-    rigImportWarnings: 
     animationImportErrors: 
     animationImportWarnings: 
     animationRetargetingWarnings: 
@@ -71,34 +128,49 @@ ModelImporter:
     globalScale: 1
     meshCompression: 0
     addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importPhysicalCameras: 1
     importVisibility: 0
     importBlendShapes: 1
     importCameras: 0
     importLights: 0
+    nodeNameCollisionStrategy: 0
+    fileIdsGeneration: 1
     swapUVChannels: 0
     generateSecondaryUV: 0
     useFileUnits: 1
-    optimizeMeshForGPU: 1
     keepQuads: 0
     weldVertices: 1
+    bakeAxisConversion: 0
     preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    meshOptimizationFlags: -1
     indexFormat: 0
     secondaryUVAngleDistortion: 8
     secondaryUVAreaDistortion: 15.000001
     secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 0
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
     secondaryUVPackMargin: 4
     useFileScale: 1
-    previousCalculatedGlobalScale: 1
-    hasPreviousCalculatedGlobalScale: 0
+    strictVertexDataChecks: 0
   tangentSpace:
     normalSmoothAngle: 60
     normalImportMode: 0
     tangentImportMode: 3
     normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
   importAnimation: 0
-  copyAvatar: 0
   humanDescription:
-    serializedVersion: 2
+    serializedVersion: 3
     human: []
     skeleton: []
     armTwist: 0.5
@@ -108,14 +180,19 @@ ModelImporter:
     armStretch: 0.05
     legStretch: 0.05
     feetSpacing: 0
+    globalScale: 1
     rootMotionBoneName: 
-    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
     hasTranslationDoF: 0
     hasExtraRoot: 1
     skeletonHasParents: 1
   lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
   animationType: 0
   humanoidOversampling: 1
+  avatarSetup: 0
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 0
+  importBlendShapeDeformPercent: 0
+  remapMaterialsIfMaterialImportModeIsNone: 1
   additionalBone: 0
   userData: 
   assetBundleName: 

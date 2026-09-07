@@ -1,5 +1,4 @@
 ﻿using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 namespace Gamekit3D
@@ -15,26 +14,23 @@ namespace Gamekit3D
 
         public AudioListener audioListener;
 
-        new AudioSource audio;
+        AudioSource audioSource;
 
         WaitForSeconds[] delays;
         int delayIndex = 0;
 
-        WaitForSeconds Delay
-        {
-            get { return delays[delayIndex++ % delays.Length]; }
-        }
+        WaitForSeconds Delay => delays[delayIndex++ % delays.Length];
 
         IEnumerator Start()
         {
-            audio = GetComponent<AudioSource>();
-            if (audio.clip == null) yield break;
-            if (audioListener == null) audioListener = GameObject.FindObjectOfType<AudioListener>();
-            audio.loop = false;
+            audioSource = GetComponent<AudioSource>();
+            if (audioSource.clip == null) yield break;
+            if (audioListener == null) audioListener = GameObject.FindFirstObjectByType<AudioListener>();
+            audioSource.loop = false;
             delays = new WaitForSeconds[7];
             for (var i = 0; i < delays.Length; i++)
-                delays[i] = new WaitForSeconds(audio.clip.length * Random.Range(1, 3));
-            var loopDelay = new WaitForSeconds(audio.clip.length);
+                delays[i] = new WaitForSeconds(audioSource.clip.length * Random.Range(1, 3));
+            var loopDelay = new WaitForSeconds(audioSource.clip.length);
             while (true)
             {
                 if (randomDelays)
@@ -42,13 +38,12 @@ namespace Gamekit3D
                 else
                     yield return loopDelay;
                 if (audioListener != null && (audioListener.transform.position - transform.position).magnitude >
-                    audio.maxDistance)
+                    audioSource.maxDistance)
                     continue;
-                audio.pitch = Random.Range(minPitch, maxPitch);
-                audio.volume = Random.Range(minVolume, maxVolume);
-                audio.Play();
+                audioSource.pitch = Random.Range(minPitch, maxPitch);
+                audioSource.volume = Random.Range(minVolume, maxVolume);
+                audioSource.Play();
             }
         }
-
     }
 }

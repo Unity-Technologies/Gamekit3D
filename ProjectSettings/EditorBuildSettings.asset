@@ -15,3 +15,4 @@ EditorBuildSettings:
     path: Assets/3DGamekit/Scenes/GamePlay/Level2.unity
     guid: bfc86215544d6ab42b838135fdd17f21
   m_configObjects: {}
+  m_UseUCBPForAssetBundles: 0

@@ -12,7 +12,7 @@ namespace Gamekit3D
                 if (instance != null)
                     return instance;
 
-                instance = FindObjectOfType<SavedData>();
+                instance = FindFirstObjectByType<SavedData>();
 
                 if (instance != null)
                     return instance;

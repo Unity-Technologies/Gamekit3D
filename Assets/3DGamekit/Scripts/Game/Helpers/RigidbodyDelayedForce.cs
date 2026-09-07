@@ -16,7 +16,7 @@ namespace Gamekit3D
             {
                 rigidbodies[i].maxAngularVelocity = 45;
                 rigidbodies[i].angularVelocity = transform.right * -45.0f;
-                rigidbodies[i].velocity = forceToAdd;
+                rigidbodies[i].linearVelocity = forceToAdd;
 
             }
         }

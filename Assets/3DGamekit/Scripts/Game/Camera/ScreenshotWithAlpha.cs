@@ -26,7 +26,7 @@ namespace Gamekit3D
                 camera.clearFlags = CameraClearFlags.SolidColor;
                 camera.backgroundColor = new Color(0, 0, 0, 0);
             }
-            var cameras = new List<Camera>(FindObjectsOfType<Camera>());
+            var cameras = new List<Camera>(FindObjectsByType<Camera>(FindObjectsSortMode.None));
             cameras.Sort((A, B) => A.depth.CompareTo(B.depth));
             foreach (var c in cameras) c.Render();
             RenderTexture.active = rt;

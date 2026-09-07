@@ -60,7 +60,7 @@ namespace Gamekit3D
             m_Shooter = shooter;
 
 
-            m_RigidBody.velocity = GetVelocity(target);
+            m_RigidBody.linearVelocity = GetVelocity(target);
             m_RigidBody.AddRelativeTorque(Vector3.right * -5500.0f);
 
             m_RigidBody.detectCollisions = false;

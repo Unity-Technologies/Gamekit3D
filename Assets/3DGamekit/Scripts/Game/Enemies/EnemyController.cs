@@ -36,7 +36,7 @@ namespace Gamekit3D
         {
             m_NavMeshAgent = GetComponent<NavMeshAgent>();
             m_Animator = GetComponent<Animator>();
-            m_Animator.updateMode = AnimatorUpdateMode.AnimatePhysics;
+            m_Animator.updateMode = AnimatorUpdateMode.Fixed;
 
             m_NavMeshAgent.updatePosition = false;
 

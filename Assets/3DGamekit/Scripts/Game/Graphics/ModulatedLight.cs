@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Serialization;
 
 namespace Gamekit3D
 {
@@ -19,7 +20,8 @@ namespace Gamekit3D
         public Color colorA = Color.red;
         public Color colorB = Color.blue;
 
-        public new Light light;
+        [FormerlySerializedAs("light")] 
+        public Light lightComponent;
 
         float TriangleWave(float x)
         {
@@ -30,13 +32,13 @@ namespace Gamekit3D
 
         void Reset()
         {
-            light = GetComponent<Light>();
-            if (light != null) colorA = light.color;
+            lightComponent = GetComponent<Light>();
+            if (lightComponent != null) colorA = lightComponent.color;
         }
 
         void Update()
         {
-            if (light == null) light = GetComponent<Light>();
+            if (lightComponent == null) lightComponent = GetComponent<Light>();
             var t = 0f;
             switch (type)
             {
@@ -53,7 +55,7 @@ namespace Gamekit3D
                     t = Random.value;
                     break;
             }
-            light.color = Color.Lerp(colorA, colorB, t);
+            lightComponent.color = Color.Lerp(colorA, colorB, t);
         }
 
     }

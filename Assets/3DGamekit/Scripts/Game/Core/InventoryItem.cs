@@ -1,6 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 namespace Gamekit3D
 {
@@ -11,15 +9,11 @@ namespace Gamekit3D
         public LayerMask layers;
         public bool disableOnEnter = false;
 
-        [HideInInspector]
-        new public Collider collider;
-
         public AudioClip clip;
         public DataSettings dataSettings;
 
         void OnEnable()
         {
-            collider = GetComponent<Collider>();
             PersistentDataManager.RegisterPersister(this);
         }
 
@@ -31,8 +25,8 @@ namespace Gamekit3D
         void Reset()
         {
             layers = LayerMask.NameToLayer("Everything");
-            collider = GetComponent<Collider>();
-            collider.isTrigger = true;
+            var colliderComponent = GetComponent<Collider>();
+            colliderComponent.isTrigger = true;
             dataSettings = new DataSettings();
         }
 

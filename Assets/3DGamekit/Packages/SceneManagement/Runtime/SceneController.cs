@@ -18,7 +18,7 @@ namespace Gamekit3D
                 if (instance != null)
                     return instance;
 
-                instance = FindObjectOfType<SceneController>();
+                instance = FindFirstObjectByType<SceneController>();
 
                 if (instance != null)
                     return instance;
@@ -61,7 +61,7 @@ namespace Gamekit3D
 
             DontDestroyOnLoad(gameObject);
 
-            m_PlayerInput = FindObjectOfType<PlayerInput>();
+            m_PlayerInput = FindFirstObjectByType<PlayerInput>();
 
             if (initialSceneTransitionDestination != null)
             {
@@ -109,12 +109,12 @@ namespace Gamekit3D
             PersistentDataManager.SaveAllData();
 
             if (m_PlayerInput == null)
-                m_PlayerInput = FindObjectOfType<PlayerInput>();
+                m_PlayerInput = FindFirstObjectByType<PlayerInput>();
             if (m_PlayerInput) m_PlayerInput.ReleaseControl();
             yield return StartCoroutine(ScreenFader.FadeSceneOut(ScreenFader.FadeType.Loading));
             PersistentDataManager.ClearPersisters();
             yield return SceneManager.LoadSceneAsync(newSceneName);
-            m_PlayerInput = FindObjectOfType<PlayerInput>();
+            m_PlayerInput = FindFirstObjectByType<PlayerInput>();
             if (m_PlayerInput) m_PlayerInput.ReleaseControl();
             PersistentDataManager.LoadAllData();
             SceneTransitionDestination entrance = GetDestination(destinationTag);
@@ -131,7 +131,7 @@ namespace Gamekit3D
 
         protected SceneTransitionDestination GetDestination(SceneTransitionDestination.DestinationTag destinationTag)
         {
-            SceneTransitionDestination[] entrances = FindObjectsOfType<SceneTransitionDestination>();
+            SceneTransitionDestination[] entrances = FindObjectsByType<SceneTransitionDestination>(FindObjectsSortMode.None);
             for (int i = 0; i < entrances.Length; i++)
             {
                 if (entrances[i].destinationTag == destinationTag)

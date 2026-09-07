@@ -1,14 +1,11 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 namespace Gamekit3D
 {
     [RequireComponent(typeof(Collider))]
     public class DeathVolume : MonoBehaviour
     {
-        public new AudioSource audio;
-
+        public AudioSource audioSource;
 
         void OnTriggerEnter(Collider other)
         {
@@ -17,11 +14,11 @@ namespace Gamekit3D
             {
                 pc.Die(new Damageable.DamageMessage());
             }
-            if (audio != null)
+            if (audioSource != null)
             {
-                audio.transform.position = other.transform.position;
-                if (!audio.isPlaying)
-                    audio.Play();
+                audioSource.transform.position = other.transform.position;
+                if (!audioSource.isPlaying)
+                    audioSource.Play();
             }
         }
 
@@ -33,6 +30,5 @@ namespace Gamekit3D
             if (c != null)
                 c.isTrigger = true;
         }
-
     }
 }

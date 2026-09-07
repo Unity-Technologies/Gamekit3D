@@ -1,47 +1,125 @@
 fileFormatVersion: 2
 guid: 4d228236da1f9334599f27533c21daf6
 ModelImporter:
-  serializedVersion: 22
-  fileIDToRecycleName:
-    100000: //RootNode
-    100002: FloorCircular03_LOD00
-    100004: FloorCircular03_LOD01
-    100006: FloorCircular03_LOD02
-    100008: FloorCircular03_LOD03
-    100010: FloorCircular03_LOD04
-    100012: FloorCircular03_LOD05
-    100014: FloorCircular03_LOD06
-    400000: //RootNode
-    400002: FloorCircular03_LOD00
-    400004: FloorCircular03_LOD01
-    400006: FloorCircular03_LOD02
-    400008: FloorCircular03_LOD03
-    400010: FloorCircular03_LOD04
-    400012: FloorCircular03_LOD05
-    400014: FloorCircular03_LOD06
-    2100000: FloorCircular03_Mat
-    2300000: FloorCircular03_LOD00
-    2300002: FloorCircular03_LOD01
-    2300004: FloorCircular03_LOD02
-    2300006: FloorCircular03_LOD03
-    2300008: FloorCircular03_LOD04
-    2300010: FloorCircular03_LOD05
-    2300012: FloorCircular03_LOD06
-    3300000: FloorCircular03_LOD00
-    3300002: FloorCircular03_LOD01
-    3300004: FloorCircular03_LOD02
-    3300006: FloorCircular03_LOD03
-    3300008: FloorCircular03_LOD04
-    3300010: FloorCircular03_LOD05
-    3300012: FloorCircular03_LOD06
-    4300000: FloorCircular03_LOD00
-    4300002: FloorCircular03_LOD01
-    4300004: FloorCircular03_LOD02
-    4300006: FloorCircular03_LOD03
-    4300008: FloorCircular03_LOD04
-    4300010: FloorCircular03_LOD05
-    4300012: FloorCircular03_LOD06
-    20500000: //RootNode
+  serializedVersion: 22200
+  internalIDToNameTable:
+  - first:
+      1: 100000
+    second: //RootNode
+  - first:
+      1: 100002
+    second: FloorCircular03_LOD00
+  - first:
+      1: 100004
+    second: FloorCircular03_LOD01
+  - first:
+      1: 100006
+    second: FloorCircular03_LOD02
+  - first:
+      1: 100008
+    second: FloorCircular03_LOD03
+  - first:
+      1: 100010
+    second: FloorCircular03_LOD04
+  - first:
+      1: 100012
+    second: FloorCircular03_LOD05
+  - first:
+      1: 100014
+    second: FloorCircular03_LOD06
+  - first:
+      4: 400000
+    second: //RootNode
+  - first:
+      4: 400002
+    second: FloorCircular03_LOD00
+  - first:
+      4: 400004
+    second: FloorCircular03_LOD01
+  - first:
+      4: 400006
+    second: FloorCircular03_LOD02
+  - first:
+      4: 400008
+    second: FloorCircular03_LOD03
+  - first:
+      4: 400010
+    second: FloorCircular03_LOD04
+  - first:
+      4: 400012
+    second: FloorCircular03_LOD05
+  - first:
+      4: 400014
+    second: FloorCircular03_LOD06
+  - first:
+      21: 2100000
+    second: FloorCircular03_Mat
+  - first:
+      23: 2300000
+    second: FloorCircular03_LOD00
+  - first:
+      23: 2300002
+    second: FloorCircular03_LOD01
+  - first:
+      23: 2300004
+    second: FloorCircular03_LOD02
+  - first:
+      23: 2300006
+    second: FloorCircular03_LOD03
+  - first:
+      23: 2300008
+    second: FloorCircular03_LOD04
+  - first:
+      23: 2300010
+    second: FloorCircular03_LOD05
+  - first:
+      23: 2300012
+    second: FloorCircular03_LOD06
+  - first:
+      33: 3300000
+    second: FloorCircular03_LOD00
+  - first:
+      33: 3300002
+    second: FloorCircular03_LOD01
+  - first:
+      33: 3300004
+    second: FloorCircular03_LOD02
+  - first:
+      33: 3300006
+    second: FloorCircular03_LOD03
+  - first:
+      33: 3300008
+    second: FloorCircular03_LOD04
+  - first:
+      33: 3300010
+    second: FloorCircular03_LOD05
+  - first:
+      33: 3300012
+    second: FloorCircular03_LOD06
+  - first:
+      43: 4300000
+    second: FloorCircular03_LOD00
+  - first:
+      43: 4300002
+    second: FloorCircular03_LOD01
+  - first:
+      43: 4300004
+    second: FloorCircular03_LOD02
+  - first:
+      43: 4300006
+    second: FloorCircular03_LOD03
+  - first:
+      43: 4300008
+    second: FloorCircular03_LOD04
+  - first:
+      43: 4300010
+    second: FloorCircular03_LOD05
+  - first:
+      43: 4300012
+    second: FloorCircular03_LOD06
+  - first:
+      205: 20500000
+    second: //RootNode
   externalObjects:
   - first:
       type: UnityEngine:Material
@@ -49,7 +127,7 @@ ModelImporter:
       name: FloorCircular03_Mat
     second: {fileID: 2100000, guid: de2232dac12f5ea45953e9852adc0a6f, type: 2}
   materials:
-    importMaterials: 1
+    materialImportMode: 1
     materialName: 1
     materialSearch: 2
     materialLocation: 0
@@ -58,9 +136,8 @@ ModelImporter:
     bakeSimulation: 0
     resampleCurves: 1
     optimizeGameObjects: 0
+    removeConstantScaleCurves: 0
     motionNodeName: 
-    rigImportErrors: 
-    rigImportWarnings: 
     animationImportErrors: 
     animationImportWarnings: 
     animationRetargetingWarnings: 
@@ -79,41 +156,53 @@ ModelImporter:
   meshes:
     lODScreenPercentages:
     - 0.25
-    - 0.125
-    - 0.0625
-    - 0.03125
-    - 0.015625
-    - 0.0078125
     - 0.01
     globalScale: 1
     meshCompression: 0
     addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importPhysicalCameras: 0
     importVisibility: 1
     importBlendShapes: 1
     importCameras: 1
     importLights: 1
+    nodeNameCollisionStrategy: 0
+    fileIdsGeneration: 1
     swapUVChannels: 0
     generateSecondaryUV: 0
     useFileUnits: 1
-    optimizeMeshForGPU: 1
     keepQuads: 0
     weldVertices: 1
+    bakeAxisConversion: 0
     preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    meshOptimizationFlags: -1
     indexFormat: 0
     secondaryUVAngleDistortion: 8
     secondaryUVAreaDistortion: 15.000001
     secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 0
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
     secondaryUVPackMargin: 4
     useFileScale: 1
+    strictVertexDataChecks: 0
   tangentSpace:
     normalSmoothAngle: 60
     normalImportMode: 0
     tangentImportMode: 3
     normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 1
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
   importAnimation: 1
-  copyAvatar: 0
   humanDescription:
-    serializedVersion: 2
+    serializedVersion: 3
     human: []
     skeleton: []
     armTwist: 0.5
@@ -123,14 +212,19 @@ ModelImporter:
     armStretch: 0.05
     legStretch: 0.05
     feetSpacing: 0
+    globalScale: 1
     rootMotionBoneName: 
-    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
     hasTranslationDoF: 0
     hasExtraRoot: 0
     skeletonHasParents: 1
   lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
   animationType: 0
   humanoidOversampling: 1
+  avatarSetup: 0
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 0
+  importBlendShapeDeformPercent: 0
+  remapMaterialsIfMaterialImportModeIsNone: 1
   additionalBone: 0
   userData: 
   assetBundleName: 

@@ -16,7 +16,7 @@ namespace Gamekit3D
                 if (instance != null)
                     return instance;
 
-                instance = FindObjectOfType<GameObjectTeleporter>();
+                instance = FindFirstObjectByType<GameObjectTeleporter>();
 
                 if (instance != null)
                     return instance;
@@ -48,7 +48,7 @@ namespace Gamekit3D
 
             DontDestroyOnLoad(gameObject);
 
-            m_PlayerInput = FindObjectOfType<PlayerInput>();
+            m_PlayerInput = FindFirstObjectByType<PlayerInput>();
         }
 
         public static void Teleport(TransitionPoint transitionPoint)
@@ -74,7 +74,7 @@ namespace Gamekit3D
             if (releaseControl)
             {
                 if (m_PlayerInput == null)
-                    m_PlayerInput = FindObjectOfType<PlayerInput>();
+                    m_PlayerInput = FindFirstObjectByType<PlayerInput>();
                 m_PlayerInput.ReleaseControl();
             }
 
@@ -96,7 +96,7 @@ namespace Gamekit3D
 
         protected SceneTransitionDestination GetDestination(SceneTransitionDestination.DestinationTag destinationTag)
         {
-            SceneTransitionDestination[] entrances = FindObjectsOfType<SceneTransitionDestination>();
+            SceneTransitionDestination[] entrances = FindObjectsByType<SceneTransitionDestination>(FindObjectsSortMode.None);
             for (int i = 0; i < entrances.Length; i++)
             {
                 if (entrances[i].destinationTag == destinationTag)

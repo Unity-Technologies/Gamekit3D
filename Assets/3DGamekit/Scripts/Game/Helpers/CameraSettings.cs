@@ -1,7 +1,5 @@
 ﻿using System;
-using System.Collections;
-using System.Collections.Generic;
-using Cinemachine;
+using Unity.Cinemachine;
 using UnityEngine;
 
 namespace Gamekit3D
@@ -20,32 +18,33 @@ namespace Gamekit3D
             public bool invertY;
         }
 
-
         public Transform follow;
         public Transform lookAt;
-        public CinemachineFreeLook keyboardAndMouseCamera;
-        public CinemachineFreeLook controllerCamera;
+        public CinemachineVirtualCameraBase keyboardAndMouseCamera;
+        public CinemachineVirtualCameraBase controllerCamera;
         public InputChoice inputChoice;
         public InvertSettings keyboardAndMouseInvertSettings;
         public InvertSettings controllerInvertSettings;
         public bool allowRuntimeCameraSettingsChanges;
+        
+        private CinemachineOrbitalFollow m_KeyboardOrbitalFollow;
+        private CinemachineOrbitalFollow m_ControllerOrbitalFollow;
 
-        public CinemachineFreeLook Current
-        {
-            get { return inputChoice == InputChoice.KeyboardAndMouse ? keyboardAndMouseCamera : controllerCamera; }
-        }
+        public CinemachineVirtualCameraBase Current => inputChoice == InputChoice.KeyboardAndMouse ? keyboardAndMouseCamera : controllerCamera;
+
+        public CinemachineOrbitalFollow CurrentOrbitalFollow => inputChoice == InputChoice.KeyboardAndMouse ? m_KeyboardOrbitalFollow : m_ControllerOrbitalFollow;
 
         void Reset()
         {
             Transform keyboardAndMouseCameraTransform = transform.Find("KeyboardAndMouseFreeLookRig");
             if (keyboardAndMouseCameraTransform != null)
-                keyboardAndMouseCamera = keyboardAndMouseCameraTransform.GetComponent<CinemachineFreeLook>();
+                keyboardAndMouseCamera = keyboardAndMouseCameraTransform.GetComponent<CinemachineVirtualCameraBase>();
 
             Transform controllerCameraTransform = transform.Find("ControllerFreeLookRig");
             if (controllerCameraTransform != null)
-                controllerCamera = controllerCameraTransform.GetComponent<CinemachineFreeLook>();
+                controllerCamera = controllerCameraTransform.GetComponent<CinemachineVirtualCameraBase>();
 
-            PlayerController playerController = FindObjectOfType<PlayerController>();
+            PlayerController playerController = FindFirstObjectByType<PlayerController>();
             if (playerController != null && playerController.name == "Ellen")
             {
                 follow = playerController.transform;
@@ -59,6 +58,9 @@ namespace Gamekit3D
 
         void Awake()
         {
+            m_KeyboardOrbitalFollow = keyboardAndMouseCamera.GetComponent<CinemachineOrbitalFollow>();
+            m_ControllerOrbitalFollow = controllerCamera.GetComponent<CinemachineOrbitalFollow>();
+            
             UpdateCameraSettings();
         }
 
@@ -70,15 +72,38 @@ namespace Gamekit3D
             }
         }
 
+        /// <summary>
+        /// This is used to patch the legacy input gain inside the axis controllers of
+        /// the CinemachineInputAxisController component.
+        /// This can be updated when the whole system gets updated to using the new Input System
+        /// </summary>
+        void UpdateAxisConfig(CinemachineInputAxisController axisController, bool invertX, bool invertY)
+        {
+            foreach (var controller in axisController.Controllers)
+            {
+                if (controller.Input.LegacyInput == "CameraX")
+                    controller.Input.LegacyGain = Mathf.Abs(controller.Input.LegacyGain) * (invertX?-1:1);
+                if (controller.Input.LegacyInput == "CameraY")
+                    controller.Input.LegacyGain = Mathf.Abs(controller.Input.LegacyGain) * (invertY?-1:1);
+            }
+        }
+
         void UpdateCameraSettings()
         {
             keyboardAndMouseCamera.Follow = follow;
             keyboardAndMouseCamera.LookAt = lookAt;
-            keyboardAndMouseCamera.m_XAxis.m_InvertInput = keyboardAndMouseInvertSettings.invertX;
-            keyboardAndMouseCamera.m_YAxis.m_InvertInput = keyboardAndMouseInvertSettings.invertY;
+            var kbmInputAxisController = keyboardAndMouseCamera.GetComponent<CinemachineInputAxisController>();
+            if (kbmInputAxisController != null)
+            {
+                UpdateAxisConfig(kbmInputAxisController, keyboardAndMouseInvertSettings.invertX, keyboardAndMouseInvertSettings.invertY);
+            }
 
-            controllerCamera.m_XAxis.m_InvertInput = controllerInvertSettings.invertX;
-            controllerCamera.m_YAxis.m_InvertInput = controllerInvertSettings.invertY;
+            var ctrlInputAxisController = controllerCamera.GetComponent<CinemachineInputAxisController>();
+            if (ctrlInputAxisController != null)
+            {
+                UpdateAxisConfig(ctrlInputAxisController, controllerInvertSettings.invertX, controllerInvertSettings.invertY);
+            }
+            
             controllerCamera.Follow = follow;
             controllerCamera.LookAt = lookAt;
 

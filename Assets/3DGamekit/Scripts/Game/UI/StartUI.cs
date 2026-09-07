@@ -33,7 +33,7 @@ namespace Gamekit3D
                 Cursor.visible = true;
             }
 
-            m_Directors = FindObjectsOfType<PlayableDirector> ();
+            m_Directors = FindObjectsByType<PlayableDirector>(FindObjectsSortMode.None);
         }
 
         public void Quit()

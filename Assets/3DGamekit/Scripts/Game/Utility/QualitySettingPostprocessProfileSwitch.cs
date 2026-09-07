@@ -1,7 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.Rendering.PostProcessing;
 #if UNITY_EDITOR
 using UnityEditor;
 using System.Linq;
@@ -12,6 +11,10 @@ namespace Gamekit3D
     [ExecuteInEditMode]
     public class QualitySettingPostprocessProfileSwitch : MonoBehaviour
     {
+        // todo: @michel.salvado
+        // Will be revisited later on once everything is cleaned up with
+        // the old Postprocess V2 task
+        #if false
         [System.Serializable]
         public class QualitySettingEntry
         {
@@ -102,9 +105,12 @@ namespace Gamekit3D
 
             m_PickedSetting = foundIdx;
         }
+#endif
     }
 
-#if UNITY_EDITOR
+    // TODO: @michel.salvado
+    // make this work with the integrated post process system
+#if UNITY_EDITOR && false
     [CustomEditor(typeof(QualitySettingPostprocessProfileSwitch))]
     public class QualitySettingPostprocessSwitchEditor : Editor
     {

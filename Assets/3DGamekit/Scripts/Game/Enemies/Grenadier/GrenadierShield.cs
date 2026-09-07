@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Serialization;
 
 namespace Gamekit3D
 {
@@ -8,16 +9,16 @@ namespace Gamekit3D
     {
         private static Collider[] sOverlapCache = new Collider[16];
 
-        public new ParticleSystem particleSystem;
+        public ParticleSystem particleSystemComp;
 
         protected SphereCollider m_Collider;
         protected int m_PlayerMask;
 
         private void OnEnable()
         {
-            particleSystem.gameObject.SetActive(true);
-            particleSystem.time = 0;
-            particleSystem.Play(true);
+            particleSystemComp.gameObject.SetActive(true);
+            particleSystemComp.time = 0;
+            particleSystemComp.Play(true);
 
             m_Collider = GetComponent<SphereCollider>();
 

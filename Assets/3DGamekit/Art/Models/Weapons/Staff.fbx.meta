@@ -1,75 +1,209 @@
 fileFormatVersion: 2
 guid: ffae9263bd1a66245bd2bad16f271364
 ModelImporter:
-  serializedVersion: 23
-  fileIDToRecycleName:
-    100000: //RootNode
-    100002: Root
-    100004: Skeleton
-    100006: Staff
-    100008: Staff 1
-    100010: StaffJoint1
-    100012: StaffJoint2
-    100014: StaffJoint3
-    100016: StaffJoint4
-    100018: StaffJointEnd
-    100020: Staff_BottomLocator
-    100022: Staff_GemLocator
-    100024: Staff_Joint1
-    100026: Staff_Joint2
-    100028: Staff_Joint3
-    100030: Staff_Joint4
-    100032: Staff_JointEnd
-    100034: Staff_LeftHandLocator
-    100036: Staff_RightHandLocator
-    100038: Staff_Skeleton
-    100040: Staff_TopLocator
-    100042: Staff_Body
-    100044: Staff_Bottom_Attach
-    100046: Staff_LeftHand_Attach
-    100048: Staff_RightHand_Attach
-    100050: Staff_Stone_Attach
-    100052: Staff_Top_Attach
-    400000: //RootNode
-    400002: Root
-    400004: Skeleton
-    400006: Staff
-    400008: Staff 1
-    400010: StaffJoint1
-    400012: StaffJoint2
-    400014: StaffJoint3
-    400016: StaffJoint4
-    400018: StaffJointEnd
-    400020: Staff_BottomLocator
-    400022: Staff_GemLocator
-    400024: Staff_Joint1
-    400026: Staff_Joint2
-    400028: Staff_Joint3
-    400030: Staff_Joint4
-    400032: Staff_JointEnd
-    400034: Staff_LeftHandLocator
-    400036: Staff_RightHandLocator
-    400038: Staff_Skeleton
-    400040: Staff_TopLocator
-    400042: Staff_Body
-    400044: Staff_Bottom_Attach
-    400046: Staff_LeftHand_Attach
-    400048: Staff_RightHand_Attach
-    400050: Staff_Stone_Attach
-    400052: Staff_Top_Attach
-    2300000: //RootNode
-    2300002: Staff
-    3300000: //RootNode
-    3300002: Staff
-    4300000: Staff
-    4300002: Staff_Body
-    9500000: //RootNode
-    13700000: Staff
-    13700002: Staff_Body
-    2186277476908879412: ImportLogs
-    2186277476908879414: ImportLogs
-    2186277476908879416: ImportLogs
-    2186277476908879418: ImportLogs
+  serializedVersion: 22200
+  internalIDToNameTable:
+  - first:
+      1: 100000
+    second: //RootNode
+  - first:
+      1: 100002
+    second: Root
+  - first:
+      1: 100004
+    second: Skeleton
+  - first:
+      1: 100006
+    second: Staff
+  - first:
+      1: 100008
+    second: Staff 1
+  - first:
+      1: 100010
+    second: StaffJoint1
+  - first:
+      1: 100012
+    second: StaffJoint2
+  - first:
+      1: 100014
+    second: StaffJoint3
+  - first:
+      1: 100016
+    second: StaffJoint4
+  - first:
+      1: 100018
+    second: StaffJointEnd
+  - first:
+      1: 100020
+    second: Staff_BottomLocator
+  - first:
+      1: 100022
+    second: Staff_GemLocator
+  - first:
+      1: 100024
+    second: Staff_Joint1
+  - first:
+      1: 100026
+    second: Staff_Joint2
+  - first:
+      1: 100028
+    second: Staff_Joint3
+  - first:
+      1: 100030
+    second: Staff_Joint4
+  - first:
+      1: 100032
+    second: Staff_JointEnd
+  - first:
+      1: 100034
+    second: Staff_LeftHandLocator
+  - first:
+      1: 100036
+    second: Staff_RightHandLocator
+  - first:
+      1: 100038
+    second: Staff_Skeleton
+  - first:
+      1: 100040
+    second: Staff_TopLocator
+  - first:
+      1: 100042
+    second: Staff_Body
+  - first:
+      1: 100044
+    second: Staff_Bottom_Attach
+  - first:
+      1: 100046
+    second: Staff_LeftHand_Attach
+  - first:
+      1: 100048
+    second: Staff_RightHand_Attach
+  - first:
+      1: 100050
+    second: Staff_Stone_Attach
+  - first:
+      1: 100052
+    second: Staff_Top_Attach
+  - first:
+      4: 400000
+    second: //RootNode
+  - first:
+      4: 400002
+    second: Root
+  - first:
+      4: 400004
+    second: Skeleton
+  - first:
+      4: 400006
+    second: Staff
+  - first:
+      4: 400008
+    second: Staff 1
+  - first:
+      4: 400010
+    second: StaffJoint1
+  - first:
+      4: 400012
+    second: StaffJoint2
+  - first:
+      4: 400014
+    second: StaffJoint3
+  - first:
+      4: 400016
+    second: StaffJoint4
+  - first:
+      4: 400018
+    second: StaffJointEnd
+  - first:
+      4: 400020
+    second: Staff_BottomLocator
+  - first:
+      4: 400022
+    second: Staff_GemLocator
+  - first:
+      4: 400024
+    second: Staff_Joint1
+  - first:
+      4: 400026
+    second: Staff_Joint2
+  - first:
+      4: 400028
+    second: Staff_Joint3
+  - first:
+      4: 400030
+    second: Staff_Joint4
+  - first:
+      4: 400032
+    second: Staff_JointEnd
+  - first:
+      4: 400034
+    second: Staff_LeftHandLocator
+  - first:
+      4: 400036
+    second: Staff_RightHandLocator
+  - first:
+      4: 400038
+    second: Staff_Skeleton
+  - first:
+      4: 400040
+    second: Staff_TopLocator
+  - first:
+      4: 400042
+    second: Staff_Body
+  - first:
+      4: 400044
+    second: Staff_Bottom_Attach
+  - first:
+      4: 400046
+    second: Staff_LeftHand_Attach
+  - first:
+      4: 400048
+    second: Staff_RightHand_Attach
+  - first:
+      4: 400050
+    second: Staff_Stone_Attach
+  - first:
+      4: 400052
+    second: Staff_Top_Attach
+  - first:
+      23: 2300000
+    second: //RootNode
+  - first:
+      23: 2300002
+    second: Staff
+  - first:
+      33: 3300000
+    second: //RootNode
+  - first:
+      33: 3300002
+    second: Staff
+  - first:
+      43: 4300000
+    second: Staff
+  - first:
+      43: 4300002
+    second: Staff_Body
+  - first:
+      95: 9500000
+    second: //RootNode
+  - first:
+      137: 13700000
+    second: Staff
+  - first:
+      137: 13700002
+    second: Staff_Body
+  - first:
+      41386430: 2186277476908879412
+    second: ImportLogs
+  - first:
+      41386430: 2186277476908879414
+    second: ImportLogs
+  - first:
+      41386430: 2186277476908879416
+    second: ImportLogs
+  - first:
+      41386430: 2186277476908879418
+    second: ImportLogs
   externalObjects:
   - first:
       type: UnityEngine:Material
@@ -77,7 +211,7 @@ ModelImporter:
       name: Staff_Mat
     second: {fileID: 2100000, guid: 0e974c7294e486e4cb42482e61c0c4de, type: 2}
   materials:
-    importMaterials: 1
+    materialImportMode: 1
     materialName: 1
     materialSearch: 2
     materialLocation: 0
@@ -86,10 +220,8 @@ ModelImporter:
     bakeSimulation: 0
     resampleCurves: 1
     optimizeGameObjects: 0
+    removeConstantScaleCurves: 0
     motionNodeName: 
-    rigImportErrors: "Avatar creation failed:\n\tCannot find root motion transform
-      'Staff_RightHand_Attach'.\n"
-    rigImportWarnings: 
     animationImportErrors: 
     animationImportWarnings: 
     animationRetargetingWarnings: 
@@ -111,25 +243,36 @@ ModelImporter:
     meshCompression: 0
     addColliders: 0
     useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importPhysicalCameras: 1
     importVisibility: 0
     importBlendShapes: 1
     importCameras: 0
     importLights: 0
+    nodeNameCollisionStrategy: 0
+    fileIdsGeneration: 1
     swapUVChannels: 0
     generateSecondaryUV: 0
     useFileUnits: 1
-    optimizeMeshForGPU: 1
     keepQuads: 0
     weldVertices: 1
+    bakeAxisConversion: 0
     preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    meshOptimizationFlags: -1
     indexFormat: 0
     secondaryUVAngleDistortion: 8
     secondaryUVAreaDistortion: 15.000001
     secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 0
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
     secondaryUVPackMargin: 4
     useFileScale: 1
-    previousCalculatedGlobalScale: 0.01
-    hasPreviousCalculatedGlobalScale: 1
+    strictVertexDataChecks: 0
   tangentSpace:
     normalSmoothAngle: 180
     normalImportMode: 1
@@ -138,10 +281,10 @@ ModelImporter:
     legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 1
     blendShapeNormalImportMode: 1
     normalSmoothingSource: 0
+  referencedClips: []
   importAnimation: 0
-  copyAvatar: 0
   humanDescription:
-    serializedVersion: 2
+    serializedVersion: 3
     human: []
     skeleton: []
     armTwist: 0.5
@@ -151,13 +294,19 @@ ModelImporter:
     armStretch: 0.05
     legStretch: 0.05
     feetSpacing: 0
+    globalScale: 1
     rootMotionBoneName: Staff_Joint1
     hasTranslationDoF: 0
     hasExtraRoot: 1
     skeletonHasParents: 1
   lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
   animationType: 2
   humanoidOversampling: 1
+  avatarSetup: 1
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 0
+  importBlendShapeDeformPercent: 0
+  remapMaterialsIfMaterialImportModeIsNone: 1
   additionalBone: 0
   userData: 
   assetBundleName: 

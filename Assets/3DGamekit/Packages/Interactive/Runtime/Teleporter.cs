@@ -1,14 +1,12 @@
-﻿using System;
-using System.Collections;
+﻿using System.Collections;
 using UnityEngine;
 
 namespace Gamekit3D.GameCommands
 {
-
     [RequireComponent(typeof(Collider))]
     public class Teleporter : MonoBehaviour
-    {
-        new public Collider collider;
+    { 
+        public Collider colliderComponent;
         public LayerMask layers;
 
         public GameObject enterEffect;
@@ -34,8 +32,8 @@ namespace Gamekit3D.GameCommands
 
         void Reset()
         {
-            collider = GetComponent<Collider>();
-            collider.isTrigger = true;
+            colliderComponent = GetComponent<Collider>();
+            colliderComponent.isTrigger = true;
         }
 
         void Awake()
@@ -53,8 +51,5 @@ namespace Gamekit3D.GameCommands
         {
             return 0 != (layers.value & 1 << other.gameObject.layer);
         }
-
     }
-
-
 }

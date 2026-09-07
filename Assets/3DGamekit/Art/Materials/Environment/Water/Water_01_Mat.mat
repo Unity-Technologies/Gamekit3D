@@ -2,20 +2,26 @@
 %TAG !u! tag:unity3d.com,2011:
 --- !u!21 &2100000
 Material:
-  serializedVersion: 6
+  serializedVersion: 8
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Water_01_Mat
-  m_Shader: {fileID: 4800000, guid: f2051bbb9894243a2bffdd39af887a67, type: 3}
-  m_ShaderKeywords: _ALPHABLEND_ON _SMOOTHNESS_TEXTURE_ALBEDO_CHANNEL_A
+  m_Shader: {fileID: -6465566751694194690, guid: 28535e428f8ce406da34273999c06b47,
+    type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
-  m_CustomRenderQueue: 3000
+  m_CustomRenderQueue: -1
   stringTagMap: {}
-  disabledShaderPasses: []
+  disabledShaderPasses:
+  - MOTIONVECTORS
+  m_LockedProperties: 
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
@@ -95,6 +101,19 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - unity_Lightmaps:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_LightmapsInd:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_ShadowMasks:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
     m_Floats:
     - _Absorption: 0.5
     - _Anisotropy: 0.5
@@ -126,26 +145,29 @@ Material:
     - _OcclusionStrength: 1
     - _Parallax: 0.02
     - _Power: 2
+    - _QueueControl: 0
+    - _QueueOffset: 0
     - _Scale: 1
     - _ScumFalloff: 5
     - _ScumNoiseContrast: 1
     - _ScumNoiseScale: 0.02
     - _ScumScale: 0.2
     - _ScumTexScale: 0.3
+    - _ShadowColor: 0
     - _ShadowFade: 0.621
     - _ShoreFade: 0
     - _ShowBuffers: 0
     - _SmoothnessTextureChannel: 1
     - _Specular: 0.3760684
     - _SpecularHighlights: 1
-    - _Speed: 0.01
+    - _Speed: 0.2
     - _SrcBlend: 5
-    - _Turbulence: 0.111
+    - _Turbulence: 0.182
     - _UVSec: 0
     - _Visibility: 0
     - _WaterCullDistance: 400
-    - _WaveFrequency: 1
-    - _WaveHeight: 0.0002
+    - _WaveFrequency: 0.1
+    - _WaveHeight: 0.002
     - _WaveLength: 0
     - _ZWrite: 0
     m_Colors:
@@ -163,3 +185,17 @@ Material:
     - _SpecColor: {r: 0.021387678, g: 0.022058845, b: 0.00989404, a: 1}
     - _SubsurfaceColor: {r: 1, g: 1, b: 1, a: 1}
   m_BuildTextureStacks: []
+  m_AllowLocking: 1
+--- !u!114 &4795129599297039247
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 10

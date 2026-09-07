@@ -5,7 +5,7 @@ namespace Gamekit3D.GameCommands
     [RequireComponent(typeof(Collider))]
     public class Collectable : MonoBehaviour
     {
-        new public Collider collider;
+        public Collider colliderComponent;
         public LayerMask layers;
         public GameObject collectEffect;
         public AudioClip onCollectAudio;
@@ -13,8 +13,8 @@ namespace Gamekit3D.GameCommands
 
         void Reset()
         {
-            collider = GetComponent<Collider>();
-            collider.isTrigger = true;
+            colliderComponent = GetComponent<Collider>();
+            colliderComponent.isTrigger = true;
         }
 
         void OnTriggerEnter(Collider other)

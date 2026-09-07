@@ -18,7 +18,7 @@ namespace Gamekit3D
                 if (s_Instance != null)
                     return s_Instance;
 
-                s_Instance = FindObjectOfType<ScreenFader>();
+                s_Instance = FindFirstObjectByType<ScreenFader>();
 
                 if (s_Instance != null)
                     return s_Instance;

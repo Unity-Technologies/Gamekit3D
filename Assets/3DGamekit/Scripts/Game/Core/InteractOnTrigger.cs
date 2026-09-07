@@ -1,6 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 using UnityEngine.Events;
 
 namespace Gamekit3D
@@ -10,14 +8,13 @@ namespace Gamekit3D
     {
         public LayerMask layers;
         public UnityEvent OnEnter, OnExit;
-        new Collider collider;
         public InventoryController.InventoryChecker[] inventoryChecks;
 
         void Reset()
         {
             layers = LayerMask.NameToLayer("Everything");
-            collider = GetComponent<Collider>();
-            collider.isTrigger = true;
+            var colliderCmp = GetComponent<Collider>();
+            colliderCmp.isTrigger = true;
         }
 
         void OnTriggerEnter(Collider other)
@@ -59,6 +56,5 @@ namespace Gamekit3D
         {
             //need to inspect events and draw arrows to relevant gameObjects.
         }
-
     } 
 }

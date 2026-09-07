@@ -3,10 +3,11 @@
 --- !u!1113 &111300000
 LightmapParameters:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_Name: RocksBackground
-  serializedVersion: 3
+  serializedVersion: 4
   resolution: 0.1
   clusterResolution: 0.4
   irradianceBudget: 96
@@ -18,8 +19,10 @@ LightmapParameters:
   edgeStitching: 1
   blurRadius: 2
   directLightQuality: 64
-  antiAliasingSamples: 8
-  bakedLightmapTag: -1
+  antiAliasingSamples: 2
   pushoff: 0.0001
+  bakedLightmapTag: -1
+  limitLightmapCount: 0
+  maxLightmapCount: 1
   AOQuality: 256
-  AOAntiAliasingSamples: 16
+  AOAntiAliasingSamples: 4

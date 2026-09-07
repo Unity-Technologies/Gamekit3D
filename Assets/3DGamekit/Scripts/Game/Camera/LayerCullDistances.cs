@@ -1,7 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-
+﻿using UnityEngine;
 
 namespace Gamekit3D.Cameras
 {
@@ -18,7 +15,7 @@ namespace Gamekit3D.Cameras
             public float[] distances = new float[32];
         }
 
-        public new Camera camera;
+        public Camera cameraComponent;
 
         public QualitySpecificSettings[] settings = new QualitySpecificSettings[0];
 
@@ -52,7 +49,7 @@ namespace Gamekit3D.Cameras
 
         private void OnEnable()
         {
-            camera = GetComponent<Camera>();
+            cameraComponent = GetComponent<Camera>();
         }
 
         void Start()
@@ -67,10 +64,10 @@ namespace Gamekit3D.Cameras
             if (pickedSetting < 0 || pickedSetting >= settings.Length)
                 return;
 
-            camera.farClipPlane = settings[pickedSetting].farPlane;
-            camera.nearClipPlane = settings[pickedSetting].nearPlane;
-            camera.layerCullDistances = settings[pickedSetting].distances;
-            camera.layerCullSpherical = true;
+            cameraComponent.farClipPlane = settings[pickedSetting].farPlane;
+            cameraComponent.nearClipPlane = settings[pickedSetting].nearPlane;
+            cameraComponent.layerCullDistances = settings[pickedSetting].distances;
+            //camera.layerCullSpherical = true;
 
             computedDistances = new float[settings[pickedSetting].distances.Length];
             for (int i = 0; i < settings[pickedSetting].distances.Length; ++i)

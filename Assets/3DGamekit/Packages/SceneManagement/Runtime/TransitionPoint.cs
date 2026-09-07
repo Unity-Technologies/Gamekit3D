@@ -1,4 +1,4 @@
-﻿using Cinemachine;
+﻿using Unity.Cinemachine;
 using UnityEngine;
 using UnityEngine.Experimental.Rendering;
 
