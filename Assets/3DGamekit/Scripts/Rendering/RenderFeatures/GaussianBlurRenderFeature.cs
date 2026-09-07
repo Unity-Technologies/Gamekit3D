@@ -29,7 +29,6 @@ public class GaussianBlurRenderFeature : ScriptableRendererFeature
         {
             UpdateMaterial();
             
-            const string passName = "Gaussian Blur Pass";
             UniversalResourceData resourceData = frameData.Get<UniversalResourceData>();
             
             var rtDesc = new RenderTextureDescriptor(Screen.width, Screen.height, RenderTextureFormat.Default, 0);
